@@ -49,11 +49,18 @@ We will release a **Call for Papers for SQAI 2027**, provisionally scheduled for
 
 ---
 
-## Hosted by the [Ultracompute Institute](https://sqi.tw)
+## Hosted by
 
-<a href="https://sqi.tw" target="_blank" rel="noopener"><img src="/assets/images/uci_sqai.png" alt="Ultracompute Institute" style="height: 60px; width: auto; margin-bottom: 1rem;" /></a>
-
-The [Ultracompute Institute](https://sqi.tw) (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and building the world's first ultracomputer for Artificial Ultraintelligence (AUI). Ultracompute's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI.
+<div class="d-flex flex-wrap gap-5 align-items-start mt-3 mb-4">
+  <div style="max-width: 340px;">
+    <a href="https://sqi.tw" target="_blank" rel="noopener"><img src="/assets/images/uci_sqai.png" alt="Ultracompute Institute" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
+    <p>The <a href="https://sqi.tw">Ultracompute Institute</a> (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and building the world's first ultracomputer for Artificial Ultraintelligence (AUI). Ultracompute's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI.</p>
+  </div>
+  <div style="max-width: 340px;">
+    <a href="https://ntuqc.com" target="_blank" rel="noopener"><img src="/assets/images/ntuqc-logo.png" alt="NTU Quantum Club" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
+    <p>The <a href="https://ntuqc.com">NTU Quantum Club</a> (臺大量子應用社) is a student organization at National Taiwan University dedicated to promoting quantum science and technology on campus. NTUQC fosters an interdisciplinary, cross-generational platform connecting students with industry leaders, professors, and researchers to advance together into the quantum era.</p>
+  </div>
+</div>
 
 ---
 
