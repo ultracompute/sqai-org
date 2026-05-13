@@ -51,6 +51,8 @@ We will release a **Call for Papers for SQAI 2027**, provisionally scheduled for
 
 ## Hosted by the [Ultracompute Institute](https://sqi.tw)
 
+<a href="https://sqi.tw" target="_blank" rel="noopener"><img src="/assets/images/uci_sqai.png" alt="Ultracompute Institute" style="height: 60px; width: auto; margin-bottom: 1rem;" /></a>
+
 The [Ultracompute Institute](https://sqi.tw) (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and building the world's first ultracomputer for Artificial Ultraintelligence (AUI). Ultracompute's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI.
 
 ---
