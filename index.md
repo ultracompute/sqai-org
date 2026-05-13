@@ -6,12 +6,10 @@ header:
   img_dark: "sqai-logo.png"
 banner: "sqai_web_banner.png"
 links:
-  - name: View Program
+  - name: Program
     relative_url: /program/
   - name: Register Now
     absolute_url: "https://sqai.org/register"
-  - name: Speakers
-    relative_url: /speakers/
 ---
 
 ## About SQAI 2026

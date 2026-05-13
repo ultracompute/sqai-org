@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "SQAI 2026"
+description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 11 日。由極致計算研究所主辦。<br>免費線上參與。提供現場出席。"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
@@ -10,8 +11,8 @@ links:
     relative_url: /zh/program/
   - name: 立即報名
     absolute_url: "https://sqai.org/register"
-  - name: 演講者
-    relative_url: /zh/speakers/
+  - name: 議程
+    relative_url: /zh/program/
 ---
 
 ## 關於 SQAI 2026
@@ -56,7 +57,7 @@ SQAI 2026 匯集 3 至 5 位量子 AI 前沿的世界級受邀演講者。
 <div class="d-flex flex-wrap gap-5 align-items-start mt-3 mb-4">
   <div style="max-width: 340px;">
     <a href="https://sqi.tw" target="_blank" rel="noopener"><img src="/assets/images/uci_sqai.png" alt="極致計算研究所" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p><a href="https://sqi.tw">極致計算研究所</a>（UCI）是一家位於美國華盛頓特區的非營利組織，致力於推動量子軟體研究，打造全球首台用於人工超智能（AUI）的超級計算機。極致計算的創辦人 Austin Hua 於 2021 年創立了 SQAI，使其成為全球首個專注於量子 AI 的學術會議。</p>
+    <p><a href="https://sqi.tw">極致計算研究所</a>（UCI）是一家位於美國華盛頓特區的非營利組織，致力於推動量子軟體研究，打造全球首台用於人工極致智慧（AUI）的極致計算機。極致計算的創辦人 Austin Hua 於 2021 年創立了 SQAI，使其成為全球首個專注於量子 AI 的學術會議。</p>
   </div>
   <div style="max-width: 340px;">
     <a href="https://ntuqc.com" target="_blank" rel="noopener"><img src="/assets/images/ntuqc-logo.png" alt="臺大量子應用社" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>

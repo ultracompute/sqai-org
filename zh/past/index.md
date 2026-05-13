@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 歷屆會議
+title: 歷屆活動
 ---
 
 <style>
@@ -126,7 +126,7 @@ title: 歷屆會議
 }
 </style>
 
-# 歷屆會議
+# 歷屆活動
 
 <img src="{{ site.baseurl }}/assets/images/groverAI.png" alt="黃吉川教授於 SQAI 2021 講解 Grover 演算法" class="main-photo" />
 <div class="photo-caption">

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Past Editions
+title: Past Events
 ---
 
 <style>
@@ -163,7 +163,7 @@ title: Past Editions
 }
 </style>
 
-# Past Editions
+# Past Events
 
 <img src="{{ site.baseurl }}/assets/images/groverAI.png" alt="Professor Chi-Chuan Hwang explaining Grover's Algorithm at SQAI 2021" class="main-photo" />
 <div class="photo-caption">

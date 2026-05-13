@@ -53,11 +53,17 @@
   </a>
   <header>
     <!-- language switcher bar -->
-    <div style="background:#1e1b4b; text-align:right; padding:8px 20px; font-size:1rem;">
-      {% if page.url contains '/zh/' or page.url == '/zh/' %}
-        <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" style="color:#fff; text-decoration:none; border:2px solid #fff; padding:6px 16px; border-radius:6px; font-weight:600;">🌐 English</a>
+    <div style="background:#1e1b4b; text-align:right; padding:6px 20px;">
+      {% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
+        <span style="display:inline-flex; border-radius:6px; overflow:hidden; border:1px solid rgba(129,140,248,0.4);">
+          <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" style="display:inline-block; padding:4px 14px; font-size:0.85rem; font-weight:600; color:#94a3b8; background:transparent; text-decoration:none;">EN</a>
+          <span style="display:inline-block; padding:4px 14px; font-size:0.85rem; font-weight:700; color:#fff; background:#0d9488;">中</span>
+        </span>
       {% else %}
-        <a href="{{ site.baseurl }}/zh{{ page.url }}" style="color:#fff; text-decoration:none; border:2px solid #fff; padding:6px 16px; border-radius:6px; font-weight:600;">🌐 繁體中文</a>
+        <span style="display:inline-flex; border-radius:6px; overflow:hidden; border:1px solid rgba(129,140,248,0.4);">
+          <span style="display:inline-block; padding:4px 14px; font-size:0.85rem; font-weight:700; color:#fff; background:#0d9488;">EN</span>
+          <a href="{{ site.baseurl }}/zh{{ page.url }}" style="display:inline-block; padding:4px 14px; font-size:0.85rem; font-weight:600; color:#94a3b8; background:transparent; text-decoration:none;">中</a>
+        </span>
       {% endif %}
     </div>
     <!-- navigation bar (web only): -->

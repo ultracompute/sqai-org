@@ -17,9 +17,10 @@
         {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
       </h1>
     {% endif %}
-    {% if site.description != none %}
+    {% assign home_desc = page.description | default: site.description %}
+    {% if home_desc != none %}
       <p class="lead">
-        {{ site.description | markdownify | replace: '<p>', '<p class="lead">' }}
+        {{ home_desc | markdownify | replace: '<p>', '<p class="lead">' }}
       </p>
     {% endif %}
 

@@ -51,16 +51,19 @@ conference:
     breakpoint: md
     links:
       - name: Program
+        name_zh: 議程
         relative_url: /program/
-      - name: Speakers
-        relative_url: /speakers/
       - name: Sponsors
+        name_zh: 贊助商
         relative_url: /sponsors/
       - name: CFP
+        name_zh: 論文徵稿
         relative_url: /cfp/
       - name: Committee
+        name_zh: 委員會
         relative_url: /committee/
-      - name: Past Editions
+      - name: Past Events
+        name_zh: 歷屆活動
         relative_url: /past/
     logo:
       name: Ultracompute Institute
