@@ -23,12 +23,12 @@ title: Call for Papers
 </div>
 
 <div class="cfp-section">
-  <h2>SQAI 2027 — Call for Papers (Forthcoming)</h2>
-  <p><strong>SQAI 2027 will be the first edition with a formal Call for Papers.</strong> This will mark a new chapter for SQAI as we expand to include peer-reviewed research contributions alongside invited talks.</p>
-  <p>CFP details — including submission format, review process, and key dates — will be announced on this page and via our mailing list well in advance of the conference.</p>
+  <h2>SQAI 2027 — Call for Papers (Possible)</h2>
+  <p>We are <strong>considering</strong> issuing a Call for Papers for SQAI 2027, provisionally scheduled for <strong>July 20, 2027</strong>. This has not been confirmed — we are still evaluating whether the format is right for the next edition.</p>
+  <p>If we do proceed with a CFP, it would mark a new chapter for SQAI, expanding to include peer-reviewed research contributions alongside invited talks. Details — including submission format, review process, and key dates — would be announced on this page and via our mailing list well in advance of the conference.</p>
 
-  <h3 style="margin-top:1.5rem;">Topics of Interest</h3>
-  <p>Topics will include (but are not limited to):</p>
+  <h3 style="margin-top:1.5rem;">Potential Topics of Interest</h3>
+  <p>If a CFP is issued, topics would likely include (but not be limited to):</p>
   <ul class="topic-list">
     <li>Quantum machine learning algorithms and theory</li>
     <li>Quantum neural networks and optimization</li>
@@ -41,11 +41,11 @@ title: Call for Papers
     <li>Societal, ethical, and policy dimensions of quantum AI</li>
   </ul>
 
-  <p style="margin-top:1.5rem;">To be notified when the CFP opens, follow us on social media or email <a href="mailto:info@sqai.org">info@sqai.org</a> with <strong>SQAI 2027 CFP</strong> in the subject line.</p>
+  <p style="margin-top:1.5rem;">To be notified if and when a CFP is announced, follow us on social media or email <a href="mailto:info@sqai.org">info@sqai.org</a> with <strong>SQAI 2027 CFP</strong> in the subject line.</p>
 </div>
 
 <div class="cfp-section">
   <h2>Past Proceedings</h2>
-  <p>SQAI 2021 and SQAI 2023 were held as workshop and seminar series without formal proceedings. <strong>SQAI 2027 will be the first edition to produce citable proceedings.</strong></p>
+  <p>SQAI 2021 and SQAI 2023 were held as workshop and seminar series without formal proceedings. If SQAI 2027 proceeds with a CFP, it would be the first edition to produce citable proceedings.</p>
   <p>For recordings and summaries from past events, see the <a href="/past/">Past Events</a> page.</p>
 </div>

@@ -23,12 +23,12 @@ title: 論文徵稿
 </div>
 
 <div class="cfp-section">
-  <h2>SQAI 2027 — 論文徵稿通知（即將發布）</h2>
-  <p><strong>SQAI 2027 將是首屆設有正式論文徵稿的活動。</strong>這標誌著 SQAI 的新里程碑——除受邀演講外，我們將首次納入同行評審的研究貢獻。</p>
-  <p>投稿格式、審查流程及重要日期等詳情將在會議前充裕時間內於本頁面及我們的社群媒體上公布。</p>
+  <h2>SQAI 2027 — 論文徵稿通知（可能發布）</h2>
+  <p>我們正在<strong>評估</strong>是否為 SQAI 2027 發布論文徵稿通知，暫定日期為 <strong>2027 年 7 月 20 日</strong>。此事尚未確定——我們仍在評估此形式是否適合下一屆活動。</p>
+  <p>若決定發布徵稿通知，將標誌著 SQAI 的新里程碑——除受邀演講外，首次納入同行評審的研究貢獻。相關細節（包括投稿格式、審查流程及重要日期）將在會議前充裕時間內於本頁面及社群媒體上公布。</p>
 
-  <h3 style="margin-top:1.5rem;">投稿主題</h3>
-  <p>投稿主題包括（但不限於）：</p>
+  <h3 style="margin-top:1.5rem;">可能的投稿主題</h3>
+  <p>若發布徵稿通知，主題可能包括（但不限於）：</p>
   <ul class="topic-list">
     <li>量子機器學習演算法與理論</li>
     <li>量子神經網路與最佳化</li>
@@ -41,11 +41,11 @@ title: 論文徵稿
     <li>量子 AI 的社會、倫理與政策面向</li>
   </ul>
 
-  <p style="margin-top:1.5rem;">如希望在徵稿通知發布時收到通知，請關注我們的社群媒體，或以<strong>「SQAI 2027 CFP」</strong>為主旨發送電子郵件至 <a href="mailto:info@sqai.org">info@sqai.org</a>。</p>
+  <p style="margin-top:1.5rem;">如希望在徵稿通知（若發布）時收到通知，請關注我們的社群媒體，或以<strong>「SQAI 2027 CFP」</strong>為主旨發送電子郵件至 <a href="mailto:info@sqai.org">info@sqai.org</a>。</p>
 </div>
 
 <div class="cfp-section">
   <h2>歷屆論文集</h2>
-  <p>SQAI 2021 與 SQAI 2023 以工作坊及研討會形式舉辦，未設正式論文集。<strong>SQAI 2027 將是首屆發布可引用論文集的活動。</strong></p>
+  <p>SQAI 2021 與 SQAI 2023 以工作坊及研討會形式舉辦，未設正式論文集。若 SQAI 2027 確定發布徵稿通知，將是首屆發布可引用論文集的活動。</p>
   <p>歷屆活動的錄影及摘要，請參閱<a href="/zh/past/">歷屆活動</a>頁面。</p>
 </div>
