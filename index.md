@@ -4,6 +4,7 @@ title: "SQAI 2026"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
+banner: "sqai_web_banner.png"
 links:
   - name: View Program
     relative_url: /program/
