@@ -52,6 +52,14 @@
     {{ site.data.lang[site.conference.lang].navigation.skip_to_content | default: "Skip to content" }}
   </a>
   <header>
+    <!-- language switcher bar -->
+    <div style="background:#1e1b4b; text-align:right; padding:4px 16px; font-size:0.85rem;">
+      {% if page.url contains '/zh/' or page.url == '/zh/' %}
+        <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" style="color:#fff; text-decoration:none; border:1px solid #fff; padding:2px 10px; border-radius:4px;">🌐 English</a>
+      {% else %}
+        <a href="{{ site.baseurl }}/zh{{ page.url }}" style="color:#fff; text-decoration:none; border:1px solid #fff; padding:2px 10px; border-radius:4px;">🌐 繁體中文</a>
+      {% endif %}
+    </div>
     <!-- navigation bar (web only): -->
     {%- include navbar.html -%}
 
