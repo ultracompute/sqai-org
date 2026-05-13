@@ -1,0 +1,16 @@
+days:
+  - name: "SQAI 2026"
+    abbr: Aug 11
+    date: 2026-08-11
+    rooms:
+      - name: Main Stage
+        talks:
+          - name: Opening Keynote
+            time_start: "09:00"
+            time_end: "10:00"
+          - name: Invited Talk 1
+            time_start: "10:30"
+            time_end: "11:30"
+          - name: Invited Talk 2
+            time_start: "13:00"
+            time_end: "14:00"

@@ -1,0 +1,94 @@
+title: "SQAI 2026"
+preposition: "at"
+description: >-
+  3rd International Summit on Quantum Artificial Intelligence — August 11, 2026.
+  Hosted by the Ultracompute Institute. Free online access. In-person attendance available.
+
+baseurl: ""
+url: "https://sqai.org"
+
+theme: jekyll-theme-conference
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+collections:
+  talks:
+    output: true
+    permalink: /:collection/:title/
+  speakers:
+    output: true
+    permalink: /:collection/:title/
+  rooms:
+    output: true
+    permalink: /:collection/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speaker
+  - scope:
+      path: ""
+      type: rooms
+    values:
+      layout: room
+
+conference:
+  lang: en
+  tz: "-04:00"
+  show_errors: false
+
+  navigation:
+    breakpoint: md
+    links:
+      - name: Program
+        relative_url: /program/
+      - name: Speakers
+        relative_url: /speakers/
+      - name: Sponsors
+        relative_url: /sponsors/
+      - name: CFP
+        relative_url: /cfp/
+      - name: Past Editions
+        relative_url: /past/
+    logo:
+      name: Ultracompute Institute
+      url: "https://sqi.tw"
+
+  meta:
+    schema_org:
+      disable: false
+      event_status: "scheduled"
+      event_attendance_mode: "mixed"
+      organizer:
+        name: "Ultracompute Institute"
+        url: "https://sqi.tw"
+      has_participation_offer:
+        url: "https://sqai.org/register"
+      tickets:
+        url: "https://sqai.org/register"
+        availability: "in_stock"
+
+  talks:
+    tracks:
+      - name: Keynote
+        color: primary
+      - name: Research
+        color: info
+      - name: Industry
+        color: success
+    tags:
+      - name: Online Access
+        icon: globe
+
+  pwa:
+    enable: false
