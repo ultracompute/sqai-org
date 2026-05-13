@@ -29,14 +29,16 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
 |---|---|
 | **Date** | August 11, 2026 |
 | **Format** | Hybrid — online (free) + in-person (paid) |
-| **Organized by** | [Ultracompute Institute (UCI)](https://sqi.tw) |
+| **Organized&nbsp;by** | [Ultracompute Institute (UCI)](https://sqi.tw) |
 | **Contact** | [info@sqai.org](mailto:info@sqai.org) |
 
 ---
 
 ## This Year's Program
 
-SQAI 2026 features an invited speaker series of 3–5 world-class experts at the frontier of quantum AI. No call for papers — just deep, curated conversations. [View the full program →](/program/)
+SQAI 2026 features an invited speaker series of 3–5 world-class experts at the frontier of quantum AI.
+
+No call for papers — just deep, curated conversations. [View the full program →](/program/)
 
 ---
 
@@ -46,17 +48,31 @@ We will release a **Call for Papers for SQAI 2027**, provisionally scheduled for
 
 ---
 
-## Connect with Us
+## Hosted by the [Ultracompute Institute](https://sqi.tw)
 
-- [LinkedIn](https://www.linkedin.com/company/ultracomputing)
-- [Facebook](https://www.facebook.com/ultracompute)
-- [Instagram](https://instagram.com/ultracompute)
-- [Threads](https://www.threads.com/@ultracompute)
-- [GitHub](https://github.com/ultracompute)
-- Discord: [Join our server](https://discord.gg/sqai)
+The [Ultracompute Institute](https://sqi.tw) (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and building the world's first ultracomputer for Artificial Ultraintelligence (AUI). Ultracompute's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI.
 
 ---
 
-## Hosted by the Ultracompute Institute
+## Connect with Us
 
-The [Ultracompute Institute](https://sqi.tw) (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and building the world's first ultracomputer for Artificial Ultraintelligence (AUI). UCI founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI.
+<div class="d-flex flex-wrap gap-3 mt-2">
+  <a href="https://www.linkedin.com/company/ultracomputing" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+    <i class="bi bi-linkedin"></i> LinkedIn
+  </a>
+  <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+    <i class="bi bi-facebook"></i> Facebook
+  </a>
+  <a href="https://instagram.com/ultracompute" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+    <i class="bi bi-instagram"></i> Instagram
+  </a>
+  <a href="https://www.threads.com/@ultracompute" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+    <i class="bi bi-threads"></i> Threads
+  </a>
+  <a href="https://github.com/ultracompute" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+    <i class="bi bi-github"></i> GitHub
+  </a>
+  <a href="https://discord.gg/sqai" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+    <i class="bi bi-discord"></i> Discord
+  </a>
+</div>
