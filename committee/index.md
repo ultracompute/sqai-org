@@ -400,7 +400,7 @@ title: "Committees"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/bernadette.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/bernadette-harding-8769025/" target="_blank">Bernadette Harding</a></h3>
+        <h3 class="member-name">Bernadette Harding</h3>
         <div class="member-title">Logistics Chair (US)</div>
         <div class="member-affiliation">Startup Founder</div>
         <div class="member-contact">info@sqai.org</div>
@@ -427,7 +427,7 @@ title: "Committees"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/jonas-yen.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.facebook.com/profile.php?id=100001078614941" target="_blank">Jonas Yen</a></h3>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/jonas-yen-b84a77279/" target="_blank">Jonas Yen</a></h3>
         <div class="member-title">Collaborator</div>
         <div class="member-affiliation">NTU QML Researcher</div>
       </div>

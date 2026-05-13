@@ -317,7 +317,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/austin_.png')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/austin-hua/" target="_blank">Austin Hua</a></h3>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/austin-hua/" target="_blank">華士頓</a></h3>
         <div class="member-title">總主席</div>
         <div class="member-affiliation">SQAI 創辦人</div>
         <div class="member-contact">r11922203@csie.ntu.edu.tw</div>
@@ -326,7 +326,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/chichuanhwang.jpeg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">黃啟傳</a></h3>
+        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">黃吉川</a></h3>
         <div class="member-title">技術議程主席</div>
         <div class="member-affiliation">成大工學院教授</div>
         <div class="member-contact">chchwang@mail.ncku.edu.tw</div>
@@ -344,7 +344,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/bernadette.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/bernadette-harding-8769025/" target="_blank">Bernadette Harding</a></h3>
+        <h3 class="member-name">華伯尼</h3>
         <div class="member-title">後勤主席（美國）</div>
         <div class="member-affiliation">新創公司創辦人</div>
         <div class="member-contact">info@sqai.org</div>
@@ -362,7 +362,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/farley.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">Farley Warner</a></h3>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">法利華納</a></h3>
         <div class="member-title">財務主席</div>
         <div class="member-affiliation">政府承包商</div>
         <div class="member-contact">cw_netguru@yahoo.com</div>
@@ -371,7 +371,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/jonas-yen.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.facebook.com/profile.php?id=100001078614941" target="_blank">顏家浩</a></h3>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/jonas-yen-b84a77279/" target="_blank">顏家浩</a></h3>
         <div class="member-title">協辦人</div>
         <div class="member-affiliation">臺大量子機器學習研究員</div>
       </div>
@@ -388,7 +388,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/stathes-paganis.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.phys.ntu.edu.tw/enphysics/paganis.html" target="_blank">Stathes Paganis</a></h3>
+        <h3 class="member-name"><a href="https://www.phys.ntu.edu.tw/enphysics/paganis.html" target="_blank">裴思達</a></h3>
         <div class="member-title">協辦人</div>
         <div class="member-affiliation">臺大物理系教授</div>
         <div class="member-contact">paganis@phys.ntu.edu.tw</div>
@@ -479,7 +479,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/chichuanhwang.jpeg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">黃啟傳</a></h3>
+        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">黃吉川</a></h3>
         <div class="member-title">技術議程主席</div>
         <div class="member-affiliation">成大工學院教授</div>
         <div class="member-contact">chchwang@mail.ncku.edu.tw</div>
@@ -497,7 +497,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/mark-chen.jpg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/mark-chen-next/" target="_blank">Mark Chen</a></h3>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/mark-chen-next/" target="_blank">陳皓圓</a></h3>
         <div class="member-title">技術委員</div>
         <div class="member-affiliation">Mindify AI 創辦人</div>
         <div class="member-contact">mark.chen.sstm@gmail.com</div>
@@ -506,7 +506,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/yash.jpeg')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/yash-gaur-b761b824b/" target="_blank">Yash Gaur</a></h3>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/yash-gaur-b761b824b/" target="_blank">亞什·高爾</a></h3>
         <div class="member-title">技術委員</div>
         <div class="member-affiliation">量子 AI 研究員</div>
         <div class="member-contact">yashgaur3000@gmail.com</div>
@@ -606,7 +606,7 @@ title: "委員會"
     <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/austin_.png')"></div>
       <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/austin-hua/" target="_blank">Austin Hua</a></h3>
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/austin-hua/" target="_blank">華士頓</a></h3>
         <div class="member-title">指導委員會主席</div>
         <div class="member-affiliation">SQAI 創辦人</div>
         <div class="member-contact">r11922203@csie.ntu.edu.tw</div>
