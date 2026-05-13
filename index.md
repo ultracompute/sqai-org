@@ -41,6 +41,8 @@ SQAI 2026 features an invited speaker series of 3–5 world-class experts at the
 
 No call for papers — just deep, curated conversations. [View the full program →](/program/)
 
+[Meet the organizing and program committees →](/committee/)
+
 ---
 
 ## Looking Ahead: SQAI 2027

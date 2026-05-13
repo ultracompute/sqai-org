@@ -10,18 +10,18 @@ title: "Committees"
 }
 
 .committee-header {
-  border-left: 4px solid #0366d6;
+  border-left: 4px solid #818cf8;
   padding-left: 1rem;
   margin-bottom: 1.5rem;
 }
 
 .committee-description {
-  background-color: #f8f9fa;
+  background-color: rgba(99, 102, 241, 0.1);
   border-radius: 5px;
   padding: 15px;
   margin-bottom: 30px;
   font-size: 0.95em;
-  border-left: 4px solid #0366d6;
+  border-left: 4px solid #818cf8;
 }
 
 .committee-members {
@@ -33,10 +33,11 @@ title: "Committees"
 
 .member-card {
   width: 200px;
-  background-color: #fff;
+  background: linear-gradient(160deg, #1e1b4b 0%, #2e2a5e 100%);
+  border: 1px solid rgba(129, 140, 248, 0.25);
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
   text-align: center;
   margin-bottom: 20px;
@@ -44,7 +45,8 @@ title: "Committees"
 
 .member-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.3);
+  border-color: rgba(129, 140, 248, 0.6);
 }
 
 .member-photo {
@@ -53,9 +55,10 @@ title: "Committees"
   margin: 20px auto 10px;
   border-radius: 50%;
   overflow: hidden;
-  background-color: #f0f0f0;
+  background-color: #312e81;
   background-position: center;
   background-size: cover;
+  border: 3px solid rgba(129, 140, 248, 0.4);
 }
 
 .member-photo img {
@@ -71,36 +74,41 @@ title: "Committees"
   font-size: 0.9em;
   font-weight: bold;
   margin: 0;
-  color: #333;
 }
 
 .member-name a {
-  color: #0366d6;
+  color: #a5b4fc;
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .member-name a:hover {
-  color: #0056b3;
+  color: #c7d2fe;
   text-decoration: underline;
 }
 
 .member-title {
   font-size: 0.9em;
-  color: #0366d6;
+  color: #818cf8;
   margin: 5px 0;
+  font-weight: 600;
 }
 
 .member-affiliation {
   font-size: 0.85em;
-  color: #666;
+  color: #94a3b8;
   margin-bottom: 10px;
   font-style: italic;
 }
 
 .member-contact {
-  font-size: 0.8em;
-  color: #888;
+  font-size: 0.78em;
+  color: #64748b;
+  word-break: break-all;
+}
+
+.member-contact a {
+  color: #818cf8;
 }
 
 @media (max-width: 768px) {
@@ -121,23 +129,27 @@ title: "Committees"
 }
 
 .committee-role-card {
-  background-color: #ffffff;
+  background: linear-gradient(160deg, #1e1b4b 0%, #2e2a5e 100%);
+  border: 1px solid rgba(129, 140, 248, 0.2);
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 2rem;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
   transition: all 0.3s ease;
 }
 
 .committee-role-card:hover {
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 20px rgba(99, 102, 241, 0.2);
+}
+
+.committee-role-card h3 {
+  color: #a5b4fc;
 }
 
 .about-header {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #0366d6;
+  color: #a5b4fc;
   position: relative;
   padding-bottom: 0.5rem;
 }
@@ -150,7 +162,7 @@ title: "Committees"
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background: #0366d6;
+  background: linear-gradient(90deg, #6366f1, #818cf8);
   border-radius: 3px;
 }
 
@@ -163,28 +175,28 @@ title: "Committees"
 
 .role-item {
   padding: 1.2rem;
-  background-color: #ffffff;
+  background: rgba(99, 102, 241, 0.08);
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: 1px solid rgba(129, 140, 248, 0.15);
   transition: all 0.3s ease;
-  border: 1px solid rgba(0,0,0,0.05);
 }
 
 .role-item:hover {
   transform: translateY(-3px);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background: rgba(99, 102, 241, 0.15);
+  border-color: rgba(129, 140, 248, 0.35);
 }
 
 .role-item h4 {
   margin-top: 0;
   font-size: 1.1rem;
-  color: #0366d6;
-  border-bottom: 2px solid #e8f0fe;
+  color: #818cf8;
+  border-bottom: 2px solid rgba(99, 102, 241, 0.3);
   padding-bottom: 8px;
   margin-bottom: 12px;
 }
 
-.role-item h5 { margin-top: 1.2rem; font-size: 1rem; }
+.role-item h5 { margin-top: 1.2rem; font-size: 1rem; color: #a5b4fc; }
 
 .technical-areas { padding-left: 1.2rem; margin-top: 10px; }
 .technical-areas li { margin-bottom: 0.7rem; padding: 4px 0; }
@@ -193,13 +205,14 @@ title: "Committees"
   border-radius: 12px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
-  border: 1px solid rgba(0,0,0,0.1);
+  background: linear-gradient(160deg, #1e1b4b 0%, #2e2a5e 100%);
+  border: 1px solid rgba(129, 140, 248, 0.2);
 }
 
 .contribute-header {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #0366d6;
+  color: #a5b4fc;
   position: relative;
   padding-bottom: 0.5rem;
 }
@@ -212,7 +225,7 @@ title: "Committees"
   transform: translateX(-50%);
   width: 100px;
   height: 3px;
-  background-color: #0366d6;
+  background: linear-gradient(90deg, #6366f1, #818cf8);
   border-radius: 3px;
 }
 
@@ -231,10 +244,11 @@ title: "Committees"
   max-width: 100%;
   border-radius: 10px;
   padding: 1.2rem;
-  border: 1px solid rgba(0,0,0,0.1);
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(129, 140, 248, 0.2);
 }
 
-.contribute-highlight h3 { margin-top: 0; text-align: center; margin-bottom: 1rem; color: #333; }
+.contribute-highlight h3 { margin-top: 0; text-align: center; margin-bottom: 1rem; color: #a5b4fc; }
 
 .open-positions { display: flex; flex-direction: column; gap: 0.8rem; }
 
@@ -243,7 +257,8 @@ title: "Committees"
   align-items: center;
   padding: 0.8rem;
   border-radius: 6px;
-  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(129, 140, 248, 0.15);
 }
 
 .position-team {
@@ -253,33 +268,34 @@ title: "Committees"
   font-size: 0.8rem;
   margin-right: 10px;
   color: white;
-  background-color: #0366d6;
+  background-color: #4f46e5;
 }
 
 .position-role { font-size: 0.9rem; }
 .contribute-action { margin-top: 1.5rem; font-weight: bold; }
 
 .contribute-email {
-  color: #0366d6;
+  color: #818cf8;
   text-decoration: underline;
   transition: all 0.2s;
 }
 
-.contribute-email:hover { color: #0056b3; }
+.contribute-email:hover { color: #a5b4fc; }
 
 .quick-nav-container {
-  background-color: #f5f5f5;
+  background: linear-gradient(160deg, #1e1b4b 0%, #2e2a5e 100%);
+  border: 1px solid rgba(129, 140, 248, 0.25);
   padding: 15px;
   margin-bottom: 20px;
   text-align: center;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .quick-nav-title {
   margin-bottom: 12px;
   font-weight: bold;
   font-size: 1.1em;
-  color: #444;
+  color: #c7d2fe;
 }
 
 .committees-nav {
@@ -295,13 +311,13 @@ title: "Committees"
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 8px;
-  border-top: 1px solid rgba(0,0,0,0.05);
+  border-top: 1px solid rgba(129, 140, 248, 0.15);
   margin-top: 4px;
   gap: 24px;
 }
 
 .quick-nav-link {
-  color: #56a3b7;
+  color: #818cf8;
   text-decoration: none;
   padding: 4px 8px;
   border-radius: 4px;
@@ -309,9 +325,9 @@ title: "Committees"
 }
 
 .quick-nav-link:hover {
-  color: #3a7f93;
-  text-decoration: underline;
-  background-color: rgba(86,163,183,0.05);
+  color: #c7d2fe;
+  background-color: rgba(99, 102, 241, 0.15);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
@@ -366,15 +382,6 @@ title: "Committees"
         <div class="member-title">TPC Chair</div>
         <div class="member-affiliation">NCKU ES Professor</div>
         <div class="member-contact">chchwang@mail.ncku.edu.tw</div>
-      </div>
-    </div>
-    <div class="member-card">
-      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/tzuyinchen.jpg')"></div>
-      <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/tzuyin-chen/" target="_blank">Tzu-Yin Chen</a></h3>
-        <div class="member-title">Publicity Chair</div>
-        <div class="member-affiliation">NTU LIS PhD Student</div>
-        <div class="member-contact">d12126008@g.ntu.edu.tw</div>
       </div>
     </div>
     <div class="member-card">
@@ -511,15 +518,6 @@ title: "Committees"
       </div>
     </div>
     <div class="member-card">
-      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/daniel-ruiz.jpg')"></div>
-      <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/luisdanielruiz-in" target="_blank">Daniel Ruiz</a></h3>
-        <div class="member-title">TPC Member</div>
-        <div class="member-affiliation">Qnow.tech Founder</div>
-        <div class="member-contact">daniel@qnow.tech</div>
-      </div>
-    </div>
-    <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/yash.jpeg')"></div>
       <div class="member-info">
         <h3 class="member-name"><a href="https://www.linkedin.com/in/yash-gaur-b761b824b/" target="_blank">Yash Gaur</a></h3>
@@ -628,15 +626,6 @@ title: "Committees"
   </div>
   <div class="committee-members">
     <div class="member-card">
-      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/lawrencegasman.jpeg')"></div>
-      <div class="member-info">
-        <h3 class="member-name"><a href="https://www.linkedin.com/in/lawrence-gasman-7480511/" target="_blank">Lawrence Gasman</a></h3>
-        <div class="member-title">Advisor</div>
-        <div class="member-affiliation">President, IQT Research</div>
-        <div class="member-contact">lawrence@insidequantumtechnology.com</div>
-      </div>
-    </div>
-    <div class="member-card">
       <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg')"></div>
       <div class="member-info">
         <h3 class="member-name"><a href="https://ieeexplore.ieee.org/author/37086846354" target="_blank">Shih-Wei Liao</a></h3>
@@ -655,68 +644,59 @@ title: "Committees"
 
   <div class="committee-role-card">
     <h3>Organizing Committee (OC)</h3>
-    <p>The <strong>Organizing Committee (OC)</strong> oversees the overall planning and execution of the conference, including:</p>
-    <ul>
-      <li>Coordinating logistics (venue, schedule, communication)</li>
-      <li>Managing sponsorships and partnerships</li>
-      <li>Publicity and community engagement</li>
-      <li>Platform and registration support</li>
-      <li>On-site event coordination</li>
-    </ul>
-    <p>If you have skills in project coordination, event planning, community building, or media outreach, we'd love to have you on the OC.</p>
+    <p>The <strong>Organizing Committee (OC)</strong> oversees the overall planning and execution of the conference, including logistics, sponsorships, publicity, platform support, and on-site coordination.</p>
     <div class="role-descriptions">
       <div class="role-item">
         <h4>General Chair</h4>
-        <p>The General Chair provides overall leadership for the summit, setting the vision, coordinating all committees, and serving as the primary representative of SQAI to the broader community.</p>
+        <p>Provides overall leadership, sets the vision, coordinates all committees, and serves as the primary representative of SQAI to the broader community.</p>
       </div>
       <div class="role-item">
         <h4>General Co-Chair</h4>
-        <p>The General Co-Chair assists the General Chair in overseeing the conference, with a focus on specific areas such as logistics, sponsorship, or programming.</p>
+        <p>Assists the General Chair in overseeing the conference, with a focus on specific areas such as logistics, sponsorship, or programming.</p>
       </div>
       <div class="role-item">
         <h4>Publications Chair</h4>
-        <p>The Publications Chair oversees the preparation, formatting, and dissemination of the conference proceedings and accepted papers.</p>
+        <p>Oversees preparation, formatting, and dissemination of the conference proceedings and accepted papers.</p>
       </div>
       <div class="role-item">
         <h4>Publicity Chair</h4>
-        <p>The Publicity Chair is responsible for promoting the conference, increasing its visibility, and engaging the broader community through social media, press releases, and outreach.</p>
+        <p>Promotes the conference through social media, press releases, and outreach to academic and industry partners.</p>
       </div>
       <div class="role-item">
         <h4>Finance Chair</h4>
-        <p>The Finance Chair oversees the conference budget, financial planning, and expense management, including securing sponsorships and managing registration fees.</p>
+        <p>Oversees the conference budget, financial planning, and expense management, including securing sponsorships.</p>
       </div>
       <div class="role-item">
         <h4>Logistics Chair</h4>
-        <p>The Logistics Chair coordinates all operational aspects of the conference, including venue arrangements, audiovisual setup, and on-site management.</p>
+        <p>Coordinates all operational aspects including venue arrangements, audiovisual setup, and on-site management.</p>
       </div>
       <div class="role-item">
         <h4>Poster &amp; Demos Chair</h4>
-        <p>The Poster &amp; Demos Chair organizes interactive sessions showcasing cutting-edge research and technology demonstrations.</p>
+        <p>Organizes interactive sessions showcasing cutting-edge research and technology demonstrations.</p>
       </div>
       <div class="role-item">
         <h4>Sponsorship Chair</h4>
-        <p>The Sponsorship Chair develops and implements strategies to secure financial support, creating sponsorship packages and building relationships with potential sponsors.</p>
+        <p>Develops strategies to secure financial support, creates sponsorship packages, and builds relationships with potential sponsors.</p>
       </div>
     </div>
   </div>
 
   <div class="committee-role-card">
     <h3>Technical Program Committee (TPC)</h3>
-    <p>The <strong>Technical Program Committee (TPC)</strong> ensures the academic and technical quality of the conference by reviewing submissions, designing the research track program, and shaping the scientific direction of SQAI.</p>
-    <p>If you're an active researcher, academic, or practitioner in quantum computing, AI, or related fields — we welcome your involvement.</p>
+    <p>The <strong>TPC</strong> ensures academic and technical quality by reviewing submissions, designing the research program, and shaping the scientific direction of SQAI.</p>
     <div class="role-descriptions">
       <div class="role-item">
         <h4>TPC Chair</h4>
-        <p>The TPC Chair leads the Technical Program Committee, overseeing the entire review process and scientific program development.</p>
+        <p>Leads the entire review process and scientific program development, overseeing area chairs and ensuring review quality.</p>
       </div>
       <div class="role-item">
         <h4>TPC Member</h4>
-        <p>TPC Members evaluate submitted papers, provide detailed reviews, and contribute to the scientific quality of the conference.</p>
+        <p>Evaluates submitted papers, provides detailed reviews, and contributes to the scientific quality of the conference.</p>
       </div>
       <div class="role-item">
         <h4>Area Chairs</h4>
-        <p>Area Chairs supervise the review process for submissions in specific technical domains.</p>
-        <h5>Our Technical Areas:</h5>
+        <p>Subject-matter experts who supervise reviews in their specific technical domains.</p>
+        <h5>Technical Areas:</h5>
         <ul class="technical-areas">
           <li><strong>Quantum Machine Learning (QML)</strong></li>
           <li><strong>QAI Hardware</strong></li>
@@ -732,7 +712,7 @@ title: "Committees"
 
   <div class="committee-role-card">
     <h3>Steering Committee (SC)</h3>
-    <p>The <strong>Steering Committee</strong> guides the long-term direction and strategic development of the SQAI conference series, providing continuity across editions and advising on major decisions.</p>
+    <p>The <strong>Steering Committee</strong> guides the long-term direction and strategic development of the SQAI conference series, providing continuity across editions.</p>
   </div>
 
   <div class="committee-role-card">
