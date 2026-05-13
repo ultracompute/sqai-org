@@ -1,10 +1,19 @@
 {% assign breakpoint = site.conference.navigation.breakpoint | default: 'md' %}
+{% assign is_zh = false %}
+{% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
+  {% assign is_zh = true %}
+{% endif %}
+
 <nav class="navbar navbar-expand-{{ breakpoint }} d-pwa-none bg-body-tertiary mb-3" aria-label="{{ site.data.lang[site.conference.lang].navigation.main | default: 'Main navigation' }}">
   <div class="container">
 
-    <a class="navbar-brand order-0" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% if is_zh %}
+      <a class="navbar-brand order-0" href="{{ site.baseurl }}/zh/">{{ site.title }}</a>
+    {% else %}
+      <a class="navbar-brand order-0" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    {% endif %}
 
-    {% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
+    {% if is_zh %}
       <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" class="btn btn-sm btn-outline-light ms-2" style="white-space:nowrap;">EN</a>
     {% else %}
       <a href="{{ site.baseurl }}/zh{{ page.url }}" class="btn btn-sm btn-outline-light ms-2" style="white-space:nowrap;">繁中</a>
@@ -61,15 +70,25 @@
 
           {%- else %}
             <li class="nav-item">
-              {% if page.url contains link.relative_url %}
-                {% assign is_active = true %}
-              {% else %}
-                {% assign is_active = false %}
-              {% endif %}
-              {%- include get_link.html class="nav-link" is_active=is_active -%}
-              {{ link_tag }}
-                {{ link.name }}
-              </a>
+              {%- if link.relative_url -%}
+                {%- if is_zh -%}
+                  {%- assign nav_href = link.relative_url | prepend: '/zh' -%}
+                {%- else -%}
+                  {%- assign nav_href = link.relative_url -%}
+                {%- endif -%}
+                {%- if page.url contains link.relative_url -%}
+                  {%- assign is_active = true -%}
+                {%- else -%}
+                  {%- assign is_active = false -%}
+                {%- endif -%}
+                <a href="{{ site.baseurl }}{{ nav_href }}" class="nav-link{% if is_active %} active" aria-current="page{% endif %}">
+                  {{ link.name }}
+                </a>
+              {%- elsif link.absolute_url -%}
+                <a href="{{ link.absolute_url }}" class="nav-link" target="_blank" rel="noopener">
+                  {{ link.name }}
+                </a>
+              {%- endif -%}
             </li>
           {%- endif -%}
         {%- endfor %}
