@@ -304,7 +304,6 @@ title: "委員會"
     <a href="#advisory-board" class="quick-nav-link">顧問委員會</a>
   </div>
   <div class="info-nav">
-    <a href="#about-committees" class="quick-nav-link">職位說明</a>
     <a href="#contribute" class="quick-nav-link">加入我們</a>
   </div>
 </div>
@@ -431,6 +430,44 @@ title: "委員會"
       </div>
     </div>
   </div>
+
+  <div class="committee-role-card" style="margin-top: 2rem;">
+    <p><strong>籌備委員會</strong>負責大會整體的規劃與執行，包括後勤協調、贊助管理、宣傳推廣、平台支援及現場活動統籌。</p>
+    <div class="role-descriptions">
+      <div class="role-item">
+        <h4>總主席</h4>
+        <p>提供整體領導，設定大會願景，協調所有委員會，並擔任 SQAI 對外的主要代表。</p>
+      </div>
+      <div class="role-item">
+        <h4>副總主席</h4>
+        <p>協助總主席監督大會運作，專注於後勤、贊助或議程等特定領域。</p>
+      </div>
+      <div class="role-item">
+        <h4>出版主席</h4>
+        <p>監督大會論文集及錄取論文的準備、排版與發布事宜。</p>
+      </div>
+      <div class="role-item">
+        <h4>宣傳主席</h4>
+        <p>透過社群媒體、新聞稿及學術與業界夥伴的推廣活動宣傳大會。</p>
+      </div>
+      <div class="role-item">
+        <h4>財務主席</h4>
+        <p>監管大會預算、財務規劃及費用管理，包括爭取贊助。</p>
+      </div>
+      <div class="role-item">
+        <h4>後勤主席</h4>
+        <p>協調所有運營事務，包括場地安排、視聽設備及現場管理。</p>
+      </div>
+      <div class="role-item">
+        <h4>海報暨展示主席</h4>
+        <p>籌辦展示前沿研究與技術展示的互動式環節。</p>
+      </div>
+      <div class="role-item">
+        <h4>贊助主席</h4>
+        <p>制定並執行爭取財務支持的策略，建立贊助套餐並維繫潛在贊助商關係。</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div id="technical-program-committee" class="committee-container">
@@ -530,6 +567,34 @@ title: "委員會"
       </div>
     </div>
   </div>
+
+  <div class="committee-role-card" style="margin-top: 2rem;">
+    <p><strong>技術議程委員會</strong>透過審查投稿、設計研究議程，確保 SQAI 的學術與技術品質。</p>
+    <div class="role-descriptions">
+      <div class="role-item">
+        <h4>技術議程主席</h4>
+        <p>領導整個審稿流程與學術議程規劃，監督領域主席並確保審查品質。</p>
+      </div>
+      <div class="role-item">
+        <h4>技術委員</h4>
+        <p>評審投稿論文，提供詳細審稿意見，貢獻大會的學術品質。</p>
+      </div>
+      <div class="role-item">
+        <h4>領域主席</h4>
+        <p>負責特定技術領域的審稿監督工作。</p>
+        <h5>技術領域：</h5>
+        <ul class="technical-areas">
+          <li><strong>量子機器學習（QML）</strong></li>
+          <li><strong>量子 AI 硬體</strong></li>
+          <li><strong>量子資料科學</strong></li>
+          <li><strong>混合系統</strong></li>
+          <li><strong>應用領域</strong></li>
+          <li><strong>基準測試／效能評估</strong></li>
+          <li><strong>倫理／社會／哲學</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div id="steering-committee" class="committee-container">
@@ -586,80 +651,6 @@ title: "委員會"
   </div>
 </div>
 
-<hr>
-
-<div id="about-committees" class="committee-container committee-about-section">
-  <h2 class="about-header">委員會職位說明</h2>
-
-  <div class="committee-role-card">
-    <h3>籌備委員會（OC）</h3>
-    <p><strong>籌備委員會</strong>負責大會整體的規劃與執行，包括後勤協調、贊助管理、宣傳推廣、平台支援及現場活動統籌。</p>
-    <div class="role-descriptions">
-      <div class="role-item">
-        <h4>總主席</h4>
-        <p>提供整體領導，設定大會願景，協調所有委員會，並擔任 SQAI 對外的主要代表。</p>
-      </div>
-      <div class="role-item">
-        <h4>副總主席</h4>
-        <p>協助總主席監督大會運作，專注於後勤、贊助或議程等特定領域。</p>
-      </div>
-      <div class="role-item">
-        <h4>出版主席</h4>
-        <p>監督大會論文集及錄取論文的準備、排版與發布事宜。</p>
-      </div>
-      <div class="role-item">
-        <h4>宣傳主席</h4>
-        <p>透過社群媒體、新聞稿及學術與業界夥伴的推廣活動宣傳大會。</p>
-      </div>
-      <div class="role-item">
-        <h4>財務主席</h4>
-        <p>監管大會預算、財務規劃及費用管理，包括爭取贊助。</p>
-      </div>
-      <div class="role-item">
-        <h4>後勤主席</h4>
-        <p>協調所有運營事務，包括場地安排、視聽設備及現場管理。</p>
-      </div>
-      <div class="role-item">
-        <h4>海報暨展示主席</h4>
-        <p>籌辦展示前沿研究與技術展示的互動式環節。</p>
-      </div>
-      <div class="role-item">
-        <h4>贊助主席</h4>
-        <p>制定並執行爭取財務支持的策略，建立贊助套餐並維繫潛在贊助商關係。</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="committee-role-card">
-    <h3>技術議程委員會（TPC）</h3>
-    <p><strong>技術議程委員會</strong>透過審查投稿、設計研究議程，確保 SQAI 的學術與技術品質。</p>
-    <div class="role-descriptions">
-      <div class="role-item">
-        <h4>技術議程主席</h4>
-        <p>領導整個審稿流程與學術議程規劃，監督領域主席並確保審查品質。</p>
-      </div>
-      <div class="role-item">
-        <h4>技術委員</h4>
-        <p>評審投稿論文，提供詳細審稿意見，貢獻大會的學術品質。</p>
-      </div>
-      <div class="role-item">
-        <h4>領域主席</h4>
-        <p>負責特定技術領域的審稿監督工作。</p>
-        <h5>技術領域：</h5>
-        <ul class="technical-areas">
-          <li><strong>量子機器學習（QML）</strong></li>
-          <li><strong>量子 AI 硬體</strong></li>
-          <li><strong>量子資料科學</strong></li>
-          <li><strong>混合系統</strong></li>
-          <li><strong>應用領域</strong></li>
-          <li><strong>基準測試／效能評估</strong></li>
-          <li><strong>倫理／社會／哲學</strong></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-</div>
 
 <div id="contribute" class="committee-container committee-contribute-section">
   <h2 class="contribute-header">加入我們的委員會</h2>

@@ -360,7 +360,6 @@ title: "Committees"
     <a href="#advisory-board" class="quick-nav-link">Advisory Board</a>
   </div>
   <div class="info-nav">
-    <a href="#about-committees" class="quick-nav-link">About Roles</a>
     <a href="#contribute" class="quick-nav-link">Join Us</a>
   </div>
 </div>
@@ -487,6 +486,44 @@ title: "Committees"
       </div>
     </div>
   </div>
+
+  <div class="committee-role-card" style="margin-top: 2rem;">
+    <p>The <strong>Organizing Committee (OC)</strong> oversees the overall planning and execution of the conference, including logistics, sponsorships, publicity, platform support, and on-site coordination.</p>
+    <div class="role-descriptions">
+      <div class="role-item">
+        <h4>General Chair</h4>
+        <p>Provides overall leadership, sets the vision, coordinates all committees, and serves as the primary representative of SQAI to the broader community.</p>
+      </div>
+      <div class="role-item">
+        <h4>General Co-Chair</h4>
+        <p>Assists the General Chair in overseeing the conference, with a focus on specific areas such as logistics, sponsorship, or programming.</p>
+      </div>
+      <div class="role-item">
+        <h4>Publications Chair</h4>
+        <p>Oversees preparation, formatting, and dissemination of the conference proceedings and accepted papers.</p>
+      </div>
+      <div class="role-item">
+        <h4>Publicity Chair</h4>
+        <p>Promotes the conference through social media, press releases, and outreach to academic and industry partners.</p>
+      </div>
+      <div class="role-item">
+        <h4>Finance Chair</h4>
+        <p>Oversees the conference budget, financial planning, and expense management, including securing sponsorships.</p>
+      </div>
+      <div class="role-item">
+        <h4>Logistics Chair</h4>
+        <p>Coordinates all operational aspects including venue arrangements, audiovisual setup, and on-site management.</p>
+      </div>
+      <div class="role-item">
+        <h4>Poster &amp; Demos Chair</h4>
+        <p>Organizes interactive sessions showcasing cutting-edge research and technology demonstrations.</p>
+      </div>
+      <div class="role-item">
+        <h4>Sponsorship Chair</h4>
+        <p>Develops strategies to secure financial support, creates sponsorship packages, and builds relationships with potential sponsors.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div id="technical-program-committee" class="committee-container">
@@ -586,6 +623,34 @@ title: "Committees"
       </div>
     </div>
   </div>
+
+  <div class="committee-role-card" style="margin-top: 2rem;">
+    <p>The <strong>Technical Program Committee (TPC)</strong> ensures academic and technical quality by reviewing submissions, designing the research program, and shaping the scientific direction of SQAI.</p>
+    <div class="role-descriptions">
+      <div class="role-item">
+        <h4>TPC Chair</h4>
+        <p>Leads the entire review process and scientific program development, overseeing area chairs and ensuring review quality.</p>
+      </div>
+      <div class="role-item">
+        <h4>TPC Member</h4>
+        <p>Evaluates submitted papers, provides detailed reviews, and contributes to the scientific quality of the conference.</p>
+      </div>
+      <div class="role-item">
+        <h4>Area Chairs</h4>
+        <p>Subject-matter experts who supervise reviews in their specific technical domains.</p>
+        <h5>Technical Areas:</h5>
+        <ul class="technical-areas">
+          <li><strong>Quantum Machine Learning (QML)</strong></li>
+          <li><strong>QAI Hardware</strong></li>
+          <li><strong>Quantum Data Science</strong></li>
+          <li><strong>Hybrid Systems</strong></li>
+          <li><strong>Applications</strong></li>
+          <li><strong>Benchmarking/Performance</strong></li>
+          <li><strong>Ethics/Society/Philosophy</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div id="steering-committee" class="committee-container">
@@ -642,80 +707,6 @@ title: "Committees"
   </div>
 </div>
 
-<hr>
-
-<div id="about-committees" class="committee-container committee-about-section">
-  <h2 class="about-header">About Our Committees</h2>
-
-  <div class="committee-role-card">
-    <h3>Organizing Committee (OC)</h3>
-    <p>The <strong>Organizing Committee (OC)</strong> oversees the overall planning and execution of the conference, including logistics, sponsorships, publicity, platform support, and on-site coordination.</p>
-    <div class="role-descriptions">
-      <div class="role-item">
-        <h4>General Chair</h4>
-        <p>Provides overall leadership, sets the vision, coordinates all committees, and serves as the primary representative of SQAI to the broader community.</p>
-      </div>
-      <div class="role-item">
-        <h4>General Co-Chair</h4>
-        <p>Assists the General Chair in overseeing the conference, with a focus on specific areas such as logistics, sponsorship, or programming.</p>
-      </div>
-      <div class="role-item">
-        <h4>Publications Chair</h4>
-        <p>Oversees preparation, formatting, and dissemination of the conference proceedings and accepted papers.</p>
-      </div>
-      <div class="role-item">
-        <h4>Publicity Chair</h4>
-        <p>Promotes the conference through social media, press releases, and outreach to academic and industry partners.</p>
-      </div>
-      <div class="role-item">
-        <h4>Finance Chair</h4>
-        <p>Oversees the conference budget, financial planning, and expense management, including securing sponsorships.</p>
-      </div>
-      <div class="role-item">
-        <h4>Logistics Chair</h4>
-        <p>Coordinates all operational aspects including venue arrangements, audiovisual setup, and on-site management.</p>
-      </div>
-      <div class="role-item">
-        <h4>Poster &amp; Demos Chair</h4>
-        <p>Organizes interactive sessions showcasing cutting-edge research and technology demonstrations.</p>
-      </div>
-      <div class="role-item">
-        <h4>Sponsorship Chair</h4>
-        <p>Develops strategies to secure financial support, creates sponsorship packages, and builds relationships with potential sponsors.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="committee-role-card">
-    <h3>Technical Program Committee (TPC)</h3>
-    <p>The <strong>TPC</strong> ensures academic and technical quality by reviewing submissions, designing the research program, and shaping the scientific direction of SQAI.</p>
-    <div class="role-descriptions">
-      <div class="role-item">
-        <h4>TPC Chair</h4>
-        <p>Leads the entire review process and scientific program development, overseeing area chairs and ensuring review quality.</p>
-      </div>
-      <div class="role-item">
-        <h4>TPC Member</h4>
-        <p>Evaluates submitted papers, provides detailed reviews, and contributes to the scientific quality of the conference.</p>
-      </div>
-      <div class="role-item">
-        <h4>Area Chairs</h4>
-        <p>Subject-matter experts who supervise reviews in their specific technical domains.</p>
-        <h5>Technical Areas:</h5>
-        <ul class="technical-areas">
-          <li><strong>Quantum Machine Learning (QML)</strong></li>
-          <li><strong>QAI Hardware</strong></li>
-          <li><strong>Quantum Data Science</strong></li>
-          <li><strong>Hybrid Systems</strong></li>
-          <li><strong>Applications</strong></li>
-          <li><strong>Benchmarking/Performance</strong></li>
-          <li><strong>Ethics/Society/Philosophy</strong></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-</div>
 
 <div id="contribute" class="committee-container committee-contribute-section">
   <h2 class="contribute-header">Join Our Committees</h2>
