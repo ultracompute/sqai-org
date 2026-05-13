@@ -165,12 +165,12 @@ title: 贊助商
 </div>
 
 <div class="section-box">
-  <h2>合作組織</h2>
-  <img src="{{ site.baseurl }}/assets/images/sponsors/collaborators.png" alt="SQAI 合作組織" style="width:100%; border-radius:6px; margin-bottom:0.5rem;" />
+  <h2>歷屆合作夥伴</h2>
+  <img src="{{ site.baseurl }}/assets/images/sponsors/collaborators.png" alt="SQAI 歷屆合作夥伴" style="width:100%; border-radius:6px; margin-bottom:0.5rem;" />
 </div>
 
 <div class="section-box">
   <h2>成為贊助商</h2>
-  <p>SQAI 讓您的組織與量子計算及 AI 交叉領域的頂尖研究人員、學生和專業人士建立聯繫。我們的全球社群遍及亞洲、北美洲和歐洲的學術界與產業界。</p>
+  <p>SQAI 讓您的組織與量子計算及 AI 交叉領域的頂尖研究人員、學生和專業人士建立聯繫。我們的全球社群遍及亞洲、北美洲、歐洲及世界各地的學術界與產業界。</p>
   <p>贊助洽詢請聯絡 <a href="mailto:info@sqai.org">info@sqai.org</a>。</p>
 </div>

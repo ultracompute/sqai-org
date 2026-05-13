@@ -473,7 +473,7 @@ title: "委員會"
 <div id="technical-program-committee" class="committee-container">
   <h2 class="committee-header">技術議程委員會（TPC）</h2>
   <div class="committee-description">
-    技術議程委員會負責審查投稿、規劃議程，確保大會的學術與技術品質達到最高標準。
+    技術議程委員會（TPC）透過審查投稿、設計研究議程，確保 SQAI 的學術與技術品質，並引領大會的學術方向。技術領域涵蓋：量子機器學習（QML）、量子 AI 硬體、量子資料科學、混合系統、應用領域、基準測試／效能評估、倫理／社會／哲學，以及更多領域。
   </div>
   <div class="committee-members">
     <div class="member-card">
@@ -569,7 +569,6 @@ title: "委員會"
   </div>
 
   <div class="committee-role-card" style="margin-top: 2rem;">
-    <p><strong>技術議程委員會</strong>透過審查投稿、設計研究議程，確保 SQAI 的學術與技術品質。</p>
     <div class="role-descriptions">
       <div class="role-item">
         <h4>技術議程主席</h4>
@@ -582,16 +581,6 @@ title: "委員會"
       <div class="role-item">
         <h4>領域主席</h4>
         <p>負責特定技術領域的審稿監督工作。</p>
-        <h5>技術領域：</h5>
-        <ul class="technical-areas">
-          <li><strong>量子機器學習（QML）</strong></li>
-          <li><strong>量子 AI 硬體</strong></li>
-          <li><strong>量子資料科學</strong></li>
-          <li><strong>混合系統</strong></li>
-          <li><strong>應用領域</strong></li>
-          <li><strong>基準測試／效能評估</strong></li>
-          <li><strong>倫理／社會／哲學</strong></li>
-        </ul>
       </div>
     </div>
   </div>

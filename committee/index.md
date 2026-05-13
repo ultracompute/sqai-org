@@ -529,7 +529,7 @@ title: "Committees"
 <div id="technical-program-committee" class="committee-container">
   <h2 class="committee-header">Technical Program Committee (TPC)</h2>
   <div class="committee-description">
-    The Technical Program Committee (TPC) is responsible for evaluating submissions, shaping the conference program, and ensuring the highest quality of scientific content.
+    The Technical Program Committee (TPC) ensures academic and technical quality by reviewing submissions, designing the research program, and shaping the scientific direction of SQAI. Technical areas include: Quantum Machine Learning (QML), QAI Hardware, Quantum Data Science, Hybrid Systems, Applications, Benchmarking/Performance, Ethics/Society/Philosophy, and more.
   </div>
   <div class="committee-members">
     <div class="member-card">
@@ -625,7 +625,6 @@ title: "Committees"
   </div>
 
   <div class="committee-role-card" style="margin-top: 2rem;">
-    <p>The <strong>Technical Program Committee (TPC)</strong> ensures academic and technical quality by reviewing submissions, designing the research program, and shaping the scientific direction of SQAI.</p>
     <div class="role-descriptions">
       <div class="role-item">
         <h4>TPC Chair</h4>
@@ -638,16 +637,6 @@ title: "Committees"
       <div class="role-item">
         <h4>Area Chairs</h4>
         <p>Subject-matter experts who supervise reviews in their specific technical domains.</p>
-        <h5>Technical Areas:</h5>
-        <ul class="technical-areas">
-          <li><strong>Quantum Machine Learning (QML)</strong></li>
-          <li><strong>QAI Hardware</strong></li>
-          <li><strong>Quantum Data Science</strong></li>
-          <li><strong>Hybrid Systems</strong></li>
-          <li><strong>Applications</strong></li>
-          <li><strong>Benchmarking/Performance</strong></li>
-          <li><strong>Ethics/Society/Philosophy</strong></li>
-        </ul>
       </div>
     </div>
   </div>

@@ -165,12 +165,12 @@ title: Sponsors
 </div>
 
 <div class="section-box">
-  <h2>Collaborating Organizations</h2>
-  <img src="{{ site.baseurl }}/assets/images/sponsors/collaborators.png" alt="SQAI Collaborating Organizations" style="width:100%; border-radius:6px; margin-bottom:0.5rem;" />
+  <h2>Past Collaborators</h2>
+  <img src="{{ site.baseurl }}/assets/images/sponsors/collaborators.png" alt="SQAI Past Collaborators" style="width:100%; border-radius:6px; margin-bottom:0.5rem;" />
 </div>
 
 <div class="section-box">
   <h2>Become a Sponsor</h2>
-  <p>SQAI connects your organization with leading researchers, students, and professionals at the intersection of quantum computing and AI. Our global community spans academia and industry across Asia, North America, and Europe.</p>
+  <p>SQAI connects your organization with leading researchers, students, and professionals at the intersection of quantum computing and AI. Our global community spans academia and industry across Asia, North America, Europe, and throughout the world.</p>
   <p>For sponsorship inquiries, contact <a href="mailto:info@sqai.org">info@sqai.org</a>.</p>
 </div>
