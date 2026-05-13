@@ -23,7 +23,7 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
 
 ## August 11, 2026
 
-**Free online access. In-person attendance available.**
+<br>**Free online access. In-person attendance available.**
 
 | | |
 |---|---|
