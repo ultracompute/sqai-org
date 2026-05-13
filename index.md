@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "SQAI 2026 — 3rd International Summit on Quantum Artificial Intelligence"
+title: "SQAI 2026"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
