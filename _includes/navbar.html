@@ -72,9 +72,9 @@
 
     <div class="order-2 ms-2">
       {% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
-        <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" class="btn btn-sm btn-outline-secondary">EN</a>
+        <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" class="btn btn-sm btn-outline-light">EN</a>
       {% else %}
-        <a href="{{ site.baseurl }}/zh{{ page.url }}" class="btn btn-sm btn-outline-secondary">繁中</a>
+        <a href="{{ site.baseurl }}/zh{{ page.url }}" class="btn btn-sm btn-outline-light">繁中</a>
       {% endif %}
     </div>
 
