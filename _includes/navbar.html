@@ -67,15 +67,14 @@
             </li>
           {%- endif -%}
         {%- endfor %}
+        <li class="nav-item ms-md-2 mt-2 mt-md-0">
+          {% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
+            <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" class="btn btn-sm btn-outline-light">EN</a>
+          {% else %}
+            <a href="{{ site.baseurl }}/zh{{ page.url }}" class="btn btn-sm btn-outline-light">繁中</a>
+          {% endif %}
+        </li>
       </ul>
-    </div>
-
-    <div class="order-2 ms-2">
-      {% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
-        <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" class="btn btn-sm btn-outline-light">EN</a>
-      {% else %}
-        <a href="{{ site.baseurl }}/zh{{ page.url }}" class="btn btn-sm btn-outline-light">繁中</a>
-      {% endif %}
     </div>
 
     {%- if site.conference.navigation.logo %}
