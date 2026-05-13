@@ -58,6 +58,8 @@ conference:
         relative_url: /sponsors/
       - name: CFP
         relative_url: /cfp/
+      - name: Committee
+        relative_url: /committee/
       - name: Past Editions
         relative_url: /past/
     logo:

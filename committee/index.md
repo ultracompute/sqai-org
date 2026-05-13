@@ -1,0 +1,780 @@
+---
+layout: default
+title: "Committees"
+---
+
+<style>
+.committee-container {
+  margin: 2rem 0;
+  scroll-margin-top: 2rem;
+}
+
+.committee-header {
+  border-left: 4px solid #0366d6;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.committee-description {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 30px;
+  font-size: 0.95em;
+  border-left: 4px solid #0366d6;
+}
+
+.committee-members {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.member-card {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.member-photo {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto 10px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  background-position: center;
+  background-size: cover;
+}
+
+.member-photo img {
+  width: 100%;
+  height: auto;
+}
+
+.member-info {
+  padding: 10px 15px 20px;
+}
+
+.member-name {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.member-name a {
+  color: #0366d6;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.member-name a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.member-title {
+  font-size: 0.9em;
+  color: #0366d6;
+  margin: 5px 0;
+}
+
+.member-affiliation {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.member-contact {
+  font-size: 0.8em;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .committee-members { gap: 15px; }
+  .member-card { width: 180px; }
+  .member-photo { width: 120px; height: 120px; }
+}
+
+@media (max-width: 480px) {
+  .committee-members { justify-content: center; }
+  .member-card { width: 230px; }
+  .member-photo { width: 150px; height: 150px; }
+}
+
+.committee-about-section {
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.committee-role-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.committee-role-card:hover {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0366d6;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.about-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background: #0366d6;
+  border-radius: 3px;
+}
+
+.role-descriptions {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.8rem;
+}
+
+.role-item {
+  padding: 1.2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+.role-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.role-item h4 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #0366d6;
+  border-bottom: 2px solid #e8f0fe;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.role-item h5 { margin-top: 1.2rem; font-size: 1rem; }
+
+.technical-areas { padding-left: 1.2rem; margin-top: 10px; }
+.technical-areas li { margin-bottom: 0.7rem; padding: 4px 0; }
+
+.committee-contribute-section {
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.contribute-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #0366d6;
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.contribute-header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 3px;
+  background-color: #0366d6;
+  border-radius: 3px;
+}
+
+.contribute-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.contribute-text { flex: 3; min-width: 250px; max-width: 100%; }
+
+.contribute-highlight {
+  flex: 2;
+  min-width: 200px;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 1.2rem;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.contribute-highlight h3 { margin-top: 0; text-align: center; margin-bottom: 1rem; color: #333; }
+
+.open-positions { display: flex; flex-direction: column; gap: 0.8rem; }
+
+.position-item {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.08);
+}
+
+.position-team {
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-right: 10px;
+  color: white;
+  background-color: #0366d6;
+}
+
+.position-role { font-size: 0.9rem; }
+.contribute-action { margin-top: 1.5rem; font-weight: bold; }
+
+.contribute-email {
+  color: #0366d6;
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+
+.contribute-email:hover { color: #0056b3; }
+
+.quick-nav-container {
+  background-color: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.quick-nav-title {
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #444;
+}
+
+.committees-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 8px 16px;
+}
+
+.info-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  margin-top: 4px;
+  gap: 24px;
+}
+
+.quick-nav-link {
+  color: #56a3b7;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.quick-nav-link:hover {
+  color: #3a7f93;
+  text-decoration: underline;
+  background-color: rgba(86,163,183,0.05);
+}
+
+@media (max-width: 768px) {
+  .contribute-content { flex-direction: column; }
+  .role-descriptions { grid-template-columns: 1fr; gap: 1.3rem; }
+  .role-item { padding: 1rem; }
+  .role-item h4 { font-size: 1rem; }
+  .committees-nav { flex-direction: column; gap: 10px; }
+  .info-nav { gap: 16px; }
+  .quick-nav-link { display: block; padding: 6px 8px; }
+}
+</style>
+
+# Committees
+
+<img src="{{ site.baseurl }}/assets/images/sqaicommittee.jpg" alt="SQAI 2023 Committee" class="w-100 rounded mb-2" style="height:auto;" />
+<p class="text-muted mb-4"><em>SQAI 2023 Committee at National Taiwan University — including TAIA Joannie Hsieh, TAIA Jeff Peng, NTUAI President Steven Lu, and SQAI founder Austin Hua</em></p>
+
+<div class="quick-nav-container">
+  <div class="quick-nav-title">Quick Navigation</div>
+  <div class="committees-nav">
+    <a href="#organizing-committee" class="quick-nav-link">Organizing Committee</a>
+    <a href="#technical-program-committee" class="quick-nav-link">Technical Program Committee</a>
+    <a href="#steering-committee" class="quick-nav-link">Steering Committee</a>
+    <a href="#advisory-board" class="quick-nav-link">Advisory Board</a>
+  </div>
+  <div class="info-nav">
+    <a href="#about-committees" class="quick-nav-link">About Roles</a>
+    <a href="#contribute" class="quick-nav-link">Join Us</a>
+  </div>
+</div>
+
+<div id="organizing-committee" class="committee-container">
+  <h2 class="committee-header">Organizing Committee (OC)</h2>
+  <div class="committee-description">
+    The Organizing Committee coordinates the conference logistics, communications, and overall structure of the event.
+  </div>
+  <div class="committee-members">
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/austin_.png')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/austin-hua/" target="_blank">Austin Hua</a></h3>
+        <div class="member-title">General Chair</div>
+        <div class="member-affiliation">SQAI Founder</div>
+        <div class="member-contact">r11922203@csie.ntu.edu.tw</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/chichuanhwang.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">Chi-Chuan Hwang</a></h3>
+        <div class="member-title">TPC Chair</div>
+        <div class="member-affiliation">NCKU ES Professor</div>
+        <div class="member-contact">chchwang@mail.ncku.edu.tw</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/tzuyinchen.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/tzuyin-chen/" target="_blank">Tzu-Yin Chen</a></h3>
+        <div class="member-title">Publicity Chair</div>
+        <div class="member-affiliation">NTU LIS PhD Student</div>
+        <div class="member-contact">d12126008@g.ntu.edu.tw</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/Yen-Chi.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/samuel-yen-chi-chen/" target="_blank">Samuel Yen-Chi Chen</a></h3>
+        <div class="member-title">Publications Chair</div>
+        <div class="member-affiliation">Lead Research Scientist</div>
+        <div class="member-contact">ycchen1989@ieee.org</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/bernadette.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/bernadette-harding-8769025/" target="_blank">Bernadette Harding</a></h3>
+        <div class="member-title">Logistics Chair (US)</div>
+        <div class="member-affiliation">Startup Founder</div>
+        <div class="member-contact">info@sqai.org</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/mattis.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/%E6%AC%A3%E5%AE%87-%E5%8A%89-a4a09a353/" target="_blank">Mattis Liu</a></h3>
+        <div class="member-title">Logistics Chair (TW)</div>
+        <div class="member-affiliation">Bonafide Strategies COO</div>
+        <div class="member-contact">bonafidetaiwan@gmail.com</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/farley.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/farley-warner-669054a/" target="_blank">Farley Warner</a></h3>
+        <div class="member-title">Finance Chair</div>
+        <div class="member-affiliation">Government Contractor</div>
+        <div class="member-contact">cw_netguru@yahoo.com</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/jonas-yen.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.facebook.com/profile.php?id=100001078614941" target="_blank">Jonas Yen</a></h3>
+        <div class="member-title">Collaborator</div>
+        <div class="member-affiliation">NTU QML Researcher</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/ryan-landay.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/rlanday/" target="_blank">Ryan Landay</a></h3>
+        <div class="member-title">Collaborator</div>
+        <div class="member-affiliation">Founder, ML Engineer</div>
+        <div class="member-contact">rlanday@gmail.com</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/stathes-paganis.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.phys.ntu.edu.tw/enphysics/paganis.html" target="_blank">Stathes Paganis</a></h3>
+        <div class="member-title">Collaborator</div>
+        <div class="member-affiliation">NTU Physics Professor</div>
+        <div class="member-contact">paganis@phys.ntu.edu.tw</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/alexander-frankish.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/alexander-frankish/" target="_blank">Alexander Frankish</a></h3>
+        <div class="member-title">Collaborator</div>
+        <div class="member-affiliation">A Pro Solutions Founder</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">General Co-Chair</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Poster &amp; Demos Chair</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Sponsorship Chair</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="technical-program-committee" class="committee-container">
+  <h2 class="committee-header">Technical Program Committee (TPC)</h2>
+  <div class="committee-description">
+    The Technical Program Committee (TPC) is responsible for evaluating submissions, shaping the conference program, and ensuring the highest quality of scientific content.
+  </div>
+  <div class="committee-members">
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/chichuanhwang.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang" target="_blank">Chi-Chuan Hwang</a></h3>
+        <div class="member-title">TPC Chair</div>
+        <div class="member-affiliation">NCKU ES Professor</div>
+        <div class="member-contact">chchwang@mail.ncku.edu.tw</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/Yen-Chi.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/samuel-yen-chi-chen/" target="_blank">Samuel Yen-Chi Chen</a></h3>
+        <div class="member-title">Area Chair: QML</div>
+        <div class="member-affiliation">Lead Research Scientist</div>
+        <div class="member-contact">ycchen1989@ieee.org</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/mark-chen.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/mark-chen-next/" target="_blank">Mark Chen</a></h3>
+        <div class="member-title">TPC Member</div>
+        <div class="member-affiliation">Mindify AI Founder</div>
+        <div class="member-contact">mark.chen.sstm@gmail.com</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/daniel-ruiz.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/luisdanielruiz-in" target="_blank">Daniel Ruiz</a></h3>
+        <div class="member-title">TPC Member</div>
+        <div class="member-affiliation">Qnow.tech Founder</div>
+        <div class="member-contact">daniel@qnow.tech</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/yash.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/yash-gaur-b761b824b/" target="_blank">Yash Gaur</a></h3>
+        <div class="member-title">TPC Member</div>
+        <div class="member-affiliation">Quantum AI Researcher</div>
+        <div class="member-contact">yashgaur3000@gmail.com</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: QML</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: QAI Hardware</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Quantum Data Science</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Hybrid Systems</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Applications</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">Area Chair: Ethics/Society/Philosophy</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="steering-committee" class="committee-container">
+  <h2 class="committee-header">Steering Committee (SC)</h2>
+  <div class="committee-description">
+    The Steering Committee (SC) provides long-term vision and continuity for the conference series, ensuring the event grows and evolves to meet the needs of the quantum AI community.
+  </div>
+  <div class="committee-members">
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/austin_.png')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/austin-hua/" target="_blank">Austin Hua</a></h3>
+        <div class="member-title">SC Chair</div>
+        <div class="member-affiliation">SQAI Founder</div>
+        <div class="member-contact">r11922203@csie.ntu.edu.tw</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">SC Member</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/placeholder.svg')"></div>
+      <div class="member-info">
+        <h3 class="member-name">Open Position</h3>
+        <div class="member-title">SC Member</div>
+        <div class="member-affiliation">To be determined</div>
+        <div class="member-contact"><a href="mailto:info@sqai.org">Apply now</a></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="advisory-board" class="committee-container">
+  <h2 class="committee-header">Advisory Board</h2>
+  <div class="committee-description">
+    Our Advisory Board consists of industry leaders and academic experts who provide strategic guidance and expertise.
+  </div>
+  <div class="committee-members">
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/lawrencegasman.jpeg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://www.linkedin.com/in/lawrence-gasman-7480511/" target="_blank">Lawrence Gasman</a></h3>
+        <div class="member-title">Advisor</div>
+        <div class="member-affiliation">President, IQT Research</div>
+        <div class="member-contact">lawrence@insidequantumtechnology.com</div>
+      </div>
+    </div>
+    <div class="member-card">
+      <div class="member-photo" style="background-image: url('{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg')"></div>
+      <div class="member-info">
+        <h3 class="member-name"><a href="https://ieeexplore.ieee.org/author/37086846354" target="_blank">Shih-Wei Liao</a></h3>
+        <div class="member-title">Advisor</div>
+        <div class="member-affiliation">NTU CS Professor</div>
+        <div class="member-contact">liao@csie.ntu.edu.tw</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div id="about-committees" class="committee-container committee-about-section">
+  <h2 class="about-header">About Our Committees</h2>
+
+  <div class="committee-role-card">
+    <h3>Organizing Committee (OC)</h3>
+    <p>The <strong>Organizing Committee (OC)</strong> oversees the overall planning and execution of the conference, including:</p>
+    <ul>
+      <li>Coordinating logistics (venue, schedule, communication)</li>
+      <li>Managing sponsorships and partnerships</li>
+      <li>Publicity and community engagement</li>
+      <li>Platform and registration support</li>
+      <li>On-site event coordination</li>
+    </ul>
+    <p>If you have skills in project coordination, event planning, community building, or media outreach, we'd love to have you on the OC.</p>
+    <div class="role-descriptions">
+      <div class="role-item">
+        <h4>General Chair</h4>
+        <p>The General Chair provides overall leadership for the summit, setting the vision, coordinating all committees, and serving as the primary representative of SQAI to the broader community.</p>
+      </div>
+      <div class="role-item">
+        <h4>General Co-Chair</h4>
+        <p>The General Co-Chair assists the General Chair in overseeing the conference, with a focus on specific areas such as logistics, sponsorship, or programming.</p>
+      </div>
+      <div class="role-item">
+        <h4>Publications Chair</h4>
+        <p>The Publications Chair oversees the preparation, formatting, and dissemination of the conference proceedings and accepted papers.</p>
+      </div>
+      <div class="role-item">
+        <h4>Publicity Chair</h4>
+        <p>The Publicity Chair is responsible for promoting the conference, increasing its visibility, and engaging the broader community through social media, press releases, and outreach.</p>
+      </div>
+      <div class="role-item">
+        <h4>Finance Chair</h4>
+        <p>The Finance Chair oversees the conference budget, financial planning, and expense management, including securing sponsorships and managing registration fees.</p>
+      </div>
+      <div class="role-item">
+        <h4>Logistics Chair</h4>
+        <p>The Logistics Chair coordinates all operational aspects of the conference, including venue arrangements, audiovisual setup, and on-site management.</p>
+      </div>
+      <div class="role-item">
+        <h4>Poster &amp; Demos Chair</h4>
+        <p>The Poster &amp; Demos Chair organizes interactive sessions showcasing cutting-edge research and technology demonstrations.</p>
+      </div>
+      <div class="role-item">
+        <h4>Sponsorship Chair</h4>
+        <p>The Sponsorship Chair develops and implements strategies to secure financial support, creating sponsorship packages and building relationships with potential sponsors.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="committee-role-card">
+    <h3>Technical Program Committee (TPC)</h3>
+    <p>The <strong>Technical Program Committee (TPC)</strong> ensures the academic and technical quality of the conference by reviewing submissions, designing the research track program, and shaping the scientific direction of SQAI.</p>
+    <p>If you're an active researcher, academic, or practitioner in quantum computing, AI, or related fields — we welcome your involvement.</p>
+    <div class="role-descriptions">
+      <div class="role-item">
+        <h4>TPC Chair</h4>
+        <p>The TPC Chair leads the Technical Program Committee, overseeing the entire review process and scientific program development.</p>
+      </div>
+      <div class="role-item">
+        <h4>TPC Member</h4>
+        <p>TPC Members evaluate submitted papers, provide detailed reviews, and contribute to the scientific quality of the conference.</p>
+      </div>
+      <div class="role-item">
+        <h4>Area Chairs</h4>
+        <p>Area Chairs supervise the review process for submissions in specific technical domains.</p>
+        <h5>Our Technical Areas:</h5>
+        <ul class="technical-areas">
+          <li><strong>Quantum Machine Learning (QML)</strong></li>
+          <li><strong>QAI Hardware</strong></li>
+          <li><strong>Quantum Data Science</strong></li>
+          <li><strong>Hybrid Systems</strong></li>
+          <li><strong>Applications</strong></li>
+          <li><strong>Benchmarking/Performance</strong></li>
+          <li><strong>Ethics/Society/Philosophy</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="committee-role-card">
+    <h3>Steering Committee (SC)</h3>
+    <p>The <strong>Steering Committee</strong> guides the long-term direction and strategic development of the SQAI conference series, providing continuity across editions and advising on major decisions.</p>
+  </div>
+
+  <div class="committee-role-card">
+    <h3>Advisory Board</h3>
+    <p>The <strong>Advisory Board</strong> consists of distinguished experts from industry and academia who provide strategic guidance, field expertise, and valuable connections to the conference.</p>
+  </div>
+</div>
+
+<div id="contribute" class="committee-container committee-contribute-section">
+  <h2 class="contribute-header">Join Our Committees</h2>
+  <div class="contribute-content">
+    <div class="contribute-text">
+      <p>We're actively recruiting passionate volunteers for all our committees. By joining SQAI, you'll:</p>
+      <ul>
+        <li>Connect with leading researchers and industry professionals in quantum AI</li>
+        <li>Shape the direction of this emerging and transformative field</li>
+        <li>Gain valuable experience in academic conference organization</li>
+        <li>Be at the forefront of quantum computing and AI integration</li>
+      </ul>
+      <p>Whether your strengths are in technical reviews, event coordination, communications, or strategic planning, there's a meaningful role for you in building SQAI 2026.</p>
+      <p class="contribute-action">Reach out via email: <a href="mailto:info@sqai.org" class="contribute-email">info@sqai.org</a></p>
+    </div>
+    <div class="contribute-highlight">
+      <h3>Open Positions</h3>
+      <div class="open-positions">
+        <div class="position-item">
+          <span class="position-team">TPC</span>
+          <span class="position-role">Area Chairs (Multiple Areas)</span>
+        </div>
+        <div class="position-item">
+          <span class="position-team">OC</span>
+          <span class="position-role">Poster &amp; Demos Chair</span>
+        </div>
+        <div class="position-item">
+          <span class="position-team">OC</span>
+          <span class="position-role">Sponsorship Chair</span>
+        </div>
+        <div class="position-item">
+          <span class="position-team">SC</span>
+          <span class="position-role">Steering Committee Members</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
