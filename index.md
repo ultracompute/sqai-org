@@ -73,7 +73,7 @@ The [Ultracompute Institute](https://sqi.tw) (UCI) is a Washington, D.C. nonprof
   <a href="https://github.com/ultracompute" target="_blank" rel="noopener" class="btn btn-outline-secondary">
     <i class="bi bi-github"></i> GitHub
   </a>
-  <a href="https://discord.gg/sqai" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+  <a href="https://discord.gg/yDch3gkW2T" target="_blank" rel="noopener" class="btn btn-outline-secondary">
     <i class="bi bi-discord"></i> Discord
   </a>
 </div>
