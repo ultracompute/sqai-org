@@ -4,6 +4,12 @@
 
     <a class="navbar-brand order-0" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
+    {% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
+      <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" class="btn btn-sm btn-outline-light ms-2" style="white-space:nowrap;">EN</a>
+    {% else %}
+      <a href="{{ site.baseurl }}/zh{{ page.url }}" class="btn btn-sm btn-outline-light ms-2" style="white-space:nowrap;">繁中</a>
+    {% endif %}
+
     <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ site.data.lang[site.conference.lang].navigation.toggle | default: 'Toggle navigation menu' }}">
       <span class="navbar-toggler-icon" aria-hidden="true"></span>
     </button>
@@ -67,13 +73,6 @@
             </li>
           {%- endif -%}
         {%- endfor %}
-        <li class="nav-item ms-md-2 mt-2 mt-md-0">
-          {% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
-            <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" class="btn btn-sm btn-outline-light">EN</a>
-          {% else %}
-            <a href="{{ site.baseurl }}/zh{{ page.url }}" class="btn btn-sm btn-outline-light">繁中</a>
-          {% endif %}
-        </li>
       </ul>
     </div>
 
