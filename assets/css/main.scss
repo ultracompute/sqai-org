@@ -12,6 +12,22 @@
 
 .navbar {
   background: linear-gradient(135deg, var(--sqai-dark) 0%, var(--sqai-mid) 100%) !important;
+  border-bottom: 1px solid rgba(129, 140, 248, 0.2);
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #fff !important;
+}
+
+.navbar .nav-link.active {
+  color: #fff !important;
+  font-weight: 600;
 }
 
 .btn-primary {

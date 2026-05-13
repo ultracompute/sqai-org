@@ -4,7 +4,7 @@
   {% assign is_zh = true %}
 {% endif %}
 
-<nav class="navbar navbar-expand-{{ breakpoint }} d-pwa-none bg-body-tertiary mb-3" aria-label="{{ site.data.lang[site.conference.lang].navigation.main | default: 'Main navigation' }}">
+<nav class="navbar navbar-dark navbar-expand-{{ breakpoint }}" style="background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);" aria-label="{{ site.data.lang[site.conference.lang].navigation.main | default: 'Main navigation' }}">
   <div class="container">
 
     {% if is_zh %}
