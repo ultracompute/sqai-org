@@ -64,7 +64,7 @@ We plan to potentially release a **Call for Papers for SQAI 2027**, provisionall
   <div style="flex: 1; min-width: 220px;">
     <a href="https://ntuqc.com" target="_blank" rel="noopener"><img src="/assets/images/ntuqc-logo.png" alt="NTU Quantum Club" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
     <p>The <a href="https://ntuqc.com">NTU Quantum Club</a> (臺大量子應用社) is a student organization at National Taiwan University dedicated to promoting quantum science and technology on campus. NTUQC fosters an interdisciplinary, cross-generational platform connecting students with industry leaders, professors, and researchers to advance together into the quantum era.</p>
-    <p style="font-size:0.85rem; color:#64748b;"><em>Note: NTUQC was not registered for semester 114-2, but we plan to complete registration for semester 115-1. If you are interested in joining the next staff team, please <a href="mailto:info@sqai.org" style="color:#818cf8;">contact us</a>!</em></p>
+    <p style="font-size:0.85rem; color:#64748b;"><em>Note: NTUQC was not registered for semester 114-2, but we plan to complete registration for semester 115-1. If you are interested in joining the next staff team, please <a href="mailto:ntuquantum@gmail.com" style="color:#818cf8;">contact us</a>!</em></p>
   </div>
 </div>
 <!-- NTU IBM Q — second row -->

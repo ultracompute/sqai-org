@@ -65,7 +65,7 @@ SQAI 2026 匯集 3 至 5 位量子 AI 前沿的世界級受邀演講者。
   <div style="flex: 1; min-width: 220px;">
     <a href="https://ntuqc.com" target="_blank" rel="noopener"><img src="/assets/images/ntuqc-logo.png" alt="臺大量子應用社" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
     <p><a href="https://ntuqc.com">臺大量子應用社</a>（NTU Quantum Club）是國立臺灣大學的學生社團，致力於推廣量子科學與技術在台大校園的普及化，讓學生了解量子物理、量子計算等前沿領域。NTUQC 打造跨領域、跨世代的學習與交流平台，讓學生得以結識志同道合的夥伴、業界先驅、教授與研究者，共同邁向量子時代。</p>
-    <p style="font-size:0.85rem; color:#64748b;"><em>備注：臺大量子應用社於 114-2 學期尚未完成登記，計劃於 115-1 學期完成登記。如有意加入下屆工作團隊，歡迎<a href="mailto:info@sqai.org" style="color:#818cf8;">聯絡我們</a>！</em></p>
+    <p style="font-size:0.85rem; color:#64748b;"><em>備注：臺大量子應用社於 114-2 學期尚未完成登記，計劃於 115-1 學期完成登記。如有意加入下屆工作團隊，歡迎<a href="mailto:ntuquantum@gmail.com" style="color:#818cf8;">聯絡我們</a>！</em></p>
   </div>
 </div>
 <!-- 臺大 IBM Q — 第二排 -->
