@@ -8,9 +8,13 @@
   <div class="container">
 
     {% if is_zh %}
-      <a class="navbar-brand order-0" href="{{ site.baseurl }}/zh/">{{ site.title }}</a>
+      <a class="navbar-brand order-0" href="{{ site.baseurl }}/zh/">
+        <img src="{{ site.baseurl }}/assets/images/sqai-logo.png" alt="SQAI" style="height:44px; width:auto; vertical-align:middle; margin-right:10px;" />{{ site.title }}
+      </a>
     {% else %}
-      <a class="navbar-brand order-0" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <a class="navbar-brand order-0" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/assets/images/sqai-logo.png" alt="SQAI" style="height:44px; width:auto; vertical-align:middle; margin-right:10px;" />{{ site.title }}
+      </a>
     {% endif %}
 
     <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ site.data.lang[site.conference.lang].navigation.toggle | default: 'Toggle navigation menu' }}">
