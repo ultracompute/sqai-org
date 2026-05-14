@@ -59,7 +59,7 @@ SQAI 2026 匯集 3 至 5 位量子 AI 前沿的世界級受邀演講者。
     <p><a href="https://sqi.tw">極致計算研究所</a>（UCI）是一家位於美國華盛頓特區的非營利組織，致力於推動量子軟體研究，並努力打造全球首台用於人工極致智慧（AUI）的極致計算機。UCI 的創辦人 Austin Hua 於 2021 年創立了 SQAI，使其成為全球首個專注於量子 AI 的學術會議。<em style="font-size:0.9em; color:#64748b;">（UCI 對量子計算的長遠未來抱持高度樂觀的態度——此觀點不一定代表所有參與本會議的演講者、贊助商或合作夥伴的立場。）</em></p>
   </div>
   <div style="flex: 1; min-width: 220px;">
-    <img src="/assets/images/uli_nobg.png" alt="極致智慧實驗室" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" />
+    <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener"><img src="/assets/images/uli_nobg.png" alt="極致智慧實驗室" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
     <p><strong>極致智慧實驗室（UIL）</strong>是一家致力於推進量子原生智慧系統的研究機構。UIL 的使命是開發 Q-I/O（QIO）——一種新世代量子軟體架構，旨在協助開創人工極致智慧（AUI）的時代。UIL 與極致計算研究所攜手合作，共同推進更廣泛的極致計算生態系統，包括極致計算機（UC-1）的研發工作。<em style="font-size:0.9em; color:#64748b;">（UIL 目前仍處於發展初期——許多構想將隨研究進展持續演進。）</em></p>
   </div>
   <div style="flex: 1; min-width: 220px;">

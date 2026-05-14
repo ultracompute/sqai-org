@@ -58,7 +58,7 @@ We plan to potentially release a **Call for Papers for SQAI 2027**, provisionall
     <p>The <a href="https://sqi.tw">Ultracompute Institute</a> (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and striving to build the world's first ultracomputer for Artificial Ultraintelligence (AUI). UCI's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI. <em style="font-size:0.9em; color:#64748b;">(UCI is deeply optimistic about the long-term future of quantum computing — views that may not reflect those of all speakers, sponsors, or collaborators involved with this conference.)</em></p>
   </div>
   <div style="flex: 1; min-width: 220px;">
-    <img src="/assets/images/uli_nobg.png" alt="Ultraintelligence Labs" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" />
+    <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener"><img src="/assets/images/uli_nobg.png" alt="Ultraintelligence Labs" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
     <p><strong>Ultraintelligence Labs (UIL)</strong> is a research organization advancing quantum-native intelligence systems. UIL's mission is to develop Q-I/O (QIO), a next-generation quantum software architecture designed to help usher in the era of Artificial Ultraintelligence (AUI). UIL works alongside the Ultracompute Institute on the broader ultracomputing ecosystem, including the development of the Ultracomputer (UC-1). <em style="font-size:0.9em; color:#64748b;">(UIL is at the very early stages of this journey — many ideas will evolve as research progresses.)</em></p>
   </div>
   <div style="flex: 1; min-width: 220px;">
