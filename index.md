@@ -51,21 +51,35 @@ We plan to potentially release a **Call for Papers for SQAI 2027**, provisionall
 
 ## Hosted by
 
-<div class="d-flex flex-wrap gap-5 align-items-start mt-3 mb-4">
-  <div style="max-width: 340px;">
+<!-- UCI / UIL / NTUQC — first row -->
+<div class="d-flex flex-wrap justify-content-between align-items-start mt-3 mb-4" style="gap: 1.5rem;">
+  <div style="flex: 1; min-width: 220px;">
     <a href="https://sqi.tw" target="_blank" rel="noopener"><img src="/assets/images/uci_sqai.png" alt="Ultracompute Institute" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
     <p>The <a href="https://sqi.tw">Ultracompute Institute</a> (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and striving to build the world's first ultracomputer for Artificial Ultraintelligence (AUI). UCI's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI. <em style="font-size:0.9em; color:#64748b;">(UCI is deeply optimistic about the long-term future of quantum computing — views that may not reflect those of all speakers, sponsors, or collaborators involved with this conference.)</em></p>
   </div>
-  <div style="max-width: 340px;">
+  <div style="flex: 1; min-width: 220px;">
+    <img src="/assets/images/uli_nobg.png" alt="Ultraintelligence Labs" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" />
+    <p><strong>Ultraintelligence Labs (UIL)</strong> is a research organization advancing quantum-native intelligence systems. UIL's mission is to develop Q-I/O (QIO), a next-generation quantum software architecture designed to help usher in the era of Artificial Ultraintelligence (AUI). UIL works alongside the Ultracompute Institute on the broader ultracomputing ecosystem, including the development of the Ultracomputer (UC-1). <em style="font-size:0.9em; color:#64748b;">(UIL is at the very early stages of this journey — many ideas will evolve as research progresses.)</em></p>
+  </div>
+  <div style="flex: 1; min-width: 220px;">
     <a href="https://ntuqc.com" target="_blank" rel="noopener"><img src="/assets/images/ntuqc-logo.png" alt="NTU Quantum Club" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
     <p>The <a href="https://ntuqc.com">NTU Quantum Club</a> (臺大量子應用社) is a student organization at National Taiwan University dedicated to promoting quantum science and technology on campus. NTUQC fosters an interdisciplinary, cross-generational platform connecting students with industry leaders, professors, and researchers to advance together into the quantum era.</p>
     <p style="font-size:0.85rem; color:#64748b;"><em>Note: NTUQC was not registered for semester 114-2, but we plan to complete registration for semester 115-1. If you are interested in joining the next staff team, please <a href="mailto:info@sqai.org" style="color:#818cf8;">contact us</a>!</em></p>
+  </div>
+</div>
+<!-- NTU IBM Q — second row -->
+<div class="d-flex justify-content-center mb-4">
+  <div style="max-width: 480px;">
+    <a href="https://quantum.ntu.edu.tw/?page_id=275" target="_blank" rel="noopener"><img src="/assets/images/ntu-ibm-q-logo.png" alt="NTU IBM Q" style="height: 70px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
+    <p>The <a href="https://quantum.ntu.edu.tw/?page_id=275">IBM Quantum Hub at National Taiwan University</a> (NTU IBM Q) is a research partnership between NTU and IBM, established in 2019 with support from Taiwan's National Science and Technology Council. The hub provides access to cutting-edge IBM quantum systems, hosts the annual <a href="https://quantum.ntu.edu.tw/?p=10004" target="_blank" rel="noopener">Qiskit Hackathon Taiwan</a>, and conducts research spanning quantum software, algorithms, and applications. It serves as Taiwan's primary bridge between academic quantum research and industrial transformation in the ICT sector.</p>
   </div>
 </div>
 
 ---
 
 ## Connect with Us
+
+<p style="color:#94a3b8; margin-bottom:1rem;">Follow Ultracompute on social media for the latest SQAI updates:</p>
 
 <div class="d-flex flex-wrap gap-3 mt-2">
   <a href="https://www.linkedin.com/company/ultracomputing" target="_blank" rel="noopener" class="btn btn-outline-secondary">
