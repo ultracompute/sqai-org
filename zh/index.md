@@ -60,7 +60,7 @@ SQAI 2026 匯集 3 至 5 位量子 AI 前沿的世界級受邀演講者。
   </div>
   <div style="flex: 1; min-width: 220px;">
     <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener"><img src="/assets/images/uli_nobg.png" alt="極致智慧實驗室" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p><strong>極致智慧實驗室（UIL）</strong>是一家致力於推進量子原生智慧系統的研究機構。UIL 的使命是開發 Q-I/O（QIO）——一種新世代量子軟體架構，旨在協助開創人工極致智慧（AUI）的時代。UIL 與極致計算研究所攜手合作，共同推進更廣泛的極致計算生態系統，包括極致計算機（UC-1）的研發工作。<em style="font-size:0.9em; color:#64748b;">（UIL 目前仍處於發展初期——許多構想將隨研究進展持續演進。）</em></p>
+    <p><a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener">極致智慧實驗室（UIL）</a>是一家致力於推進量子原生智慧系統的研究機構。UIL 的使命是開發 Q-I/O（QIO）——一種新世代量子軟體架構，旨在協助開創人工極致智慧（AUI）的時代。UIL 與極致計算研究所攜手合作，共同推進更廣泛的極致計算生態系統，包括極致計算機（UC-1）的研發工作。<em style="font-size:0.9em; color:#64748b;">（UIL 目前仍處於發展初期——許多構想將隨研究進展持續演進。）</em></p>
   </div>
   <div style="flex: 1; min-width: 220px;">
     <a href="https://ntuqc.com" target="_blank" rel="noopener"><img src="/assets/images/ntuqc-logo.png" alt="臺大量子應用社" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
