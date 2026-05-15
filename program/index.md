@@ -191,7 +191,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Dept. of Physics<br>National Taiwan University</div>
     <div class="talk-title">Quantum Open Systems, Noise, and the Road to Practical Quantum Devices</div>
     <div class="talk-desc">Quantum decoherence, noise characterization, and error mitigation strategies in realistic quantum hardware — and their implications for quantum AI.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:40 – 10:40 AM &nbsp;·&nbsp; 60 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:40 – 10:30 AM &nbsp;·&nbsp; 50 min</div>
   </div>
 
   <div class="speaker-card">
@@ -202,7 +202,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Dept. of Computer Science &amp; Information Engineering<br>National Taiwan University</div>
     <div class="talk-title">Next-Generation High-Performance Systems for AI and Quantum Workloads</div>
     <div class="talk-desc">Architectures and system software for scalable, energy-efficient HPC platforms that support AI, data analytics, and emerging quantum-classical workloads.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>10:40 – 11:20 AM &nbsp;·&nbsp; 40 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>10:30 – 11:00 AM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -210,10 +210,10 @@ title: Program
     <div class="speaker-name">
       <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener">Mark (Hao-Yuan) Chen</a>
     </div>
-    <div class="speaker-affiliation">AI Researcher<br>Mindify AI Founder</div>
-    <div class="talk-title">Building Practical AI Systems in the Age of Frontier Intelligence</div>
-    <div class="talk-desc">From model training to real-world deployment — engineering scalable, reliable, and intelligent AI systems for the next wave of applications.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>11:20 AM – 12:00 PM &nbsp;·&nbsp; 40 min</div>
+    <div class="speaker-affiliation">Mindify AI Founder<br>Computer Science<br>University of London</div>
+    <div class="talk-title">Toward Efficient Reinforcement Learning with Quantum Neural Network</div>
+    <div class="talk-desc">An exploration of how quantum neural networks can be leveraged to make reinforcement learning more efficient.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>11:00 – 11:30 AM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -224,27 +224,47 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Dept. of Computer Science &amp; Information Engineering<br>National Taiwan University</div>
     <div class="talk-title">Compiler and Runtime Architectures for Scalable Quantum-AI Computing</div>
     <div class="talk-desc">Compiler optimizations, parallel runtimes, and system software that bridge classical high-performance computing and quantum-AI applications.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>12:00 – 1:00 PM &nbsp;·&nbsp; 60 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>11:30 AM – 12:00 PM &nbsp;·&nbsp; 30 min</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="Prof. Chi-Chuan Hwang" />
+    <div class="speaker-name">Prof. Chi-Chuan Hwang</div>
+    <div class="speaker-affiliation">Professor<br>Dept. of Engineering Science<br>National Cheng Kung University (NCKU)</div>
+    <div class="talk-title">Construction of Maximally Entangled Basis Vectors for N Qubits</div>
+    <div class="talk-desc">A mathematical framework for constructing basis vectors that achieve maximum entanglement across N-qubit quantum systems.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>12:00 – 12:30 PM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
     <div style="width:90px; height:90px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
       <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
     </div>
-    <div class="speaker-name">Student Speaker (TBD)</div>
-    <div class="speaker-affiliation">Graduate Researcher<br>Dept. of Physics<br>National Taiwan University</div>
+    <div class="speaker-name">Speaker TBD</div>
+    <div class="speaker-affiliation">To be announced</div>
     <div class="talk-title">Talk Title TBD</div>
-    <div class="talk-desc">A research presentation by one of Prof. Goan's graduate students.</div>
+    <div class="talk-desc">To be announced.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>12:30 – 1:00 PM &nbsp;·&nbsp; 30 min</div>
+  </div>
+
+  <div class="speaker-card">
+    <div style="width:90px; height:90px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
+      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
+    </div>
+    <div class="speaker-name">Speaker TBD</div>
+    <div class="speaker-affiliation">To be announced</div>
+    <div class="talk-title">Talk Title TBD</div>
+    <div class="talk-desc">To be announced.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>1:00 – 1:30 PM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/zhaoxian.jpg" alt="Zhao Xian" />
-    <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">Zhao Xian</a></div>
+    <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">Chao Hsien</a></div>
     <div class="speaker-affiliation">Founding President<br>NTU Quantum Club (NTUQC)<br>National Taiwan University</div>
     <div class="talk-title">Introduction to NTUQC</div>
     <div class="talk-desc">An introduction to the NTU Quantum Club — its mission, community, and vision for the next chapter, presented alongside Austin Hua.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:40 – 2:00 PM &nbsp;·&nbsp; 20 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>1:30 – 2:00 PM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -255,7 +275,7 @@ title: Program
     <div class="speaker-affiliation">SQAI Founder &amp; NTUQC Co-Founder<br>National Taiwan University</div>
     <div class="talk-title">Opening Remarks &amp; Introduction to NTUQC</div>
     <div class="talk-desc">Welcome and introduction to SQAI 2026, followed by a co-presentation introducing the NTU Quantum Club.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:40 AM &nbsp;·&nbsp; 1:40 – 2:00 PM</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:40 AM &nbsp;·&nbsp; 1:30 – 2:00 PM</div>
   </div>
 
 </div>
@@ -282,65 +302,73 @@ title: Program
       <td class="time-col">9:30 – 9:40 AM</td>
       <td class="title-col">
         Opening Remarks
-        <span class="subtitle">Austin Hua (Event Host, Ultracompute Institute)</span>
+        <span class="subtitle">Austin Hua (SQAI Founder, Ultracompute Institute)</span>
       </td>
       <td class="dur-col">10 min</td>
     </tr>
     <tr>
-      <td class="time-col">9:40 – 10:40 AM</td>
+      <td class="time-col">9:40 – 10:30 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Hsi-Sheng Goan</a>
         <span class="subtitle">Quantum Open Systems, Noise, and the Road to Practical Quantum Devices</span>
       </td>
-      <td class="dur-col">60 min</td>
+      <td class="dur-col">50 min</td>
     </tr>
     <tr>
-      <td class="time-col">10:40 – 11:20 AM</td>
+      <td class="time-col">10:30 – 11:00 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=VbfABcUAAAAJ&hl=zh-TW" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Hao Hung</a>
         <span class="subtitle">Next-Generation High-Performance Systems for AI and Quantum Workloads</span>
       </td>
-      <td class="dur-col">40 min</td>
+      <td class="dur-col">30 min</td>
     </tr>
     <tr>
-      <td class="time-col">11:20 AM – 12:00 PM</td>
+      <td class="time-col">11:00 – 11:30 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">Mark (Hao-Yuan) Chen</a>
-        <span class="subtitle">Building Practical AI Systems in the Age of Frontier Intelligence</span>
-      </td>
-      <td class="dur-col">40 min</td>
-    </tr>
-    <tr>
-      <td class="time-col">12:00 – 1:00 PM</td>
-      <td class="title-col">
-        <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Wei Liao</a>
-        <span class="subtitle">Compiler and Runtime Architectures for Scalable Quantum-AI Computing</span>
-      </td>
-      <td class="dur-col">60 min</td>
-    </tr>
-    <tr>
-      <td class="time-col">1:00 – 1:30 PM</td>
-      <td class="title-col">
-        Student Speaker (TBD)
-        <span class="subtitle">Graduate Researcher, Dept. of Physics, National Taiwan University</span>
+        <span class="subtitle">Toward Efficient Reinforcement Learning with Quantum Neural Network</span>
       </td>
       <td class="dur-col">30 min</td>
     </tr>
     <tr>
-      <td class="time-col">1:30 – 1:40 PM</td>
+      <td class="time-col">11:30 AM – 12:00 PM</td>
       <td class="title-col">
-        Closing Remarks
-        <span class="subtitle">Prof. Hsi-Sheng Goan</span>
+        <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Wei Liao</a>
+        <span class="subtitle">Compiler and Runtime Architectures for Scalable Quantum-AI Computing</span>
       </td>
-      <td class="dur-col">10 min</td>
+      <td class="dur-col">30 min</td>
+    </tr>
+    <tr>
+      <td class="time-col">12:00 – 12:30 PM</td>
+      <td class="title-col">
+        Prof. Chi-Chuan Hwang
+        <span class="subtitle">Construction of Maximally Entangled Basis Vectors for N Qubits</span>
+      </td>
+      <td class="dur-col">30 min</td>
+    </tr>
+    <tr>
+      <td class="time-col">12:30 – 1:00 PM</td>
+      <td class="title-col">
+        Speaker TBD
+        <span class="subtitle">To be announced</span>
+      </td>
+      <td class="dur-col">30 min</td>
+    </tr>
+    <tr>
+      <td class="time-col">1:00 – 1:30 PM</td>
+      <td class="title-col">
+        Speaker TBD
+        <span class="subtitle">To be announced</span>
+      </td>
+      <td class="dur-col">30 min</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">1:40 – 2:00 PM</td>
+      <td class="time-col">1:30 – 2:00 PM</td>
       <td class="title-col">
         <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />Introduction to NTUQC
-        <span class="subtitle">Austin Hua &amp; Zhao Xian 趙嫺 (Founding President, NTUQC)</span>
+        <span class="subtitle">Chao Hsien (Founding President, NTUQC) &amp; Austin Hua</span>
       </td>
-      <td class="dur-col">20 min</td>
+      <td class="dur-col">30 min</td>
     </tr>
     <tr class="row-break">
       <td class="time-col">2:00 – 3:00 PM</td>
