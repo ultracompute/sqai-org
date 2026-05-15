@@ -143,9 +143,17 @@ title: Program
 }
 </style>
 
-<div style="background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.4); border-radius: 8px; padding: 0.9rem 1.25rem; margin-bottom: 1.75rem; display: flex; gap: 0.75rem; align-items: flex-start;">
+<div style="background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.4); border-radius: 8px; padding: 0.9rem 1.25rem; margin-bottom: 1rem; display: flex; gap: 0.75rem; align-items: flex-start;">
   <i class="bi bi-exclamation-triangle-fill" style="color:#fbbf24; font-size:1.1rem; flex-shrink:0; margin-top:0.1rem;"></i>
   <span style="color:#fde68a; font-size:0.9rem;"><strong>Provisional information.</strong> Event details shown on this page — including speakers, schedule, and format — are subject to change. We are still confirming final arrangements.</span>
+</div>
+
+<div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin-bottom:1.75rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+  <div>
+    <strong style="color:#2dd4bf;">Register for SQAI 2026</strong>
+    <span style="color:#94a3b8; font-size:0.9rem; display:block;">Free online access. In-person seats are limited.</span>
+  </div>
+  <a href="https://forms.gle/VDxKKkNtufDJLS7D7" target="_blank" rel="noopener" style="background:#0d9488; color:#fff; border-radius:6px; font-weight:600; padding:0.5rem 1.5rem; text-decoration:none; white-space:nowrap;">Register Now →</a>
 </div>
 
 <div class="poster-wrap">
@@ -380,3 +388,12 @@ title: Program
     </tr>
   </tbody>
 </table>
+
+---
+
+<p style="text-align:center; color:#94a3b8; font-size:0.9rem; margin-top:1.5rem;">Have questions or want to connect with the community? Join our Discord server.</p>
+<div style="text-align:center; margin-bottom:1rem;">
+  <a href="https://discord.gg/yDch3gkW2T" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+    <i class="bi bi-discord"></i> Join our Discord
+  </a>
+</div>

@@ -66,6 +66,13 @@
 
             {%- endif -%}
 
+          {%- elsif link.btn -%}
+            <li class="nav-item ms-2 d-flex align-items-center">
+              <a href="{{ link.absolute_url }}" class="navbar-register-btn" target="_blank" rel="noopener">
+                {%- if is_zh and link.name_zh -%}{{ link.name_zh }}{%- else -%}{{ link.name }}{%- endif -%}
+              </a>
+            </li>
+
           {%- else %}
             <li class="nav-item">
               {%- if link.relative_url -%}
@@ -89,12 +96,13 @@
               {%- endif -%}
             </li>
           {%- endif -%}
+
         {%- endfor %}
       </ul>
     </div>
 
     {%- if site.conference.navigation.logo %}
-      <div class="navbar-brand navbar-logo order-3 ms-1 me-0 text-end overflow-hidden">
+      <div class="navbar-brand navbar-logo order-3 ms-2 me-0 text-end overflow-hidden">
         <a href="{{ site.conference.navigation.logo.url }}">
           {%- if site.conference.navigation.logo.img %}
             {%- if site.conference.navigation.logo.img_dark %}

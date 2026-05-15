@@ -65,6 +65,10 @@ conference:
       - name: Past Events
         name_zh: 歷屆活動
         relative_url: /past/
+      - name: Register
+        name_zh: 立即報名
+        absolute_url: "https://forms.gle/VDxKKkNtufDJLS7D7"
+        btn: true
     logo:
       name: Ultracompute Institute
       url: "https://sqi.tw"
@@ -78,9 +82,9 @@ conference:
         name: "Ultracompute Institute"
         url: "https://sqi.tw"
       has_participation_offer:
-        url: "https://sqai.org/register"
+        url: "https://forms.gle/VDxKKkNtufDJLS7D7"
       tickets:
-        url: "https://sqai.org/register"
+        url: "https://forms.gle/VDxKKkNtufDJLS7D7"
         availability: "in_stock"
 
   talks:

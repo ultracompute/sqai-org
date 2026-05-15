@@ -10,7 +10,7 @@ links:
   - name: 查看議程
     relative_url: /zh/program/
   - name: 立即報名
-    absolute_url: "https://sqai.org/register"
+    absolute_url: "https://forms.gle/VDxKKkNtufDJLS7D7"
 ---
 
 ## 關於 SQAI 2026
@@ -33,6 +33,14 @@ SQAI 2026 為本峰會的**第三屆**。
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>主辦單位</strong></td><td style="padding: 0.3rem 0;"><a href="https://sqi.tw">極致計算研究所（UCI）</a></td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>聯絡方式</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>
 </table>
+
+<div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin:1.5rem 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+  <div>
+    <strong style="color:#2dd4bf;">立即報名參加 SQAI 2026</strong>
+    <span style="color:#94a3b8; font-size:0.9rem; display:block;">線上參與免費。現場名額有限。</span>
+  </div>
+  <a href="https://forms.gle/VDxKKkNtufDJLS7D7" target="_blank" rel="noopener" style="background:#0d9488; color:#fff; border-radius:6px; font-weight:600; padding:0.5rem 1.5rem; text-decoration:none; white-space:nowrap;">立即報名 →</a>
+</div>
 
 ---
 
