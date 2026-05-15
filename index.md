@@ -27,11 +27,15 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Date</strong></td><td style="padding: 0.3rem 0;">August 10, 2026</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Time</strong></td><td style="padding: 0.3rem 0;">9:30 – 13:30 (Taiwan Time, UTC+8)</td></tr>
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Location</strong></td><td style="padding: 0.3rem 0;">NTU Department of Physics or National Center for Theoretical Sciences (NTU) (confirming)</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Location</strong></td><td style="padding: 0.3rem 0;">NCTS Physics Lecture Hall, 4F, Chee-Chun Leung Cosmology Hall, NTU</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Format</strong></td><td style="padding: 0.3rem 0;">Hybrid — online (free) + in-person</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Organized&nbsp;by</strong></td><td style="padding: 0.3rem 0;"><a href="https://sqi.tw">Ultracompute Institute (UCI)</a></td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Contact</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>
 </table>
+
+<div style="margin: 1rem 0 1.5rem 0; border-radius: 10px; overflow: hidden;">
+  <iframe src="https://www.google.com/maps?q=次震宇宙館,國立臺灣大學&output=embed" width="100%" height="260" style="border:0; display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Chee-Chun Leung Cosmology Hall, NTU"></iframe>
+</div>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin:1.5rem 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
   <div>
@@ -61,28 +65,41 @@ We plan to potentially release a **Call for Papers for SQAI 2027**, provisionall
 
 ## Hosted by
 
-<!-- UCI / UIL / NTUQC — first row -->
-<div class="d-flex flex-wrap justify-content-between align-items-start mt-3 mb-4" style="gap: 1.5rem;">
-  <div style="flex: 1; min-width: 220px;">
-    <a href="https://sqi.tw" target="_blank" rel="noopener"><img src="/assets/images/uci_sqai.png" alt="Ultracompute Institute" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p>The <a href="https://sqi.tw">Ultracompute Institute</a> (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and striving to build the world's first ultracomputer for Artificial Ultraintelligence (AUI). UCI's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI. <em style="font-size:0.9em; color:#64748b;">(UCI is deeply optimistic about the long-term future of quantum computing — views that may not reflect those of all speakers, sponsors, or collaborators involved with this conference.)</em></p>
-  </div>
-  <div style="flex: 1; min-width: 220px;">
-    <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener"><img src="/assets/images/uli_nobg.png" alt="Ultraintelligence Labs" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p><a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener">Ultraintelligence Labs (UIL)</a> is a research branch of the Ultracompute Institute advancing quantum-native intelligence systems. UIL's mission is to develop Q-I/O (QIO), a next-generation quantum software architecture designed to help usher in the era of Artificial Ultraintelligence (AUI). UIL works alongside the Ultracompute Institute on the broader ultracomputing ecosystem, including the development of the Ultracomputer (UC-1). <em style="font-size:0.9em; color:#64748b;">(UIL is at the very early stages of this journey — many ideas will evolve as research progresses.)</em></p>
-  </div>
-  <div style="flex: 1; min-width: 220px;">
-    <a href="https://ntuqc.com" target="_blank" rel="noopener"><img src="/assets/images/ntuqc-logo.png" alt="NTU Quantum Club" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p>The <a href="https://ntuqc.com">NTU Quantum Club</a> (臺大量子應用社) is a student organization at National Taiwan University dedicated to promoting quantum science and technology on campus. NTUQC fosters an interdisciplinary, cross-generational platform connecting students with industry leaders, professors, and researchers to advance together into the quantum era.</p>
-    <p style="font-size:0.85rem; color:#64748b;"><em>Note: NTUQC was not registered for semester 114-2, but we plan to complete registration for semester 115-1. If you are interested in joining the next staff team, please <a href="mailto:ntuquantum@gmail.com" style="color:#818cf8;">contact us</a>!</em></p>
+<div class="mt-3">
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://sqi.tw" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/uci_sqai.png" alt="Ultracompute Institute" style="height: 72px; width: auto;" /></a>
+  <p class="mb-0">The <a href="https://sqi.tw">Ultracompute Institute</a> (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and striving to build the world's first ultracomputer for Artificial Ultraintelligence (AUI). UCI's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI. <em style="font-size:0.9em; color:#64748b;">(UCI is deeply optimistic about the long-term future of quantum computing — views that may not reflect those of all speakers, sponsors, or collaborators involved with this conference.)</em></p>
+</div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/uli_nobg.png" alt="Ultraintelligence Labs" style="height: 60px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener">Ultraintelligence Labs (UIL)</a> is a research branch of the Ultracompute Institute advancing quantum-native intelligence systems. UIL's mission is to develop Q-I/O (QIO), a next-generation quantum software architecture designed to help usher in the era of Artificial Ultraintelligence (AUI). UIL works alongside the Ultracompute Institute on the broader ultracomputing ecosystem, including the development of the Ultracomputer (UC-1). <em style="font-size:0.9em; color:#64748b;">(UIL is at the very early stages of this journey — many ideas will evolve as research progresses.)</em></p>
+</div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://ntuqc.com" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/ntuqc-logo.png" alt="NTU Quantum Club" style="height: 60px; width: auto;" /></a>
+  <div class="mb-0">
+    <p class="mb-1">The <a href="https://ntuqc.com">NTU Quantum Club</a> (臺大量子應用社) is a student organization at National Taiwan University dedicated to promoting quantum science and technology on campus. NTUQC fosters an interdisciplinary, cross-generational platform connecting students with industry leaders, professors, and researchers to advance together into the quantum era.</p>
+    <p class="mb-0" style="font-size:0.85rem; color:#64748b;"><em>Note: NTUQC was not registered for semester 114-2, but we plan to complete registration for semester 115-1. If you are interested in joining the next staff team, please <a href="mailto:ntuquantum@gmail.com" style="color:#818cf8;">contact us</a>!</em></p>
   </div>
 </div>
-<!-- NTU IBM Q — second row -->
-<div class="d-flex justify-content-center mb-4">
-  <div style="max-width: 480px;">
-    <a href="https://quantum.ntu.edu.tw/?page_id=275" target="_blank" rel="noopener"><img src="/assets/images/ntu-ibm-q-logo.png" alt="NTU IBM Q" style="height: 70px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p>The <a href="https://quantum.ntu.edu.tw/?page_id=275">IBM Quantum Hub at National Taiwan University</a> (NTU IBM Q) is a research partnership between NTU and IBM, established in 2019 with support from Taiwan's National Science and Technology Council. The hub provides access to cutting-edge IBM quantum systems, hosts the annual <a href="https://quantum.ntu.edu.tw/?p=10004" target="_blank" rel="noopener">Qiskit Hackathon Taiwan</a>, and conducts research spanning quantum software, algorithms, and applications. It serves as Taiwan's primary bridge between academic quantum research and industrial transformation in the ICT sector.</p>
-  </div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://quantum.ntu.edu.tw/?page_id=275" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/ntu_sqai.png" alt="NTU IBM Q" style="height: 90px; width: auto;" /></a>
+  <p class="mb-0">The <a href="https://quantum.ntu.edu.tw/?page_id=275">IBM Quantum Hub at National Taiwan University</a> (NTU IBM Q) is a research partnership between NTU and IBM, established in 2019 with support from Taiwan's National Science and Technology Council. The hub provides access to cutting-edge IBM quantum systems, hosts the annual <a href="https://quantum.ntu.edu.tw/?p=10004" target="_blank" rel="noopener">Qiskit Hackathon Taiwan</a>, and conducts research spanning quantum software, algorithms, and applications. It serves as Taiwan's primary bridge between academic quantum research and industrial transformation in the ICT sector.</p>
+</div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://cqse.ntu.edu.tw/" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/ntu_sqai.png" alt="Center for Quantum Science and Engineering, NTU" style="height: 90px; width: auto;" /></a>
+  <p class="mb-0">The <a href="https://cqse.ntu.edu.tw/">Center for Quantum Science and Engineering (CQSE)</a> at National Taiwan University is an interdisciplinary research hub bridging quantum physics and engineering. CQSE unites faculty and researchers across departments to advance quantum computing hardware, quantum communication, and quantum sensing technologies. Through close collaboration with industry and international partners, CQSE plays a central role in driving Taiwan's quantum technology ecosystem forward.</p>
+</div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://phys.ncts.ntu.edu.tw/" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/ncts_.png" alt="NCTS Physics Division" style="height: 120px; width: auto;" /></a>
+  <p class="mb-0">The <a href="https://phys.ncts.ntu.edu.tw/">National Center for Theoretical Sciences (NCTS), Physics Division</a>, hosted at National Taiwan University, is Taiwan's leading center for theoretical physics research. NCTS supports cutting-edge work across quantum information, high-energy physics, and condensed matter physics, and cultivates collaboration between researchers in Taiwan and the international scientific community.</p>
+</div>
+
 </div>
 
 ---

@@ -177,7 +177,7 @@ title: 議程
   </div>
   <div class="highlight-item">
     <i class="bi bi-globe"></i>
-    <span>現場出席 &amp; 線上參與</span>
+    <span>現場出席 &amp; 線上參與<br>臺大次震宇宙館</span>
   </div>
   <div class="highlight-item">
     <i class="bi bi-people"></i>

@@ -28,11 +28,15 @@ SQAI 2026 為本峰會的**第三屆**。
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>日期</strong></td><td style="padding: 0.3rem 0;">2026 年 8 月 10 日</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>時間</strong></td><td style="padding: 0.3rem 0;">9:30 – 13:30（台灣時間，UTC+8）</td></tr>
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>地點</strong></td><td style="padding: 0.3rem 0;">臺大物理學系 或 國家理論科學研究中心（臺大）（確認中）</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>地點</strong></td><td style="padding: 0.3rem 0;">臺大次震宇宙館4F演講廳</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>形式</strong></td><td style="padding: 0.3rem 0;">混合形式 — 線上（免費）+ 現場出席</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>主辦單位</strong></td><td style="padding: 0.3rem 0;"><a href="https://sqi.tw">極致計算研究所（UCI）</a></td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>聯絡方式</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>
 </table>
+
+<div style="margin: 1rem 0 1.5rem 0; border-radius: 10px; overflow: hidden;">
+  <iframe src="https://www.google.com/maps?q=次震宇宙館,國立臺灣大學&output=embed" width="100%" height="260" style="border:0; display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="臺大次震宇宙館"></iframe>
+</div>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin:1.5rem 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
   <div>
@@ -62,28 +66,41 @@ SQAI 2026 匯集 3 至 5 位量子 AI 前沿的世界級受邀演講者。
 
 ## 主辦單位
 
-<!-- UCI / UIL / NTUQC — 第一排 -->
-<div class="d-flex flex-wrap justify-content-between align-items-start mt-3 mb-4" style="gap: 1.5rem;">
-  <div style="flex: 1; min-width: 220px;">
-    <a href="https://sqi.tw" target="_blank" rel="noopener"><img src="/assets/images/uci_sqai.png" alt="極致計算研究所" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p><a href="https://sqi.tw">極致計算研究所</a>（UCI）是一家位於美國華盛頓特區的非營利組織，致力於推動量子軟體研究，並努力打造全球首台用於人工極致智慧（AUI）的極致計算機。UCI 的創辦人 Austin Hua 於 2021 年創立了 SQAI，使其成為全球首個專注於量子 AI 的學術會議。<em style="font-size:0.9em; color:#64748b;">（UCI 對量子計算的長遠未來抱持高度樂觀的態度——此觀點不一定代表所有參與本會議的演講者、贊助商或合作夥伴的立場。）</em></p>
-  </div>
-  <div style="flex: 1; min-width: 220px;">
-    <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener"><img src="/assets/images/uli_nobg.png" alt="極致智慧實驗室" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p><a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener">極致智慧實驗室（UIL）</a>是極致計算研究所旗下致力於推進量子原生智慧系統的研究部門。UIL 的使命是開發 Q-I/O（QIO）——一種新世代量子軟體架構，旨在協助開創人工極致智慧（AUI）的時代。UIL 與極致計算研究所攜手合作，共同推進更廣泛的極致計算生態系統，包括極致計算機（UC-1）的研發工作。<em style="font-size:0.9em; color:#64748b;">（UIL 目前仍處於發展初期——許多構想將隨研究進展持續演進。）</em></p>
-  </div>
-  <div style="flex: 1; min-width: 220px;">
-    <a href="https://ntuqc.com" target="_blank" rel="noopener"><img src="/assets/images/ntuqc-logo.png" alt="臺大量子應用社" style="height: 60px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p><a href="https://ntuqc.com">臺大量子應用社</a>（NTU Quantum Club）是國立臺灣大學的學生社團，致力於推廣量子科學與技術在台大校園的普及化，讓學生了解量子物理、量子計算等前沿領域。NTUQC 打造跨領域、跨世代的學習與交流平台，讓學生得以結識志同道合的夥伴、業界先驅、教授與研究者，共同邁向量子時代。</p>
-    <p style="font-size:0.85rem; color:#64748b;"><em>備注：臺大量子應用社於 114-2 學期尚未完成登記，計劃於 115-1 學期完成登記。如有意加入下屆工作團隊，歡迎<a href="mailto:ntuquantum@gmail.com" style="color:#818cf8;">聯絡我們</a>！</em></p>
+<div class="mt-3">
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://sqi.tw" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/uci_sqai.png" alt="極致計算研究所" style="height: 72px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://sqi.tw">極致計算研究所</a>（UCI）是一家位於美國華盛頓特區的非營利組織，致力於推動量子軟體研究，並努力打造全球首台用於人工極致智慧（AUI）的極致計算機。UCI 的創辦人 Austin Hua 於 2021 年創立了 SQAI，使其成為全球首個專注於量子 AI 的學術會議。<em style="font-size:0.9em; color:#64748b;">（UCI 對量子計算的長遠未來抱持高度樂觀的態度——此觀點不一定代表所有參與本會議的演講者、贊助商或合作夥伴的立場。）</em></p>
+</div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/uli_nobg.png" alt="極致智慧實驗室" style="height: 60px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener">極致智慧實驗室（UIL）</a>是極致計算研究所旗下致力於推進量子原生智慧系統的研究部門。UIL 的使命是開發 Q-I/O（QIO）——一種新世代量子軟體架構，旨在協助開創人工極致智慧（AUI）的時代。UIL 與極致計算研究所攜手合作，共同推進更廣泛的極致計算生態系統，包括極致計算機（UC-1）的研發工作。<em style="font-size:0.9em; color:#64748b;">（UIL 目前仍處於發展初期——許多構想將隨研究進展持續演進。）</em></p>
+</div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://ntuqc.com" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/ntuqc-logo.png" alt="臺大量子應用社" style="height: 60px; width: auto;" /></a>
+  <div class="mb-0">
+    <p class="mb-1"><a href="https://ntuqc.com">臺大量子應用社</a>（NTU Quantum Club）是國立臺灣大學的學生社團，致力於推廣量子科學與技術在台大校園的普及化，讓學生了解量子物理、量子計算等前沿領域。NTUQC 打造跨領域、跨世代的學習與交流平台，讓學生得以結識志同道合的夥伴、業界先驅、教授與研究者，共同邁向量子時代。</p>
+    <p class="mb-0" style="font-size:0.85rem; color:#64748b;"><em>備注：臺大量子應用社於 114-2 學期尚未完成登記，計劃於 115-1 學期完成登記。如有意加入下屆工作團隊，歡迎<a href="mailto:ntuquantum@gmail.com" style="color:#818cf8;">聯絡我們</a>！</em></p>
   </div>
 </div>
-<!-- 臺大 IBM Q — 第二排 -->
-<div class="d-flex justify-content-center mb-4">
-  <div style="max-width: 480px;">
-    <a href="https://quantum.ntu.edu.tw/?page_id=275" target="_blank" rel="noopener"><img src="/assets/images/ntu-ibm-q-logo.png" alt="臺大 IBM Q" style="height: 70px; width: auto; margin-bottom: 0.75rem; display: block;" /></a>
-    <p><a href="https://quantum.ntu.edu.tw/?page_id=275">臺大 IBM Q</a>（IBM Quantum Hub at NTU）是國立臺灣大學與 IBM 於 2019 年在科技部支持下建立的量子計算研究合作平台。該中心提供最新 IBM 量子系統的使用權限，並舉辦年度 <a href="https://quantum.ntu.edu.tw/?p=9999" target="_blank" rel="noopener">Qiskit Hackathon Taiwan</a>，研究涵蓋量子軟體、演算法與應用等領域。臺大 IBM Q 是台灣學術量子研究與資通訊產業轉型之間的重要橋梁。</p>
-  </div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://quantum.ntu.edu.tw/?page_id=275" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/ntu_sqai.png" alt="臺大 IBM Q" style="height: 90px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://quantum.ntu.edu.tw/?page_id=275">臺大 IBM Q</a>（IBM Quantum Hub at NTU）是國立臺灣大學與 IBM 於 2019 年在科技部支持下建立的量子計算研究合作平台。該中心提供最新 IBM 量子系統的使用權限，並舉辦年度 <a href="https://quantum.ntu.edu.tw/?p=9999" target="_blank" rel="noopener">Qiskit Hackathon Taiwan</a>，研究涵蓋量子軟體、演算法與應用等領域。臺大 IBM Q 是台灣學術量子研究與資通訊產業轉型之間的重要橋梁。</p>
+</div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://cqse.ntu.edu.tw/" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/ntu_sqai.png" alt="臺大量子科學與工程研究中心" style="height: 90px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://cqse.ntu.edu.tw/">臺大量子科學與工程研究中心（CQSE）</a>是國立臺灣大學的跨領域研究中心，致力於整合量子物理與工程技術。CQSE 匯聚各系所師資與研究人員，共同推進量子計算硬體、量子通訊與量子感測等技術的發展，並透過與產業界及國際夥伴的緊密合作，在台灣量子科技生態系的建構上扮演核心角色。</p>
+</div>
+
+<div class="d-flex align-items-center mb-4" style="gap: 4rem;">
+  <a href="https://phys.ncts.ntu.edu.tw/" target="_blank" rel="noopener" style="flex-shrink: 0; width: 160px; text-align: center;"><img src="/assets/images/ncts_.png" alt="國家理論科學研究中心 物理組" style="height: 120px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://phys.ncts.ntu.edu.tw/">國家理論科學研究中心（NCTS）物理組</a>設立於國立臺灣大學，是台灣最重要的理論物理研究機構之一。NCTS 支持量子資訊、高能物理與凝聚態物理等前沿領域的研究，積極促進台灣與國際學術社群之間的交流與合作。</p>
+</div>
+
 </div>
 
 ---

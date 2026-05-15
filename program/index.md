@@ -178,7 +178,7 @@ title: Program
   </div>
   <div class="highlight-item">
     <i class="bi bi-globe"></i>
-    <span>In-Person &amp; Online Access</span>
+    <span>In-Person &amp; Online Access<br>Chee-Chun Leung Cosmology Hall, NTU</span>
   </div>
   <div class="highlight-item">
     <i class="bi bi-people"></i>
@@ -196,7 +196,7 @@ title: Program
     <div class="speaker-name">
       <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Hsi-Sheng Goan</a>
     </div>
-    <div class="speaker-affiliation">Professor<br>Dept. of Physics<br>National Taiwan University</div>
+    <div class="speaker-affiliation">Professor<br>Physics<br>National Taiwan University</div>
     <div class="talk-title">Quantum Open Systems, Noise, and the Road to Practical Quantum Devices</div>
     <div class="talk-desc">Quantum decoherence, noise characterization, and error mitigation strategies in realistic quantum hardware — and their implications for quantum AI.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>9:40 – 10:30 AM &nbsp;·&nbsp; 50 min</div>
@@ -207,7 +207,7 @@ title: Program
     <div class="speaker-name">
       <a href="https://scholar.google.com/citations?user=VbfABcUAAAAJ&hl=zh-TW" target="_blank" rel="noopener">Prof. Shih-Hao Hung</a>
     </div>
-    <div class="speaker-affiliation">Professor<br>Dept. of Computer Science &amp; Information Engineering<br>National Taiwan University</div>
+    <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
     <div class="talk-title">Next-Generation High-Performance Systems for AI and Quantum Workloads</div>
     <div class="talk-desc">Architectures and system software for scalable, energy-efficient HPC platforms that support AI, data analytics, and emerging quantum-classical workloads.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>10:30 – 11:00 AM &nbsp;·&nbsp; 30 min</div>
@@ -229,7 +229,7 @@ title: Program
     <div class="speaker-name">
       <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">Prof. Shih-Wei Liao</a>
     </div>
-    <div class="speaker-affiliation">Professor<br>Dept. of Computer Science &amp; Information Engineering<br>National Taiwan University</div>
+    <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
     <div class="talk-title">Compiler and Runtime Architectures for Scalable Quantum-AI Computing</div>
     <div class="talk-desc">Compiler optimizations, parallel runtimes, and system software that bridge classical high-performance computing and quantum-AI applications.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>11:30 AM – 12:00 PM &nbsp;·&nbsp; 30 min</div>
@@ -238,7 +238,7 @@ title: Program
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="Prof. Chi-Chuan Hwang" />
     <div class="speaker-name">Prof. Chi-Chuan Hwang</div>
-    <div class="speaker-affiliation">Professor<br>Dept. of Engineering Science<br>National Cheng Kung University (NCKU)</div>
+    <div class="speaker-affiliation">Professor<br>Engineering Science<br>National Cheng Kung University (NCKU)</div>
     <div class="talk-title">Construction of Maximally Entangled Basis Vectors for N Qubits</div>
     <div class="talk-desc">A mathematical framework for constructing basis vectors that achieve maximum entanglement across N-qubit quantum systems.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>12:00 – 12:30 PM &nbsp;·&nbsp; 30 min</div>
