@@ -162,11 +162,11 @@ title: Program
 <div class="highlights-grid">
   <div class="highlight-item">
     <i class="bi bi-calendar-event"></i>
-    <span>One-Day Afternoon Event<br>Aug 11, 2026</span>
+    <span>One-Day Event<br>Aug 10, 2026</span>
   </div>
   <div class="highlight-item">
     <i class="bi bi-mic"></i>
-    <span>Expert Talks<br>40 min each</span>
+    <span>Expert Talks<br>30–60 min each</span>
   </div>
   <div class="highlight-item">
     <i class="bi bi-globe"></i>
@@ -174,7 +174,7 @@ title: Program
   </div>
   <div class="highlight-item">
     <i class="bi bi-people"></i>
-    <span>Networking Reception<br>5:00 – 6:00 PM</span>
+    <span>NTUQC Networking Mixer<br>1:40 – 3:00 PM</span>
   </div>
 </div>
 
@@ -189,9 +189,20 @@ title: Program
       <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">Austin Hua</a>
     </div>
     <div class="speaker-affiliation">Event Host<br>Ultracompute Institute</div>
-    <div class="talk-title">From Quantum Intelligence to Artificial Ultraintelligence</div>
-    <div class="talk-desc">A vision for the future of quantum-native AI systems, ultracomputing paradigms, and the path toward Artificial Ultraintelligence.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:00 – 1:20 PM &nbsp;·&nbsp; 20 min</div>
+    <div class="talk-title">Opening Remarks</div>
+    <div class="talk-desc">Welcome and introduction to SQAI 2026.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:40 AM &nbsp;·&nbsp; 10 min</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="Prof. Hsi-Sheng Goan" />
+    <div class="speaker-name">
+      <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Hsi-Sheng Goan</a>
+    </div>
+    <div class="speaker-affiliation">Professor<br>Dept. of Physics<br>National Taiwan University</div>
+    <div class="talk-title">Quantum Open Systems, Noise, and the Road to Practical Quantum Devices</div>
+    <div class="talk-desc">Quantum decoherence, noise characterization, and error mitigation strategies in realistic quantum hardware — and their implications for quantum AI.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:40 – 10:40 AM &nbsp;·&nbsp; 60 min</div>
   </div>
 
   <div class="speaker-card">
@@ -202,18 +213,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Dept. of Computer Science &amp; Information Engineering<br>National Taiwan University</div>
     <div class="talk-title">Next-Generation High-Performance Systems for AI and Quantum Workloads</div>
     <div class="talk-desc">Architectures and system software for scalable, energy-efficient HPC platforms that support AI, data analytics, and emerging quantum-classical workloads.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:20 – 2:00 PM &nbsp;·&nbsp; 40 min</div>
-  </div>
-
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg" alt="Prof. Shih-Wei Liao" />
-    <div class="speaker-name">
-      <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">Prof. Shih-Wei Liao</a>
-    </div>
-    <div class="speaker-affiliation">Professor<br>Dept. of Computer Science &amp; Information Engineering<br>National Taiwan University</div>
-    <div class="talk-title">Compiler and Runtime Architectures for Scalable Quantum-AI Computing</div>
-    <div class="talk-desc">Compiler optimizations, parallel runtimes, and system software that bridge classical high-performance computing and quantum-AI applications.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>2:10 – 2:50 PM &nbsp;·&nbsp; 40 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>10:40 – 11:20 AM &nbsp;·&nbsp; 40 min</div>
   </div>
 
   <div class="speaker-card">
@@ -224,7 +224,29 @@ title: Program
     <div class="speaker-affiliation">AI Researcher<br>Engineering Leader</div>
     <div class="talk-title">Building Practical AI Systems in the Age of Frontier Intelligence</div>
     <div class="talk-desc">From model training to real-world deployment — engineering scalable, reliable, and intelligent AI systems for the next wave of applications.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>3:00 – 3:40 PM &nbsp;·&nbsp; 40 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>11:20 AM – 12:00 PM &nbsp;·&nbsp; 40 min</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg" alt="Prof. Shih-Wei Liao" />
+    <div class="speaker-name">
+      <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">Prof. Shih-Wei Liao</a>
+    </div>
+    <div class="speaker-affiliation">Professor<br>Dept. of Computer Science &amp; Information Engineering<br>National Taiwan University</div>
+    <div class="talk-title">Compiler and Runtime Architectures for Scalable Quantum-AI Computing</div>
+    <div class="talk-desc">Compiler optimizations, parallel runtimes, and system software that bridge classical high-performance computing and quantum-AI applications.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>12:00 – 1:00 PM &nbsp;·&nbsp; 60 min</div>
+  </div>
+
+  <div class="speaker-card">
+    <div style="width:90px; height:90px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
+      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
+    </div>
+    <div class="speaker-name">Student Speaker (TBD)</div>
+    <div class="speaker-affiliation">Graduate Researcher<br>Dept. of Physics<br>National Taiwan University</div>
+    <div class="talk-title">Talk Title TBD</div>
+    <div class="talk-desc">A research presentation by one of Prof. Goan's graduate students.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>1:00 – 1:30 PM &nbsp;·&nbsp; 30 min</div>
   </div>
 
 </div>
@@ -242,16 +264,29 @@ title: Program
     </tr>
   </thead>
   <tbody>
+    <tr class="row-break">
+      <td class="time-col">9:00 – 9:30 AM</td>
+      <td class="title-col">Registration</td>
+      <td class="dur-col">30 min</td>
+    </tr>
     <tr>
-      <td class="time-col">1:00 – 1:20 PM</td>
+      <td class="time-col">9:30 – 9:40 AM</td>
       <td class="title-col">
         Opening Remarks
         <span class="subtitle">Austin Hua (Event Host, Ultracompute Institute)</span>
       </td>
-      <td class="dur-col">20 min</td>
+      <td class="dur-col">10 min</td>
     </tr>
     <tr>
-      <td class="time-col">1:20 – 2:00 PM</td>
+      <td class="time-col">9:40 – 10:40 AM</td>
+      <td class="title-col">
+        <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Hsi-Sheng Goan</a>
+        <span class="subtitle">Quantum Open Systems, Noise, and the Road to Practical Quantum Devices</span>
+      </td>
+      <td class="dur-col">60 min</td>
+    </tr>
+    <tr>
+      <td class="time-col">10:40 – 11:20 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=VbfABcUAAAAJ&hl=zh-TW" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Hao Hung</a>
         <span class="subtitle">Next-Generation High-Performance Systems for AI and Quantum Workloads</span>
@@ -259,37 +294,51 @@ title: Program
       <td class="dur-col">40 min</td>
     </tr>
     <tr>
-      <td class="time-col">2:10 – 2:50 PM</td>
-      <td class="title-col">
-        <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Wei Liao</a>
-        <span class="subtitle">Compiler and Runtime Architectures for Scalable Quantum-AI Computing</span>
-      </td>
-      <td class="dur-col">40 min</td>
-    </tr>
-    <tr>
-      <td class="time-col">3:00 – 3:40 PM</td>
+      <td class="time-col">11:20 AM – 12:00 PM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">Mark (Hao-Yuan) Chen</a>
         <span class="subtitle">Building Practical AI Systems in the Age of Frontier Intelligence</span>
       </td>
       <td class="dur-col">40 min</td>
     </tr>
-    <tr class="row-break">
-      <td class="time-col">3:40 – 4:00 PM</td>
-      <td class="title-col">Networking Break</td>
-      <td class="dur-col">20 min</td>
-    </tr>
     <tr>
-      <td class="time-col">4:00 – 5:00 PM</td>
+      <td class="time-col">12:00 – 1:00 PM</td>
       <td class="title-col">
-        Panel Discussion
-        <span class="subtitle">The Future Beyond Supercomputing</span>
+        <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Wei Liao</a>
+        <span class="subtitle">Compiler and Runtime Architectures for Scalable Quantum-AI Computing</span>
       </td>
       <td class="dur-col">60 min</td>
     </tr>
     <tr>
-      <td class="time-col">5:00 – 6:00 PM</td>
-      <td class="title-col">Networking Reception</td>
+      <td class="time-col">1:00 – 1:30 PM</td>
+      <td class="title-col">
+        Student Speaker (TBD)
+        <span class="subtitle">Graduate Researcher, Dept. of Physics, National Taiwan University</span>
+      </td>
+      <td class="dur-col">30 min</td>
+    </tr>
+    <tr>
+      <td class="time-col">1:30 – 1:40 PM</td>
+      <td class="title-col">
+        Closing Remarks
+        <span class="subtitle">Prof. Hsi-Sheng Goan</span>
+      </td>
+      <td class="dur-col">10 min</td>
+    </tr>
+    <tr class="row-break">
+      <td class="time-col">1:40 – 2:00 PM</td>
+      <td class="title-col">
+        <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />Introduction to NTUQC
+        <span class="subtitle">Austin Hua &amp; TBD co-presenter</span>
+      </td>
+      <td class="dur-col">20 min</td>
+    </tr>
+    <tr class="row-break">
+      <td class="time-col">2:00 – 3:00 PM</td>
+      <td class="title-col">
+        <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />NTUQC Networking Mixer
+        <span class="subtitle">臺大量子應用社交流會 &nbsp;·&nbsp; Refreshments provided &nbsp;·&nbsp; We are looking for our next staff team — especially President &amp; Vice President!</span>
+      </td>
       <td class="dur-col">60 min</td>
     </tr>
   </tbody>

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "SQAI 2026"
-description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 11 日。由極致計算研究所主辦。<br>免費線上參與。提供現場出席。"
+description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 10 日。由極致計算研究所主辦。<br>免費線上參與。提供現場出席。"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
@@ -21,12 +21,14 @@ SQAI 2026 為本峰會的**第三屆**。
 
 ---
 
-## 2026 年 8 月 11 日
+## 2026 年 8 月 10 日
 
 <br>**免費線上參與。提供現場出席。**
 
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>日期</strong></td><td style="padding: 0.3rem 0;">2026 年 8 月 11 日</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>日期</strong></td><td style="padding: 0.3rem 0;">2026 年 8 月 10 日</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>時間</strong></td><td style="padding: 0.3rem 0;">9:30 – 13:30（台灣時間，UTC+8）</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>地點</strong></td><td style="padding: 0.3rem 0;">臺大物理學系 或 國家理論科學研究中心（臺大）（確認中）</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>形式</strong></td><td style="padding: 0.3rem 0;">混合形式 — 線上（免費）+ 現場出席</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>主辦單位</strong></td><td style="padding: 0.3rem 0;"><a href="https://sqi.tw">極致計算研究所（UCI）</a></td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>聯絡方式</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>

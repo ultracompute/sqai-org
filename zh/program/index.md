@@ -161,11 +161,11 @@ title: 議程
 <div class="highlights-grid">
   <div class="highlight-item">
     <i class="bi bi-calendar-event"></i>
-    <span>單日下午活動<br>2026 年 8 月 11 日</span>
+    <span>單日活動<br>2026 年 8 月 10 日</span>
   </div>
   <div class="highlight-item">
     <i class="bi bi-mic"></i>
-    <span>專題演講<br>每場 40 分鐘</span>
+    <span>專題演講<br>每場 30–60 分鐘</span>
   </div>
   <div class="highlight-item">
     <i class="bi bi-globe"></i>
@@ -173,7 +173,7 @@ title: 議程
   </div>
   <div class="highlight-item">
     <i class="bi bi-people"></i>
-    <span>交流茶敘<br>下午 5:00 – 6:00</span>
+    <span>臺大量子社交流會<br>下午 1:40 – 3:00</span>
   </div>
 </div>
 
@@ -188,9 +188,20 @@ title: 議程
       <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">華士頓 Austin Hua</a>
     </div>
     <div class="speaker-affiliation">主持人<br>極致計算研究所</div>
-    <div class="talk-title">從量子智能到人工極致智慧</div>
-    <div class="talk-desc">展望量子原生 AI 系統的未來、極致計算典範，以及通往人工極致智慧（AUI）的道路。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>下午 1:00 – 1:20 &nbsp;·&nbsp; 20 分鐘</div>
+    <div class="talk-title">開幕致詞</div>
+    <div class="talk-desc">歡迎詞與 SQAI 2026 簡介。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>上午 9:30 – 9:40 &nbsp;·&nbsp; 10 分鐘</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="管希聖 教授" />
+    <div class="speaker-name">
+      <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener">管希聖 教授</a>
+    </div>
+    <div class="speaker-affiliation">教授<br>國立臺灣大學<br>物理學系</div>
+    <div class="talk-title">量子開放系統、雜訊與實用量子元件之路</div>
+    <div class="talk-desc">真實量子硬體中的退相干、雜訊表徵與錯誤抑制策略，及其對量子 AI 的影響。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>上午 9:40 – 10:40 &nbsp;·&nbsp; 60 分鐘</div>
   </div>
 
   <div class="speaker-card">
@@ -201,18 +212,7 @@ title: 議程
     <div class="speaker-affiliation">教授<br>國立臺灣大學<br>資訊工程學系</div>
     <div class="talk-title">新世代高效能 AI 與量子運算系統</div>
     <div class="talk-desc">支援 AI、資料分析及新興量子-古典混合工作負載的可擴展、高能效 HPC 平台架構與系統軟體。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>下午 1:20 – 2:00 &nbsp;·&nbsp; 40 分鐘</div>
-  </div>
-
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg" alt="廖世偉教授" />
-    <div class="speaker-name">
-      <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">廖世偉 教授</a>
-    </div>
-    <div class="speaker-affiliation">教授<br>國立臺灣大學<br>資訊工程學系</div>
-    <div class="talk-title">可擴展量子 AI 計算的編譯器與執行環境架構</div>
-    <div class="talk-desc">橋接古典高效能計算與量子 AI 應用的編譯器最佳化、平行執行環境及系統軟體。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>下午 2:10 – 2:50 &nbsp;·&nbsp; 40 分鐘</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>上午 10:40 – 11:20 &nbsp;·&nbsp; 40 分鐘</div>
   </div>
 
   <div class="speaker-card">
@@ -223,7 +223,29 @@ title: 議程
     <div class="speaker-affiliation">AI 研究員<br>工程領導人</div>
     <div class="talk-title">在前沿智能時代打造實用 AI 系統</div>
     <div class="talk-desc">從模型訓練到實際部署——為下一波應用場景工程化可擴展、可靠且智慧的 AI 系統。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>下午 3:00 – 3:40 &nbsp;·&nbsp; 40 分鐘</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>上午 11:20 – 下午 12:00 &nbsp;·&nbsp; 40 分鐘</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg" alt="廖世偉教授" />
+    <div class="speaker-name">
+      <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">廖世偉 教授</a>
+    </div>
+    <div class="speaker-affiliation">教授<br>國立臺灣大學<br>資訊工程學系</div>
+    <div class="talk-title">可擴展量子 AI 計算的編譯器與執行環境架構</div>
+    <div class="talk-desc">橋接古典高效能計算與量子 AI 應用的編譯器最佳化、平行執行環境及系統軟體。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>下午 12:00 – 1:00 &nbsp;·&nbsp; 60 分鐘</div>
+  </div>
+
+  <div class="speaker-card">
+    <div style="width:90px; height:90px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
+      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
+    </div>
+    <div class="speaker-name">學生演講者（待定）</div>
+    <div class="speaker-affiliation">研究生<br>國立臺灣大學<br>物理學系</div>
+    <div class="talk-title">演講題目待定</div>
+    <div class="talk-desc">管希聖教授指導之研究生研究成果發表。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>下午 1:00 – 1:30 &nbsp;·&nbsp; 30 分鐘</div>
   </div>
 
 </div>
@@ -241,16 +263,29 @@ title: 議程
     </tr>
   </thead>
   <tbody>
+    <tr class="row-break">
+      <td class="time-col">上午 9:00 – 9:30</td>
+      <td class="title-col">報到</td>
+      <td class="dur-col">30 分鐘</td>
+    </tr>
     <tr>
-      <td class="time-col">下午 1:00 – 1:20</td>
+      <td class="time-col">上午 9:30 – 9:40</td>
       <td class="title-col">
         開幕致詞
         <span class="subtitle">華士頓 Austin Hua（主持人，極致計算研究所）</span>
       </td>
-      <td class="dur-col">20 分鐘</td>
+      <td class="dur-col">10 分鐘</td>
     </tr>
     <tr>
-      <td class="time-col">下午 1:20 – 2:00</td>
+      <td class="time-col">上午 9:40 – 10:40</td>
+      <td class="title-col">
+        <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">管希聖 教授</a>
+        <span class="subtitle">量子開放系統、雜訊與實用量子元件之路</span>
+      </td>
+      <td class="dur-col">60 分鐘</td>
+    </tr>
+    <tr>
+      <td class="time-col">上午 10:40 – 11:20</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=VbfABcUAAAAJ&hl=zh-TW" target="_blank" rel="noopener" style="color:#818cf8;">洪士灝 教授</a>
         <span class="subtitle">新世代高效能 AI 與量子運算系統</span>
@@ -258,37 +293,51 @@ title: 議程
       <td class="dur-col">40 分鐘</td>
     </tr>
     <tr>
-      <td class="time-col">下午 2:10 – 2:50</td>
-      <td class="title-col">
-        <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">廖世偉 教授</a>
-        <span class="subtitle">可擴展量子 AI 計算的編譯器與執行環境架構</span>
-      </td>
-      <td class="dur-col">40 分鐘</td>
-    </tr>
-    <tr>
-      <td class="time-col">下午 3:00 – 3:40</td>
+      <td class="time-col">上午 11:20 – 下午 12:00</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">陳皓圓 Mark Chen</a>
         <span class="subtitle">在前沿智能時代打造實用 AI 系統</span>
       </td>
       <td class="dur-col">40 分鐘</td>
     </tr>
-    <tr class="row-break">
-      <td class="time-col">下午 3:40 – 4:00</td>
-      <td class="title-col">交流休息</td>
-      <td class="dur-col">20 分鐘</td>
-    </tr>
     <tr>
-      <td class="time-col">下午 4:00 – 5:00</td>
+      <td class="time-col">下午 12:00 – 1:00</td>
       <td class="title-col">
-        座談討論
-        <span class="subtitle">超級計算之後的未來</span>
+        <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">廖世偉 教授</a>
+        <span class="subtitle">可擴展量子 AI 計算的編譯器與執行環境架構</span>
       </td>
       <td class="dur-col">60 分鐘</td>
     </tr>
     <tr>
-      <td class="time-col">下午 5:00 – 6:00</td>
-      <td class="title-col">交流茶敘</td>
+      <td class="time-col">下午 1:00 – 1:30</td>
+      <td class="title-col">
+        學生演講者（待定）
+        <span class="subtitle">研究生，國立臺灣大學物理學系</span>
+      </td>
+      <td class="dur-col">30 分鐘</td>
+    </tr>
+    <tr>
+      <td class="time-col">下午 1:30 – 1:40</td>
+      <td class="title-col">
+        閉幕致詞
+        <span class="subtitle">管希聖 教授</span>
+      </td>
+      <td class="dur-col">10 分鐘</td>
+    </tr>
+    <tr class="row-break">
+      <td class="time-col">下午 1:40 – 2:00</td>
+      <td class="title-col">
+        <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />臺大量子應用社介紹（Introduction to NTUQC）
+        <span class="subtitle">華士頓 Austin Hua 及 待定共同主持人</span>
+      </td>
+      <td class="dur-col">20 分鐘</td>
+    </tr>
+    <tr class="row-break">
+      <td class="time-col">下午 2:00 – 3:00</td>
+      <td class="title-col">
+        <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />臺大量子應用社交流會（NTUQC Networking Mixer）
+        <span class="subtitle">提供茶點 &nbsp;·&nbsp; 誠徵下屆幹部——尤其是社長及副社長！</span>
+      </td>
       <td class="dur-col">60 分鐘</td>
     </tr>
   </tbody>

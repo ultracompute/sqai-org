@@ -4,7 +4,7 @@ title: "SQAI 2026"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
-banner: "sqai_web_banner.png"
+banner: "sqai_web_banner_new.png"
 links:
   - name: Program
     relative_url: /program/
@@ -20,12 +20,14 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
 
 ---
 
-## August 11, 2026
+## August 10, 2026
 
 <br>**Free online access. In-person attendance available.**
 
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Date</strong></td><td style="padding: 0.3rem 0;">August 11, 2026</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Date</strong></td><td style="padding: 0.3rem 0;">August 10, 2026</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Time</strong></td><td style="padding: 0.3rem 0;">9:30 – 13:30 (Taiwan Time, UTC+8)</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Location</strong></td><td style="padding: 0.3rem 0;">NTU Department of Physics or National Center for Theoretical Sciences (NTU) (confirming)</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Format</strong></td><td style="padding: 0.3rem 0;">Hybrid — online (free) + in-person</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Organized&nbsp;by</strong></td><td style="padding: 0.3rem 0;"><a href="https://sqi.tw">Ultracompute Institute (UCI)</a></td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Contact</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>
