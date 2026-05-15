@@ -45,15 +45,9 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
   <iframe src="https://www.google.com/maps?q=次震宇宙館,國立臺灣大學&output=embed" width="100%" height="260" style="border:0; display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Chee-Chun Leung Cosmology Hall, NTU"></iframe>
 </div>
 
-<div style="display:flex; gap:0.75rem; margin: 0 0 0.5rem 0;">
-  <div style="flex:0 0 auto;">
-    <a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_20240715.jpg" target="_blank" rel="noopener" style="display:block;"><img src="/assets/images/cosmology1.jpg" alt="Chee-Chun Leung Cosmology Hall, NTU" style="height:380px; width:auto; border-radius:8px; display:block;" /></a>
-    <p style="color:#64748b; font-size:0.75rem; margin:0.3rem 0 0 0;"><a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_20240715.jpg" target="_blank" rel="noopener" style="color:#64748b;">View from NTU campus</a></p>
-  </div>
-  <div style="flex:1; min-width:0;">
-    <a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="display:block;"><img src="/assets/images/cosmology2.jpg" alt="Chee-Chun Leung Cosmology Hall, NTU" style="width:100%; height:380px; object-fit:cover; border-radius:8px; display:block;" /></a>
-    <p style="color:#64748b; font-size:0.75rem; margin:0.3rem 0 0 0;"><a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="color:#64748b;">View from Xinhai Rd. Sec. 2 &amp; Fuxing South Rd. Sec. 2</a></p>
-  </div>
+<div style="margin: 0 0 0.5rem 0;">
+  <a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="display:block;"><img src="/assets/images/cosmology2.jpg" alt="Chee-Chun Leung Cosmology Hall, NTU" style="width:100%; height:580px; object-fit:cover; border-radius:8px; display:block;" /></a>
+  <p style="color:#64748b; font-size:0.75rem; margin:0.3rem 0 0 0;"><a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="color:#64748b;">View from Xinhai Rd. Sec. 2 &amp; Fuxing South Rd. Sec. 2</a></p>
 </div>
 <p style="color:#94a3b8; font-size:0.85rem; margin:0.75rem 0 1.5rem 0;">Chee-Chun Leung Cosmology Hall, National Taiwan University — venue of SQAI 2026</p>
 
@@ -61,7 +55,7 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
 
 ## This Year's Program
 
-SQAI 2026 features an invited speaker series of 3–5 world-class experts at the frontier of quantum AI.
+SQAI 2026 features an invited speaker series of 7+ world-class experts at the frontier of quantum AI.
 
 No call for papers — just deep, curated conversations. [View the full program →](/program/)
 

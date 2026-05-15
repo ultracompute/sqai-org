@@ -46,15 +46,9 @@ SQAI 2026 為本峰會的**第三屆**。
   <iframe src="https://www.google.com/maps?q=次震宇宙館,國立臺灣大學&output=embed" width="100%" height="260" style="border:0; display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="臺大次震宇宙館"></iframe>
 </div>
 
-<div style="display:flex; gap:0.75rem; margin: 0 0 0.5rem 0;">
-  <div style="flex:0 0 auto;">
-    <a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_20240715.jpg" target="_blank" rel="noopener" style="display:block;"><img src="/assets/images/cosmology1.jpg" alt="臺大次震宇宙館" style="height:380px; width:auto; border-radius:8px; display:block;" /></a>
-    <p style="color:#64748b; font-size:0.75rem; margin:0.3rem 0 0 0;"><a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_20240715.jpg" target="_blank" rel="noopener" style="color:#64748b;">從校園拍攝</a></p>
-  </div>
-  <div style="flex:1; min-width:0;">
-    <a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="display:block;"><img src="/assets/images/cosmology2.jpg" alt="臺大次震宇宙館" style="width:100%; height:380px; object-fit:cover; border-radius:8px; display:block;" /></a>
-    <p style="color:#64748b; font-size:0.75rem; margin:0.3rem 0 0 0;"><a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="color:#64748b;">從辛亥路二段與復興南路二段路口拍攝</a></p>
-  </div>
+<div style="margin: 0 0 0.5rem 0;">
+  <a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="display:block;"><img src="/assets/images/cosmology2.jpg" alt="臺大次震宇宙館" style="width:100%; height:580px; object-fit:cover; border-radius:8px; display:block;" /></a>
+  <p style="color:#64748b; font-size:0.75rem; margin:0.3rem 0 0 0;"><a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="color:#64748b;">從辛亥路二段與復興南路二段路口拍攝</a></p>
 </div>
 <p style="color:#94a3b8; font-size:0.85rem; margin:0.75rem 0 1.5rem 0;">國立臺灣大學次震宇宙館 — SQAI 2026 活動場地</p>
 
@@ -62,7 +56,7 @@ SQAI 2026 為本峰會的**第三屆**。
 
 ## 本屆議程
 
-SQAI 2026 匯集 3 至 5 位量子 AI 前沿的世界級受邀演講者。
+SQAI 2026 匯集 7 位以上量子 AI 前沿的世界級受邀演講者。
 
 本屆不設論文投稿——僅有深度、精心策劃的對話。[查看完整議程 →](/zh/program/)
 
