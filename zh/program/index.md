@@ -183,17 +183,6 @@ title: 議程
 <div class="speaker-grid">
 
   <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/austin_.png" alt="Austin Hua（華士頓）" />
-    <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">華士頓 Austin Hua</a>
-    </div>
-    <div class="speaker-affiliation">主持人<br>極致計算研究所</div>
-    <div class="talk-title">開幕致詞</div>
-    <div class="talk-desc">歡迎詞與 SQAI 2026 簡介。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>上午 9:30 – 9:40 &nbsp;·&nbsp; 10 分鐘</div>
-  </div>
-
-  <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="管希聖 教授" />
     <div class="speaker-name">
       <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener">管希聖 教授</a>
@@ -220,7 +209,7 @@ title: 議程
     <div class="speaker-name">
       <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener">陳皓圓 Mark Chen</a>
     </div>
-    <div class="speaker-affiliation">AI 研究員<br>工程領導人</div>
+    <div class="speaker-affiliation">AI 研究員<br>Mindify AI 創辦人</div>
     <div class="talk-title">在前沿智能時代打造實用 AI 系統</div>
     <div class="talk-desc">從模型訓練到實際部署——為下一波應用場景工程化可擴展、可靠且智慧的 AI 系統。</div>
     <div class="talk-time"><i class="bi bi-clock"></i>上午 11:20 – 下午 12:00 &nbsp;·&nbsp; 40 分鐘</div>
@@ -246,6 +235,26 @@ title: 議程
     <div class="talk-title">演講題目待定</div>
     <div class="talk-desc">管希聖教授指導之研究生研究成果發表。</div>
     <div class="talk-time"><i class="bi bi-clock"></i>下午 1:00 – 1:30 &nbsp;·&nbsp; 30 分鐘</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/zhaoxian.jpg" alt="趙嫺" />
+    <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">趙嫺</a></div>
+    <div class="speaker-affiliation">創社社長<br>臺大量子應用社（NTUQC）<br>國立臺灣大學</div>
+    <div class="talk-title">臺大量子應用社介紹</div>
+    <div class="talk-desc">由趙嫺與華士頓共同介紹臺大量子應用社的使命、社群現況，以及對未來新篇章的展望。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>下午 1:40 – 2:00 &nbsp;·&nbsp; 20 分鐘</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/austin_.png" alt="華士頓 Austin Hua" />
+    <div class="speaker-name">
+      <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">華士頓 Austin Hua</a>
+    </div>
+    <div class="speaker-affiliation">SQAI 創辦人 暨 臺大量子應用社聯合創辦人<br>國立臺灣大學</div>
+    <div class="talk-title">開幕致詞 暨 臺大量子應用社介紹</div>
+    <div class="talk-desc">歡迎詞與 SQAI 2026 簡介，以及與趙嫺共同介紹臺大量子應用社。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>上午 9:30 – 9:40 &nbsp;·&nbsp; 下午 1:40 – 2:00</div>
   </div>
 
 </div>
@@ -328,7 +337,7 @@ title: 議程
       <td class="time-col">下午 1:40 – 2:00</td>
       <td class="title-col">
         <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />臺大量子應用社介紹（Introduction to NTUQC）
-        <span class="subtitle">華士頓 Austin Hua 及 待定共同主持人</span>
+        <span class="subtitle">華士頓 Austin Hua &amp; 趙嫺（創社社長）</span>
       </td>
       <td class="dur-col">20 分鐘</td>
     </tr>

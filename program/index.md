@@ -184,17 +184,6 @@ title: Program
 <div class="speaker-grid">
 
   <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/austin_.png" alt="Austin Hua" />
-    <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">Austin Hua</a>
-    </div>
-    <div class="speaker-affiliation">Event Host<br>Ultracompute Institute</div>
-    <div class="talk-title">Opening Remarks</div>
-    <div class="talk-desc">Welcome and introduction to SQAI 2026.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:40 AM &nbsp;·&nbsp; 10 min</div>
-  </div>
-
-  <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="Prof. Hsi-Sheng Goan" />
     <div class="speaker-name">
       <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Hsi-Sheng Goan</a>
@@ -221,7 +210,7 @@ title: Program
     <div class="speaker-name">
       <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener">Mark (Hao-Yuan) Chen</a>
     </div>
-    <div class="speaker-affiliation">AI Researcher<br>Engineering Leader</div>
+    <div class="speaker-affiliation">AI Researcher<br>Mindify AI Founder</div>
     <div class="talk-title">Building Practical AI Systems in the Age of Frontier Intelligence</div>
     <div class="talk-desc">From model training to real-world deployment — engineering scalable, reliable, and intelligent AI systems for the next wave of applications.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>11:20 AM – 12:00 PM &nbsp;·&nbsp; 40 min</div>
@@ -247,6 +236,26 @@ title: Program
     <div class="talk-title">Talk Title TBD</div>
     <div class="talk-desc">A research presentation by one of Prof. Goan's graduate students.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>1:00 – 1:30 PM &nbsp;·&nbsp; 30 min</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/zhaoxian.jpg" alt="Zhao Xian" />
+    <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">Zhao Xian</a></div>
+    <div class="speaker-affiliation">Founding President<br>NTU Quantum Club (NTUQC)<br>National Taiwan University</div>
+    <div class="talk-title">Introduction to NTUQC</div>
+    <div class="talk-desc">An introduction to the NTU Quantum Club — its mission, community, and vision for the next chapter, presented alongside Austin Hua.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>1:40 – 2:00 PM &nbsp;·&nbsp; 20 min</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/austin_.png" alt="Austin Hua" />
+    <div class="speaker-name">
+      <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">Austin Hua</a>
+    </div>
+    <div class="speaker-affiliation">SQAI Founder &amp; NTUQC Co-Founder<br>National Taiwan University</div>
+    <div class="talk-title">Opening Remarks &amp; Introduction to NTUQC</div>
+    <div class="talk-desc">Welcome and introduction to SQAI 2026, followed by a co-presentation introducing the NTU Quantum Club.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:40 AM &nbsp;·&nbsp; 1:40 – 2:00 PM</div>
   </div>
 
 </div>
@@ -329,7 +338,7 @@ title: Program
       <td class="time-col">1:40 – 2:00 PM</td>
       <td class="title-col">
         <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />Introduction to NTUQC
-        <span class="subtitle">Austin Hua &amp; TBD co-presenter</span>
+        <span class="subtitle">Austin Hua &amp; Zhao Xian 趙嫺 (Founding President, NTUQC)</span>
       </td>
       <td class="dur-col">20 min</td>
     </tr>
