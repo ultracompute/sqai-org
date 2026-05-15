@@ -34,17 +34,29 @@ SQAI 2026 為本峰會的**第三屆**。
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>聯絡方式</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>
 </table>
 
-<div style="margin: 1rem 0 1.5rem 0; border-radius: 10px; overflow: hidden;">
-  <iframe src="https://www.google.com/maps?q=次震宇宙館,國立臺灣大學&output=embed" width="100%" height="260" style="border:0; display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="臺大次震宇宙館"></iframe>
-</div>
-
-<div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin:1.5rem 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
+<div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin:1rem 0 1.5rem 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
   <div>
     <strong style="color:#2dd4bf;">立即報名參加 SQAI 2026</strong>
     <span style="color:#94a3b8; font-size:0.9rem; display:block;">線上參與免費。現場名額有限。</span>
   </div>
   <a href="https://forms.gle/VDxKKkNtufDJLS7D7" target="_blank" rel="noopener" style="background:#0d9488; color:#fff; border-radius:6px; font-weight:600; padding:0.5rem 1.5rem; text-decoration:none; white-space:nowrap;">立即報名 →</a>
 </div>
+
+<div style="margin: 0 0 1.5rem 0; border-radius: 10px; overflow: hidden;">
+  <iframe src="https://www.google.com/maps?q=次震宇宙館,國立臺灣大學&output=embed" width="100%" height="260" style="border:0; display:block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="臺大次震宇宙館"></iframe>
+</div>
+
+<div style="display:flex; gap:0.75rem; margin: 0 0 0.5rem 0;">
+  <div style="flex:0 0 auto;">
+    <a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_20240715.jpg" target="_blank" rel="noopener" style="display:block;"><img src="/assets/images/cosmology1.jpg" alt="臺大次震宇宙館" style="height:380px; width:auto; border-radius:8px; display:block;" /></a>
+    <p style="color:#64748b; font-size:0.75rem; margin:0.3rem 0 0 0;"><a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_20240715.jpg" target="_blank" rel="noopener" style="color:#64748b;">從校園拍攝</a></p>
+  </div>
+  <div style="flex:1; min-width:0;">
+    <a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="display:block;"><img src="/assets/images/cosmology2.jpg" alt="臺大次震宇宙館" style="width:100%; height:380px; object-fit:cover; border-radius:8px; display:block;" /></a>
+    <p style="color:#64748b; font-size:0.75rem; margin:0.3rem 0 0 0;"><a href="https://zh.wikipedia.org/wiki/%E6%A2%81%E6%AC%A1%E9%9C%87%E5%AE%87%E5%AE%99%E5%AD%B8%E8%88%87%E7%B2%92%E5%AD%90%E5%A4%A9%E6%96%87%E7%89%A9%E7%90%86%E5%AD%B8%E7%A0%94%E7%A9%B6%E4%B8%AD%E5%BF%83#/media/File:NTU_Chee-Chun_Hall_and_New_Physics_Building.jpg" target="_blank" rel="noopener" style="color:#64748b;">從辛亥路二段與復興南路二段路口拍攝</a></p>
+  </div>
+</div>
+<p style="color:#94a3b8; font-size:0.85rem; margin:0.75rem 0 1.5rem 0;">國立臺灣大學次震宇宙館 — SQAI 2026 活動場地</p>
 
 ---
 
