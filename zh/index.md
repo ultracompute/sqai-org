@@ -23,20 +23,20 @@ SQAI 2026 為本峰會的**第三屆**。
 
 ## 2026 年 8 月 10 日
 
-<br>**免費線上參與。提供現場出席。**
+<br>**全程免費。提供現場出席與線上參與。**
 
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>日期</strong></td><td style="padding: 0.3rem 0;">2026 年 8 月 10 日</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>時間</strong></td><td style="padding: 0.3rem 0;">9:30 – 13:30（台灣時間，UTC+8）</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>地點</strong></td><td style="padding: 0.3rem 0;">臺大次震宇宙館4F演講廳</td></tr>
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>形式</strong></td><td style="padding: 0.3rem 0;">混合形式 — 線上（免費）+ 現場出席</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>形式</strong></td><td style="padding: 0.3rem 0;">混合形式 — 現場出席與線上參與</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>聯絡方式</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>
 </table>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin:1rem 0 1.5rem 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
   <div>
     <strong style="color:#2dd4bf;">立即報名參加 SQAI 2026</strong>
-    <span style="color:#94a3b8; font-size:0.9rem; display:block;">線上參與免費。現場名額有限。</span>
+    <span style="color:#94a3b8; font-size:0.9rem; display:block;">現場與線上參與均完全免費。現場名額有限。</span>
   </div>
   <a href="https://forms.gle/VDxKKkNtufDJLS7D7" target="_blank" rel="noopener" style="background:#0d9488; color:#fff; border-radius:6px; font-weight:600; padding:0.5rem 1.5rem; text-decoration:none; white-space:nowrap;">立即報名 →</a>
 </div>

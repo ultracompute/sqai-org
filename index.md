@@ -22,20 +22,20 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
 
 ## August 10, 2026
 
-<br>**Free online access. In-person attendance available.**
+<br>**Free for everyone. In-person and online.**
 
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Date</strong></td><td style="padding: 0.3rem 0;">August 10, 2026</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Time</strong></td><td style="padding: 0.3rem 0;">9:30 – 13:30 (Taiwan Time, UTC+8)</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Location</strong></td><td style="padding: 0.3rem 0;">NCTS Physics Lecture Hall, 4F, Chee-Chun Leung Cosmology Hall, NTU</td></tr>
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Format</strong></td><td style="padding: 0.3rem 0;">Hybrid — online (free) + in-person</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Format</strong></td><td style="padding: 0.3rem 0;">Hybrid — In-person and online</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Contact</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>
 </table>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin:1rem 0 1.5rem 0; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
   <div>
     <strong style="color:#2dd4bf;">Register for SQAI 2026</strong>
-    <span style="color:#94a3b8; font-size:0.9rem; display:block;">Free online access. In-person seats are limited.</span>
+    <span style="color:#94a3b8; font-size:0.9rem; display:block;">Entirely free for all attendees — online and in-person. In-person seats are limited.</span>
   </div>
   <a href="https://forms.gle/VDxKKkNtufDJLS7D7" target="_blank" rel="noopener" style="background:#0d9488; color:#fff; border-radius:6px; font-weight:600; padding:0.5rem 1.5rem; text-decoration:none; white-space:nowrap;">Register Now →</a>
 </div>
