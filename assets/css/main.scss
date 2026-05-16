@@ -3,6 +3,11 @@
 
 /* SQAI 2026 — custom overrides */
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 :root {
   --bs-primary: #5b21b6;
   --bs-primary-rgb: 91, 33, 182;
