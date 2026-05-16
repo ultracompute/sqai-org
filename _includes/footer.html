@@ -14,5 +14,24 @@
   <script type="module" src="{{ site.baseurl }}/assets/js/conference.bundle.js?t={{ site.time | date: '%s' }}" data-baseurl="{{ site.baseurl }}"></script>
   <script type="module" src="{{ site.baseurl }}/assets/js/main.js?t={{ site.time | date: '%s' }}"></script>
 
+  <script>
+    function sqaiToggleTheme() {
+      const current = document.documentElement.getAttribute('data-bs-theme') || 'dark';
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('sqai-theme', next);
+      sqaiSyncIcon(next);
+    }
+
+    function sqaiSyncIcon(theme) {
+      const icon = document.getElementById('theme-icon');
+      if (!icon) return;
+      icon.className = theme === 'dark' ? 'bi bi-moon-fill' : 'bi bi-sun-fill';
+    }
+
+    // Sync icon on load
+    sqaiSyncIcon(localStorage.getItem('sqai-theme') || 'dark');
+  </script>
+
 </body>
 </html>

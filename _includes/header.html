@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <script>
-    // Apply dark mode immediately based on system preference to prevent flash
+    // Default to dark; respect saved preference to prevent flash
     (function() {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      document.documentElement.setAttribute('data-bs-theme', prefersDark ? 'dark' : 'light');
+      const theme = localStorage.getItem('sqai-theme') || 'dark';
+      document.documentElement.setAttribute('data-bs-theme', theme);
     })();
 
     {%- if site.conference.pwa and site.conference.pwa.enable %}

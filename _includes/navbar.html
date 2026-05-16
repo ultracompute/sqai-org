@@ -101,6 +101,10 @@
       </ul>
     </div>
 
+    <button id="theme-toggle" onclick="sqaiToggleTheme()" aria-label="Toggle light/dark mode" style="background:none; border:none; cursor:pointer; color:#94a3b8; font-size:1.2rem; padding:0.25rem 0.5rem; margin-left:0.5rem; line-height:1;">
+      <i id="theme-icon" class="bi bi-moon-fill"></i>
+    </button>
+
     {%- if site.conference.navigation.logo %}
       <div class="navbar-brand navbar-logo order-3 ms-2 me-0 text-end overflow-hidden">
         <a href="{{ site.conference.navigation.logo.url }}">
