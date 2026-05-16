@@ -9,11 +9,11 @@
 
     {% if is_zh %}
       <a class="navbar-brand order-0" href="{{ site.baseurl }}/zh/">
-        <img src="{{ site.baseurl }}/assets/images/sqai-logo.png" alt="SQAI" style="height:44px; width:auto; vertical-align:middle; margin-right:10px;" />{{ site.title }}
+        <img src="{{ site.baseurl }}/assets/images/sqai-logo.png" alt="SQAI" style="height:44px; width:auto; vertical-align:middle; margin-right:10px;" /><span class="d-none d-md-inline">{{ site.title }}</span>
       </a>
     {% else %}
       <a class="navbar-brand order-0" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/assets/images/sqai-logo.png" alt="SQAI" style="height:44px; width:auto; vertical-align:middle; margin-right:10px;" />{{ site.title }}
+        <img src="{{ site.baseurl }}/assets/images/sqai-logo.png" alt="SQAI" style="height:44px; width:auto; vertical-align:middle; margin-right:10px;" /><span class="d-none d-md-inline">{{ site.title }}</span>
       </a>
     {% endif %}
 
