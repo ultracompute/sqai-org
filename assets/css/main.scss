@@ -3,9 +3,8 @@
 
 /* SQAI 2026 — custom overrides */
 
-html, body {
-  overflow-x: hidden;
-  max-width: 100%;
+body {
+  overflow-x: clip;
 }
 
 @media (max-width: 767.98px) {
