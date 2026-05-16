@@ -239,9 +239,9 @@ title: Program
     <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="Prof. Chi-Chuan Hwang" />
     <div class="speaker-name">Prof. Chi-Chuan Hwang</div>
     <div class="speaker-affiliation">Professor<br>Engineering Science<br>National Cheng Kung University (NCKU)</div>
-    <div class="talk-title">Construction of Maximally Entangled Basis Vectors for N Qubits</div>
+    <div class="talk-title">Construction of Maximally Entangled Basis for N Qubits</div>
     <div class="talk-desc">A mathematical framework for constructing basis vectors that achieve maximum entanglement across N-qubit quantum systems.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:00 – 1:30 PM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>1:00 – 1:45 PM &nbsp;·&nbsp; 45 min</div>
   </div>
 
   <div class="speaker-card">
@@ -252,7 +252,7 @@ title: Program
     <div class="speaker-affiliation">To be announced</div>
     <div class="talk-title">Talk Title TBD</div>
     <div class="talk-desc">To be announced.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:30 – 2:00 PM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>1:45 – 2:35 PM &nbsp;·&nbsp; 45 min</div>
   </div>
 
   <div class="speaker-card">
@@ -263,7 +263,18 @@ title: Program
     <div class="speaker-affiliation">To be announced</div>
     <div class="talk-title">Talk Title TBD</div>
     <div class="talk-desc">To be announced.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>2:00 – 2:30 PM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>2:50 – 3:20 PM &nbsp;·&nbsp; 25 min + Q&amp;A</div>
+  </div>
+
+  <div class="speaker-card">
+    <div style="width:90px; height:90px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
+      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
+    </div>
+    <div class="speaker-name">Speaker TBD</div>
+    <div class="speaker-affiliation">To be announced</div>
+    <div class="talk-title">Talk Title TBD</div>
+    <div class="talk-desc">To be announced.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>3:20 – 3:50 PM &nbsp;·&nbsp; 25 min + Q&amp;A</div>
   </div>
 
   <div class="speaker-card">
@@ -272,7 +283,7 @@ title: Program
     <div class="speaker-affiliation">Founding President<br>NTU Quantum Club (NTUQC)<br>National Taiwan University</div>
     <div class="talk-title">Introduction to NTUQC</div>
     <div class="talk-desc">An introduction to the NTU Quantum Club — its mission, community, and vision for the next chapter, presented alongside Austin Hua.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>2:40 – 3:00 PM &nbsp;·&nbsp; 20 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>3:50 – 4:20 PM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -283,7 +294,7 @@ title: Program
     <div class="speaker-affiliation">SQAI Founder &amp; NTUQC Co-Founder<br>National Taiwan University</div>
     <div class="talk-title">Opening Remarks &amp; Introduction to NTUQC</div>
     <div class="talk-desc">Welcome and introduction to SQAI 2026, followed by a co-presentation introducing the NTU Quantum Club.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:40 AM &nbsp;·&nbsp; 2:40 – 3:00 PM</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:40 AM &nbsp;·&nbsp; 3:50 – 4:20 PM</div>
   </div>
 
 </div>
@@ -357,49 +368,57 @@ title: Program
       <td class="dur-col">60 min</td>
     </tr>
     <tr>
-      <td class="time-col">1:00 – 1:30 PM</td>
+      <td class="time-col">1:00 – 1:45 PM</td>
       <td class="title-col">
         <a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Chi-Chuan Hwang</a>
-        <span class="subtitle">Construction of Maximally Entangled Basis Vectors for N Qubits</span>
+        <span class="subtitle">Construction of Maximally Entangled Basis for N Qubits</span>
       </td>
-      <td class="dur-col">25 min + Q&amp;A</td>
+      <td class="dur-col">40 min + Q&amp;A</td>
     </tr>
     <tr>
-      <td class="time-col">1:30 – 2:00 PM</td>
+      <td class="time-col">1:45 – 2:35 PM</td>
       <td class="title-col">
         Speaker TBD
         <span class="subtitle">To be announced</span>
       </td>
-      <td class="dur-col">25 min + Q&amp;A</td>
-    </tr>
-    <tr>
-      <td class="time-col">2:00 – 2:30 PM</td>
-      <td class="title-col">
-        Speaker TBD
-        <span class="subtitle">To be announced</span>
-      </td>
-      <td class="dur-col">25 min + Q&amp;A</td>
+      <td class="dur-col">45 min + Q&amp;A</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">2:30 – 2:40 PM</td>
-      <td class="title-col">Tea / Coffee / Snack Break</td>
-      <td class="dur-col">10 min</td>
+      <td class="time-col">2:35 – 2:50 PM</td>
+      <td class="title-col">Refreshments Break</td>
+      <td class="dur-col">15 min</td>
     </tr>
     <tr>
-      <td class="time-col">2:40 – 3:00 PM</td>
+      <td class="time-col">2:50 – 3:20 PM</td>
+      <td class="title-col">
+        Speaker TBD
+        <span class="subtitle">To be announced</span>
+      </td>
+      <td class="dur-col">25 min + Q&amp;A</td>
+    </tr>
+    <tr>
+      <td class="time-col">3:20 – 3:50 PM</td>
+      <td class="title-col">
+        Speaker TBD
+        <span class="subtitle">To be announced</span>
+      </td>
+      <td class="dur-col">25 min + Q&amp;A</td>
+    </tr>
+    <tr>
+      <td class="time-col">3:50 – 4:20 PM</td>
       <td class="title-col">
         <a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener" style="color:#818cf8;">Chao Hsien</a> &amp; <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">Austin Hua</a>
         <span class="subtitle"><img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:14px; width:auto; vertical-align:middle; margin-right:5px;" />Introduction to NTUQC</span>
       </td>
-      <td class="dur-col">20 min</td>
+      <td class="dur-col">30 min</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">3:00 – 4:00 PM</td>
+      <td class="time-col">4:20 – 5:00 PM</td>
       <td class="title-col">
         <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />NTUQC Networking Mixer
         <span class="subtitle">臺大量子應用社交流會 &nbsp;·&nbsp; Refreshments provided &nbsp;·&nbsp; We are looking for our next staff team — especially President &amp; Vice President!</span>
       </td>
-      <td class="dur-col">60 min</td>
+      <td class="dur-col">40 min</td>
     </tr>
   </tbody>
 </table>
