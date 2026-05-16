@@ -71,6 +71,8 @@ conference:
         btn: true
     logo:
       name: Ultracompute Institute
+      img: "uci_sqai.png"
+      img_dark: "uci_sqai.png"
       url: "https://sqi.tw"
 
   meta:
