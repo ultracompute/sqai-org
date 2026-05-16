@@ -6,10 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <script>
-    // Default to dark; respect saved preference to prevent flash
     (function() {
       const theme = localStorage.getItem('sqai-theme') || 'dark';
       document.documentElement.setAttribute('data-bs-theme', theme);
+
+      // Lock the theme against any external script (e.g. conference bundle) overriding it.
+      // sqaiSetTheme() saves to localStorage first, so the observer will always
+      // see the correct saved value and allow intentional user changes through.
+      new MutationObserver(function() {
+        const saved = localStorage.getItem('sqai-theme') || 'dark';
+        if (document.documentElement.getAttribute('data-bs-theme') !== saved) {
+          document.documentElement.setAttribute('data-bs-theme', saved);
+        }
+      }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-bs-theme'] });
     })();
 
     {%- if site.conference.pwa and site.conference.pwa.enable %}

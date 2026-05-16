@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "SQAI 2026"
+title: "Summit on Quantum AI"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"

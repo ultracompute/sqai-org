@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "SQAI 2026"
+title: "量子 AI 峰會"
 description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 10 日。由極致計算研究所主辦。<br>免費線上參與。提供現場出席。"
 header:
   img: "sqai-logo.png"
