@@ -8,6 +8,13 @@ html, body {
   max-width: 100%;
 }
 
+@media (max-width: 767.98px) {
+  #main.container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 :root {
   --bs-primary: #5b21b6;
   --bs-primary-rgb: 91, 33, 182;
