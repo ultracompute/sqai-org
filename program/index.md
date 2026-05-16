@@ -143,9 +143,9 @@ title: Program
 }
 </style>
 
-<div style="background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.4); border-radius: 8px; padding: 0.9rem 1.25rem; margin-bottom: 1rem; display: flex; gap: 0.75rem; align-items: flex-start;">
-  <i class="bi bi-exclamation-triangle-fill" style="color:#fbbf24; font-size:1.1rem; flex-shrink:0; margin-top:0.1rem;"></i>
-  <span style="color:#fde68a; font-size:0.9rem;"><strong>Provisional information.</strong> Event details shown on this page — including speakers, schedule, and format — are subject to change. We are still confirming final arrangements.</span>
+<div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:0.9rem 1.25rem; margin-bottom:1rem; display:flex; gap:0.75rem; align-items:flex-start;">
+  <i class="bi bi-exclamation-triangle-fill" style="color:#2dd4bf; font-size:1.1rem; flex-shrink:0; margin-top:0.1rem;"></i>
+  <span style="color:#2dd4bf; font-size:0.9rem;"><strong>Provisional information.</strong> Event details shown on this page — including speakers, schedule, and format — are subject to change. We are still confirming final arrangements.</span>
 </div>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:1rem 1.5rem; margin-bottom:1.75rem; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem;">
