@@ -27,7 +27,7 @@ SQAI 2026 為本峰會的**第三屆**。
 
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>日期</strong></td><td style="padding: 0.3rem 0;">2026 年 8 月 10 日</td></tr>
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>時間</strong></td><td style="padding: 0.3rem 0;">9:30 – 13:30（台灣時間，UTC+8）</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>時間</strong></td><td style="padding: 0.3rem 0;">9:30 – 16:00（台灣時間，UTC+8）</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>地點</strong></td><td style="padding: 0.3rem 0;">臺大次震宇宙館4F演講廳</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>形式</strong></td><td style="padding: 0.3rem 0;">混合形式 — 現場出席與線上參與</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>聯絡方式</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>
