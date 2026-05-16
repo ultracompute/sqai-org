@@ -15,22 +15,26 @@
   <script type="module" src="{{ site.baseurl }}/assets/js/main.js?t={{ site.time | date: '%s' }}"></script>
 
   <script>
-    function sqaiToggleTheme() {
-      const current = document.documentElement.getAttribute('data-bs-theme') || 'dark';
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-bs-theme', next);
-      localStorage.setItem('sqai-theme', next);
-      sqaiSyncIcon(next);
+    function sqaiSetTheme(theme) {
+      document.documentElement.setAttribute('data-bs-theme', theme);
+      localStorage.setItem('sqai-theme', theme);
+      sqaiSyncButtons(theme);
     }
 
-    function sqaiSyncIcon(theme) {
-      const icon = document.getElementById('theme-icon');
-      if (!icon) return;
-      icon.className = theme === 'dark' ? 'bi bi-moon-fill' : 'bi bi-sun-fill';
+    function sqaiSyncButtons(theme) {
+      const light = document.getElementById('theme-btn-light');
+      const dark  = document.getElementById('theme-btn-dark');
+      if (!light || !dark) return;
+      if (theme === 'dark') {
+        dark.style.background  = '#0d9488'; dark.style.color  = '#fff';
+        light.style.background = 'transparent'; light.style.color = '#94a3b8';
+      } else {
+        light.style.background = '#0d9488'; light.style.color = '#fff';
+        dark.style.background  = 'transparent'; dark.style.color  = '#94a3b8';
+      }
     }
 
-    // Sync icon on load
-    sqaiSyncIcon(localStorage.getItem('sqai-theme') || 'dark');
+    sqaiSyncButtons(localStorage.getItem('sqai-theme') || 'dark');
   </script>
 
 </body>

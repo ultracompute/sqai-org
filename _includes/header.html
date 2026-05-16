@@ -53,7 +53,11 @@
   </a>
   <header>
     <!-- language switcher bar -->
-    <div style="background:#1e1b4b; text-align:right; padding:6px 20px;">
+    <div style="background:#1e1b4b; text-align:right; padding:6px 20px; display:flex; justify-content:flex-end; align-items:center; gap:0.5rem;">
+      <span id="theme-switcher" style="display:inline-flex; border-radius:6px; overflow:hidden; border:1px solid rgba(129,140,248,0.4);">
+        <button onclick="sqaiSetTheme('light')" id="theme-btn-light" style="padding:4px 10px; font-size:0.8rem; font-weight:600; border:none; cursor:pointer; background:transparent; color:#94a3b8;"><i class="bi bi-sun-fill"></i> Light</button>
+        <button onclick="sqaiSetTheme('dark')"  id="theme-btn-dark"  style="padding:4px 10px; font-size:0.8rem; font-weight:600; border:none; cursor:pointer; background:#0d9488; color:#fff;"><i class="bi bi-moon-stars-fill"></i> Dark</button>
+      </span>
       {% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
         <span style="display:inline-flex; border-radius:6px; overflow:hidden; border:1px solid rgba(129,140,248,0.4);">
           <a href="{{ page.url | remove: '/zh' | prepend: site.baseurl }}" style="display:inline-block; padding:4px 14px; font-size:0.85rem; font-weight:600; color:#94a3b8; background:transparent; text-decoration:none;">EN</a>
