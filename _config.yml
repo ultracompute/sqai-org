@@ -2,7 +2,7 @@ title: "SQAI 2026"
 preposition: "at"
 description: >-
   3rd International Summit on Quantum Artificial Intelligence — August 10, 2026.
-  Hosted by the Ultracompute Institute.<br>Free for all who register (in-person + online).
+  Hosted by ULTRACOMPUTE.<br>Free for all who register (in-person + online).
 
 baseurl: ""
 url: "https://sqai.org"
@@ -70,10 +70,10 @@ conference:
         absolute_url: "https://forms.gle/VDxKKkNtufDJLS7D7"
         btn: true
     logo:
-      name: Ultracompute Institute
+      name: ULTRACOMPUTE
       img: "uci_sqai.png"
       img_dark: "uci_sqai.png"
-      url: "https://sqi.tw"
+      url: "https://ultracompute.com"
 
   meta:
     schema_org:
@@ -81,8 +81,8 @@ conference:
       event_status: "scheduled"
       event_attendance_mode: "mixed"
       organizer:
-        name: "Ultracompute Institute"
-        url: "https://sqi.tw"
+        name: "ULTRACOMPUTE"
+        url: "https://ultracompute.com"
       has_participation_offer:
         url: "https://forms.gle/VDxKKkNtufDJLS7D7"
       tickets:

@@ -75,8 +75,8 @@ SQAI 2026 匯集 7 位以上量子 AI 前沿的世界級受邀演講者。
 <div class="mt-3">
 
 <div class="org-row mb-4">
-  <a href="https://sqi.tw" target="_blank" rel="noopener" class="org-logo"><img src="/assets/images/uci_sqai.png" alt="極致計算研究所" style="height: 72px; width: auto;" /></a>
-  <p class="mb-0"><a href="https://sqi.tw">極致計算研究所</a>（UCI）是一家位於美國華盛頓特區的非營利組織，致力於推動量子軟體研究，並努力打造全球首台用於人工極致智慧（AUI）的極致計算機。UCI 的創辦人 Austin Hua 於 2021 年創立了 SQAI，使其成為全球首個專注於量子 AI 的學術會議。<em style="font-size:0.9em; color:#64748b;">（UCI 對量子計算的長遠未來抱持高度樂觀的態度——此觀點不一定代表所有參與本會議的演講者、贊助商或合作夥伴的立場。）</em></p>
+  <a href="https://ultracompute.com" target="_blank" rel="noopener" class="org-logo"><img src="/assets/images/uci_sqai.png" alt="極致計算研究所" style="height: 72px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://ultracompute.com">極致計算研究所</a>（UCI）是一家位於美國華盛頓特區的非營利組織，致力於推動量子軟體研究，並努力打造全球首台用於人工極致智慧（AUI）的極致計算機。UCI 的創辦人 Austin Hua 於 2021 年創立了 SQAI，使其成為全球首個專注於量子 AI 的學術會議。<em style="font-size:0.9em; color:#64748b;">（UCI 對量子計算的長遠未來抱持高度樂觀的態度——此觀點不一定代表所有參與本會議的演講者、贊助商或合作夥伴的立場。）</em></p>
 </div>
 
 <div class="org-row mb-4">
