@@ -26,7 +26,7 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
 
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Date</strong></td><td style="padding: 0.3rem 0;">August 10, 2026</td></tr>
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Time</strong></td><td style="padding: 0.3rem 0;">9:30 – 17:00 (Taiwan Time, UTC+8)</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Time</strong></td><td style="padding: 0.3rem 0;">9:00 – 17:00 (Taiwan Time, UTC+8)</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Location</strong></td><td style="padding: 0.3rem 0;">NCTS Physics Lecture Hall, 4F, Chee-Chun Leung Cosmology Hall, NTU</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Format</strong></td><td style="padding: 0.3rem 0;">Hybrid — In-person and online</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>Contact</strong></td><td style="padding: 0.3rem 0;"><a href="mailto:info@sqai.org">info@sqai.org</a></td></tr>

@@ -42,8 +42,8 @@ title: Program
   flex-direction: column;
 }
 .speaker-card img {
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   object-fit: cover;
   margin: 0 auto 1rem;
@@ -182,7 +182,7 @@ title: Program
   </div>
   <div class="highlight-item">
     <i class="bi bi-people"></i>
-    <span>NTUQC Networking Mixer<br>3:00 – 4:00 PM</span>
+    <span>NTUQC Networking Mixer<br>4:20 – 5:00 PM</span>
   </div>
 </div>
 
@@ -199,7 +199,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Physics<br>National Taiwan University</div>
     <div class="talk-title">TBD</div>
     <div class="talk-desc">TBD</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:40 – 10:30 AM &nbsp;·&nbsp; 50 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:50 – 10:40 AM &nbsp;·&nbsp; 50 min</div>
   </div>
 
   <div class="speaker-card">
@@ -210,7 +210,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
     <div class="talk-title">TBD</div>
     <div class="talk-desc">TBD</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>10:30 – 11:00 AM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>10:40 – 11:10 AM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -221,7 +221,7 @@ title: Program
     <div class="speaker-affiliation">Mindify AI Founder<br>Computer Science<br>University of London</div>
     <div class="talk-title">Toward Efficient Reinforcement Learning with Quantum Neural Network</div>
     <div class="talk-desc">An exploration of how quantum neural networks can be leveraged to make reinforcement learning more efficient.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>11:00 – 11:30 AM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>11:10 – 11:40 AM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -232,7 +232,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
     <div class="talk-title">TBD</div>
     <div class="talk-desc">TBD</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>11:30 AM – 12:00 PM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>11:40 AM – 12:10 PM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -241,40 +241,38 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Engineering Science<br>National Cheng Kung University (NCKU)</div>
     <div class="talk-title">Construction of Maximally Entangled Basis for N Qubits</div>
     <div class="talk-desc">A mathematical framework for constructing basis vectors that achieve maximum entanglement across N-qubit quantum systems.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:00 – 1:45 PM &nbsp;·&nbsp; 45 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>1:10 – 1:55 PM &nbsp;·&nbsp; 45 min</div>
   </div>
 
   <div class="speaker-card">
-    <div style="width:90px; height:90px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
+    <img src="{{ site.baseurl }}/assets/images/members/lin-circle.png" alt="Prof. Chia-Hsiang Lin" />
+    <div class="speaker-name">Prof. Chia-Hsiang Lin</div>
+    <div class="speaker-affiliation">Professor<br>Electrical Engineering<br>National Cheng Kung University (NCKU)</div>
+    <div class="talk-title">Hybrid Quantum-Classical AI For Satellite Remote Sensing</div>
+    <div class="talk-desc">For the upcoming space exploration era, advanced AI feature extraction/learning becomes increasingly critical for satellite data understanding. Quantum deep network (QUEEN) offers counterpart feature information to be fused with classical ones for better decision-making. Module design philosophy and applications to remote sensing and bioinformatics will be presented.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>1:55 – 2:35 PM &nbsp;·&nbsp; 40 min</div>
+  </div>
+
+  <div class="speaker-card">
+    <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
       <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
     </div>
     <div class="speaker-name">Speaker TBD</div>
     <div class="speaker-affiliation">To be announced</div>
     <div class="talk-title">Talk Title TBD</div>
     <div class="talk-desc">To be announced.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:45 – 2:35 PM &nbsp;·&nbsp; 45 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>2:50 – 3:20 PM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
-    <div style="width:90px; height:90px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
+    <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
       <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
     </div>
     <div class="speaker-name">Speaker TBD</div>
     <div class="speaker-affiliation">To be announced</div>
     <div class="talk-title">Talk Title TBD</div>
     <div class="talk-desc">To be announced.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>2:50 – 3:20 PM &nbsp;·&nbsp; 25 min + Q&amp;A</div>
-  </div>
-
-  <div class="speaker-card">
-    <div style="width:90px; height:90px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
-      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
-    </div>
-    <div class="speaker-name">Speaker TBD</div>
-    <div class="speaker-affiliation">To be announced</div>
-    <div class="talk-title">Talk Title TBD</div>
-    <div class="talk-desc">To be announced.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>3:20 – 3:50 PM &nbsp;·&nbsp; 25 min + Q&amp;A</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>3:20 – 3:50 PM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -292,9 +290,9 @@ title: Program
       <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">Austin Hua</a>
     </div>
     <div class="speaker-affiliation">SQAI Founder &amp; NTUQC Co-Founder<br>National Taiwan University</div>
-    <div class="talk-title">Opening Remarks &amp; Introduction to NTUQC</div>
-    <div class="talk-desc">Welcome and introduction to SQAI 2026, followed by a co-presentation introducing the NTU Quantum Club.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:40 AM &nbsp;·&nbsp; 3:50 – 4:20 PM</div>
+    <div class="talk-title">Opening Remarks &amp; Quantum Ultracomputing and Artificial Ultraintelligence (AUI): Toward a New Computational Frontier</div>
+    <div class="talk-desc">Welcome to SQAI 2026 and opening remarks, followed by a presentation of Austin's vision paper on quantum ultracomputing and the path to Artificial Ultraintelligence. Co-presents NTUQC introduction with Chao Hsien in the afternoon.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:50 AM &nbsp;·&nbsp; 3:50 – 4:20 PM</div>
   </div>
 
 </div>
@@ -320,15 +318,15 @@ title: Program
       <td class="dur-col">30 min</td>
     </tr>
     <tr>
-      <td class="time-col">9:30 – 9:40 AM</td>
+      <td class="time-col">9:30 – 9:50 AM</td>
       <td class="title-col">
         <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">Austin Hua</a>
-        <span class="subtitle">Opening Remarks</span>
+        <span class="subtitle">Opening Remarks &amp; Quantum Ultracomputing and AUI: Toward a New Computational Frontier</span>
       </td>
-      <td class="dur-col">10 min</td>
+      <td class="dur-col">20 min</td>
     </tr>
     <tr>
-      <td class="time-col">9:40 – 10:30 AM</td>
+      <td class="time-col">9:50 – 10:40 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Hsi-Sheng Goan</a>
         <span class="subtitle">TBD</span>
@@ -336,7 +334,7 @@ title: Program
       <td class="dur-col">45 min + Q&amp;A</td>
     </tr>
     <tr>
-      <td class="time-col">10:30 – 11:00 AM</td>
+      <td class="time-col">10:40 – 11:10 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=VbfABcUAAAAJ&hl=zh-TW" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Hao Hung</a> – TBD
         <span class="subtitle">TBD</span>
@@ -344,7 +342,7 @@ title: Program
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
     <tr>
-      <td class="time-col">11:00 – 11:30 AM</td>
+      <td class="time-col">11:10 – 11:40 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">Mark (Hao-Yuan) Chen</a>
         <span class="subtitle">Toward Efficient Reinforcement Learning with Quantum Neural Network</span>
@@ -352,7 +350,7 @@ title: Program
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
     <tr>
-      <td class="time-col">11:30 AM – 12:00 PM</td>
+      <td class="time-col">11:40 AM – 12:10 PM</td>
       <td class="title-col">
         <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Wei Liao</a>
         <span class="subtitle">TBD</span>
@@ -360,7 +358,7 @@ title: Program
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">12:00 – 1:00 PM</td>
+      <td class="time-col">12:10 – 1:10 PM</td>
       <td class="title-col">
         Lunch Break
         <span class="subtitle">Free lunchboxes provided for registered attendees</span>
@@ -368,7 +366,7 @@ title: Program
       <td class="dur-col">60 min</td>
     </tr>
     <tr>
-      <td class="time-col">1:00 – 1:45 PM</td>
+      <td class="time-col">1:10 – 1:55 PM</td>
       <td class="title-col">
         <a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Chi-Chuan Hwang</a>
         <span class="subtitle">Construction of Maximally Entangled Basis for N Qubits</span>
@@ -376,12 +374,12 @@ title: Program
       <td class="dur-col">40 min + Q&amp;A</td>
     </tr>
     <tr>
-      <td class="time-col">1:45 – 2:35 PM</td>
+      <td class="time-col">1:55 – 2:35 PM</td>
       <td class="title-col">
-        Speaker TBD
-        <span class="subtitle">To be announced</span>
+        Prof. Chia-Hsiang Lin
+        <span class="subtitle">Hybrid Quantum-Classical AI For Satellite Remote Sensing</span>
       </td>
-      <td class="dur-col">45 min + Q&amp;A</td>
+      <td class="dur-col">35 min + Q&amp;A</td>
     </tr>
     <tr class="row-break">
       <td class="time-col">2:35 – 2:50 PM</td>
