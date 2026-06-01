@@ -203,13 +203,13 @@ title: Program
   </div>
 
   <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/shih-hao-hung.jpg" alt="Prof. Shih-Hao Hung" />
-    <div class="speaker-name">
-      <a href="https://scholar.google.com/citations?user=VbfABcUAAAAJ&hl=zh-TW" target="_blank" rel="noopener">Prof. Shih-Hao Hung</a> – TBD
+    <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
+      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
     </div>
-    <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
-    <div class="talk-title">TBD</div>
-    <div class="talk-desc">TBD</div>
+    <div class="speaker-name">Speaker TBD</div>
+    <div class="speaker-affiliation">To be announced</div>
+    <div class="talk-title">Talk Title TBD</div>
+    <div class="talk-desc">To be announced.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>10:40 – 11:10 AM &nbsp;·&nbsp; 30 min</div>
   </div>
 
@@ -336,8 +336,8 @@ title: Program
     <tr>
       <td class="time-col">10:40 – 11:10 AM</td>
       <td class="title-col">
-        <a href="https://scholar.google.com/citations?user=VbfABcUAAAAJ&hl=zh-TW" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Hao Hung</a> – TBD
-        <span class="subtitle">TBD</span>
+        Speaker TBD
+        <span class="subtitle">To be announced</span>
       </td>
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
