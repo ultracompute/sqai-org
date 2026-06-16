@@ -205,7 +205,7 @@ title: 議程
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="管希聖 教授" />
     <div class="speaker-name">
-      <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener">管希聖 教授</a>
+      <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener">管希聖 教授</a>
     </div>
     <div class="speaker-affiliation">教授<br>國立臺灣大學<br>物理學系</div>
     <div class="talk-title">量子遞迴單元（QRU）：一種適用於 NISQ 裝置之高效且參數精簡的量子神經網路架構</div>
@@ -248,7 +248,7 @@ title: 議程
 
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="黃吉川 教授" />
-    <div class="speaker-name">黃吉川 教授</div>
+    <div class="speaker-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener">黃吉川 教授</a></div>
     <div class="speaker-affiliation">教授<br>工程科學系<br>國立成功大學（NCKU）</div>
     <div class="talk-title">N位元最大纽纏度之基向量的建構</div>
     <div class="talk-desc">建構 N 量子位元量子系統中達到最大糾纏度之基向量的數學方法。</div>
@@ -257,7 +257,7 @@ title: 議程
 
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/lin-circle.png" alt="林家祥 教授" />
-    <div class="speaker-name">林家祥 教授</div>
+    <div class="speaker-name"><a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener">林家祥 教授</a></div>
     <div class="speaker-affiliation">教授<br>電機工程學系<br>國立成功大學（NCKU）</div>
     <div class="talk-title">用於衛星遙測之混合式量子經典AI</div>
     <div class="talk-desc">面對即將到來的太空探索時代，先進的 AI 特徵提取與學習技術對衛星資料理解至關重要。量子深度網路（QUEEN）能與經典特徵融合，提升決策品質。本演講將介紹模組設計理念及其在遙測與生物資訊學等領域的多項應用。</div>
@@ -328,7 +328,7 @@ title: 議程
     <tr>
       <td class="time-col">上午 9:50 – 10:40</td>
       <td class="title-col">
-        <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">管希聖 教授</a>
+        <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener" style="color:#818cf8;">管希聖 教授</a>
         <span class="subtitle">量子遞迴單元（QRU）：一種適用於 NISQ 裝置之高效且參數精簡的量子神經網路架構</span>
       </td>
       <td class="dur-col">45 分鐘 + Q&amp;A</td>
@@ -376,7 +376,7 @@ title: 議程
     <tr>
       <td class="time-col">下午 1:55 – 2:35</td>
       <td class="title-col">
-        林家祥 教授
+        <a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener" style="color:#818cf8;">林家祥 教授</a>
         <span class="subtitle">用於衛星遙測之混合式量子經典AI</span>
       </td>
       <td class="dur-col">35 分鐘 + Q&amp;A</td>

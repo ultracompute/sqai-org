@@ -206,7 +206,7 @@ title: Program
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="Prof. Hsi-Sheng Goan" />
     <div class="speaker-name">
-      <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener">Prof. Hsi-Sheng Goan</a>
+      <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener">Prof. Hsi-Sheng Goan</a>
     </div>
     <div class="speaker-affiliation">Professor<br>Physics<br>National Taiwan University</div>
     <div class="talk-title">Quantum Recurrent Unit: An Effective and Parameter-Efficient Quantum Neural Network Architecture for NISQ Devices</div>
@@ -249,7 +249,7 @@ title: Program
 
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="Prof. Chi-Chuan Hwang" />
-    <div class="speaker-name">Prof. Chi-Chuan Hwang</div>
+    <div class="speaker-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener">Prof. Chi-Chuan Hwang</a></div>
     <div class="speaker-affiliation">Professor<br>Engineering Science<br>National Cheng Kung University (NCKU)</div>
     <div class="talk-title">Construction of Maximally Entangled Basis for N Qubits</div>
     <div class="talk-desc">A mathematical framework for constructing basis vectors that achieve maximum entanglement across N-qubit quantum systems.</div>
@@ -258,7 +258,7 @@ title: Program
 
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/lin-circle.png" alt="Prof. Chia-Hsiang Lin" />
-    <div class="speaker-name">Prof. Chia-Hsiang Lin</div>
+    <div class="speaker-name"><a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener">Prof. Chia-Hsiang Lin</a></div>
     <div class="speaker-affiliation">Professor<br>Electrical Engineering<br>National Cheng Kung University (NCKU)</div>
     <div class="talk-title">Hybrid Quantum-Classical AI For Satellite Remote Sensing</div>
     <div class="talk-desc">For the upcoming space exploration era, advanced AI feature extraction/learning becomes increasingly critical for satellite data understanding. Quantum deep network (QUEEN) offers counterpart feature information to be fused with classical ones for better decision-making. Module design philosophy and applications to remote sensing and bioinformatics will be presented.</div>
@@ -329,7 +329,7 @@ title: Program
     <tr>
       <td class="time-col">9:50 – 10:40 AM</td>
       <td class="title-col">
-        <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Hsi-Sheng Goan</a>
+        <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Hsi-Sheng Goan</a>
         <span class="subtitle">Quantum Recurrent Unit: An Effective and Parameter-Efficient Quantum Neural Network Architecture for NISQ Devices</span>
       </td>
       <td class="dur-col">45 min + Q&amp;A</td>
@@ -377,7 +377,7 @@ title: Program
     <tr>
       <td class="time-col">1:55 – 2:35 PM</td>
       <td class="title-col">
-        Prof. Chia-Hsiang Lin
+        <a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Chia-Hsiang Lin</a>
         <span class="subtitle">Hybrid Quantum-Classical AI For Satellite Remote Sensing</span>
       </td>
       <td class="dur-col">35 min + Q&amp;A</td>
