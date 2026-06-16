@@ -4,7 +4,7 @@ title: "Summit on Quantum AI"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
-banner: "sqai_web_banner_new.png"
+banner: "newest_banner.png"
 links:
   - name: Program
     relative_url: /program/

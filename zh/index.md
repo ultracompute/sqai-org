@@ -5,7 +5,7 @@ description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 7 日�
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
-banner: "sqai_web_banner.png"
+banner: "newest_banner.png"
 links:
   - name: 查看議程
     relative_url: /zh/program/
