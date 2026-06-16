@@ -140,6 +140,18 @@ title: 議程
   margin-bottom: 0.75rem;
   font-weight: 600;
 }
+.talk-desc-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #818cf8;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+.talk-desc-toggle:hover { text-decoration: underline; }
 </style>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:0.9rem 1.25rem; margin-bottom:1rem; display:flex; gap:0.75rem; align-items:flex-start;">
@@ -156,7 +168,7 @@ title: 議程
 </div>
 
 <div class="poster-wrap">
-  <img src="{{ site.baseurl }}/assets/images/sqai-2026-poster.png" alt="SQAI 2026 官方議程海報" />
+  <img src="{{ site.baseurl }}/assets/images/newest_poster.png" alt="SQAI 2026 官方議程海報" />
 </div>
 
 <div class="theme-box">
@@ -169,7 +181,7 @@ title: 議程
 <div class="highlights-grid">
   <div class="highlight-item">
     <i class="bi bi-calendar-event"></i>
-    <span>單日活動<br>2026 年 8 月 10 日</span>
+    <span>單日活動<br>2026 年 8 月 7 日</span>
   </div>
   <div class="highlight-item">
     <i class="bi bi-mic"></i>
@@ -196,18 +208,18 @@ title: 議程
       <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener">管希聖 教授</a>
     </div>
     <div class="speaker-affiliation">教授<br>國立臺灣大學<br>物理學系</div>
-    <div class="talk-title">TBD</div>
-    <div class="talk-desc">TBD</div>
+    <div class="talk-title">量子遞迴單元（QRU）：一種適用於 NISQ 裝置之高效且參數精簡的量子神經網路架構</div>
+    <div class="talk-desc">介紹量子遞迴單元（QRU）——一種受古典 GRU 啟發、專為 NISQ 裝置設計的量子神經網路，無論輸入序列長度為何皆可維持恆定的電路深度。多項基準測試驗證其效能：僅以 132 個參數即達到 98.05% 的 MNIST 辨識準確率，優於具有 27,265 個參數的卷積神經網路。</div>
     <div class="talk-time"><i class="bi bi-clock"></i>上午 9:50 – 10:40 &nbsp;·&nbsp; 50 分鐘</div>
   </div>
 
   <div class="speaker-card">
-    <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
-      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
+    <img src="{{ site.baseurl }}/assets/images/members/hyunchul.png" alt="Hyun Chul Jung" />
+    <div class="speaker-name">
+      <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener">Hyun Chul Jung</a>
     </div>
-    <div class="speaker-name">演講者（待定）</div>
-    <div class="speaker-affiliation">待公佈</div>
-    <div class="talk-title">演講題目待定</div>
+    <div class="speaker-affiliation">執行長<br>NORMA Inc.</div>
+    <div class="talk-title">TBD</div>
     <div class="talk-desc">待公佈。</div>
     <div class="talk-time"><i class="bi bi-clock"></i>上午 10:40 – 11:10 &nbsp;·&nbsp; 30 分鐘</div>
   </div>
@@ -253,14 +265,14 @@ title: 議程
   </div>
 
   <div class="speaker-card">
-    <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
-      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
+    <img src="{{ site.baseurl }}/assets/images/members/baek2.png" alt="Wonjun Baek" />
+    <div class="speaker-name">
+      <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener">Wonjun Baek</a>
     </div>
-    <div class="speaker-name">演講者（待定）</div>
-    <div class="speaker-affiliation">待公佈</div>
-    <div class="talk-title">演講題目待定</div>
+    <div class="speaker-affiliation">延世大學<br>MITx Physics</div>
+    <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
     <div class="talk-desc">待公佈。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>下午 2:50 – 3:20 &nbsp;·&nbsp; 30 分鐘</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 2:50 – 3:20</div>
   </div>
 
   <div class="speaker-card">
@@ -279,8 +291,8 @@ title: 議程
     </div>
     <div class="speaker-affiliation">SQAI 創辦人 暨 臺大量子應用社聯合創辦人<br>國立臺灣大學</div>
     <div class="talk-title">開幕致詞 暨 量子極致計算與人工極致智慧（AUI）：邁向全新計算前沿</div>
-    <div class="talk-desc">歡迎詞與 SQAI 2026 簡介，以及 Austin 的願景論文《量子極致計算與人工極致智慧（AUI）：邁向全新計算前沿》之報告。下午與趙嫺共同介紹臺大量子應用社。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>上午 9:30 – 9:50 &nbsp;·&nbsp; 下午 3:50 – 4:20</div>
+    <div class="talk-desc">歡迎詞與 SQAI 2026 簡介，以及 Austin 的願景論文《量子極致計算與人工極致智慧（AUI）：邁向全新計算前沿》之報告。亦於 NTUQC-SQAI 學生論壇中發表極致計算與 AUI 相關演講，並於下午與趙嫺共同介紹臺大量子應用社。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>上午 9:30 – 9:50 &nbsp;·&nbsp; 下午 3:20 – 3:50 &nbsp;·&nbsp; 下午 3:50 – 4:20</div>
   </div>
 
 </div>
@@ -317,15 +329,15 @@ title: 議程
       <td class="time-col">上午 9:50 – 10:40</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=4rFMPVAAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">管希聖 教授</a>
-        <span class="subtitle">TBD</span>
+        <span class="subtitle">量子遞迴單元（QRU）：一種適用於 NISQ 裝置之高效且參數精簡的量子神經網路架構</span>
       </td>
       <td class="dur-col">45 分鐘 + Q&amp;A</td>
     </tr>
     <tr>
       <td class="time-col">上午 10:40 – 11:10</td>
       <td class="title-col">
-        演講者（待定）
-        <span class="subtitle">待公佈</span>
+        <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener" style="color:#818cf8;">Hyun Chul Jung</a>
+        <span class="subtitle">TBD</span>
       </td>
       <td class="dur-col">25 分鐘 + Q&amp;A</td>
     </tr>
@@ -374,19 +386,22 @@ title: 議程
       <td class="title-col">茶點休息</td>
       <td class="dur-col">15 分鐘</td>
     </tr>
+    <tr class="row-break">
+      <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>NTUQC-SQAI 學生論壇（Student Panel）</td>
+    </tr>
     <tr>
       <td class="time-col">下午 2:50 – 3:20</td>
       <td class="title-col">
-        演講者（待定）
-        <span class="subtitle">待公佈</span>
+        <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener" style="color:#818cf8;">Wonjun Baek</a>
+        <span class="subtitle">Computing Analytical Gradients in VQA and QISCA Introduction</span>
       </td>
       <td class="dur-col">25 分鐘 + Q&amp;A</td>
     </tr>
     <tr>
       <td class="time-col">下午 3:20 – 3:50</td>
       <td class="title-col">
-        演講者（待定）
-        <span class="subtitle">待公佈</span>
+        <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">華士頓 Austin Hua</a>
+        <span class="subtitle">極致計算與人工極致智慧（Ultracompute and AUI）</span>
       </td>
       <td class="dur-col">25 分鐘 + Q&amp;A</td>
     </tr>
@@ -417,3 +432,30 @@ title: 議程
     <i class="bi bi-discord"></i> 加入 Discord
   </a>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var LIMIT = 150;
+  document.querySelectorAll('.talk-desc').forEach(function (el) {
+    var full = el.textContent.trim();
+    if (full.length <= LIMIT) return;
+    var short = full.slice(0, LIMIT).trimEnd() + '…';
+    el.textContent = short;
+    var btn = document.createElement('button');
+    btn.className = 'talk-desc-toggle';
+    btn.textContent = '顯示更多';
+    btn.addEventListener('click', function () {
+      if (btn.textContent === '顯示更多') {
+        el.textContent = full + ' ';
+        el.appendChild(btn);
+        btn.textContent = '顯示較少';
+      } else {
+        el.textContent = short + ' ';
+        el.appendChild(btn);
+        btn.textContent = '顯示更多';
+      }
+    });
+    el.appendChild(btn);
+  });
+});
+</script>
