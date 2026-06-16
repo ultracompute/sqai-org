@@ -141,6 +141,18 @@ title: Program
   margin-bottom: 0.75rem;
   font-weight: 600;
 }
+.talk-desc-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #818cf8;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 0.2rem;
+}
+.talk-desc-toggle:hover { text-decoration: underline; }
 </style>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:0.9rem 1.25rem; margin-bottom:1rem; display:flex; gap:0.75rem; align-items:flex-start;">
@@ -421,3 +433,30 @@ title: Program
     <i class="bi bi-discord"></i> Join our Discord
   </a>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var LIMIT = 150;
+  document.querySelectorAll('.talk-desc').forEach(function (el) {
+    var full = el.textContent.trim();
+    if (full.length <= LIMIT) return;
+    var short = full.slice(0, LIMIT).trimEnd() + '…';
+    el.textContent = short;
+    var btn = document.createElement('button');
+    btn.className = 'talk-desc-toggle';
+    btn.textContent = 'See more';
+    btn.addEventListener('click', function () {
+      if (btn.textContent === 'See more') {
+        el.textContent = full + ' ';
+        el.appendChild(btn);
+        btn.textContent = 'See less';
+      } else {
+        el.textContent = short + ' ';
+        el.appendChild(btn);
+        btn.textContent = 'See more';
+      }
+    });
+    el.appendChild(btn);
+  });
+});
+</script>
