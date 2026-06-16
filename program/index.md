@@ -203,10 +203,10 @@ title: Program
   </div>
 
   <div class="speaker-card">
-    <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
-      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
+    <img src="{{ site.baseurl }}/assets/images/members/hyunchul.png" alt="Hyun Chul Jung" />
+    <div class="speaker-name">
+      <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener">Hyun Chul Jung</a>
     </div>
-    <div class="speaker-name">Hyun Chul Jung</div>
     <div class="speaker-affiliation">CEO<br>NORMA Inc.</div>
     <div class="talk-title">TBD</div>
     <div class="talk-desc">To be announced.</div>
@@ -255,7 +255,9 @@ title: Program
 
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/baek2.png" alt="Wonjun Baek" />
-    <div class="speaker-name">Wonjun Baek</div>
+    <div class="speaker-name">
+      <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener">Wonjun Baek</a>
+    </div>
     <div class="speaker-affiliation">Yonsei University<br>MITx Physics</div>
     <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
     <div class="talk-desc">To be announced.</div>
