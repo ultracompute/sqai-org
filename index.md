@@ -55,7 +55,7 @@ SQAI 2026 is the **3rd edition** of this landmark summit.
 
 ## This Year's Program
 
-SQAI 2026 features an invited speaker series of 7+ world-class experts at the frontier of quantum AI.
+SQAI 2026 features an invited speaker series of 9+ world-class experts at the frontier of quantum AI.
 
 No call for papers — just deep, curated conversations. [View the full program →](/program/)
 
@@ -75,7 +75,7 @@ We plan to potentially release a **Call for Papers for SQAI 2027**, provisionall
 
 <div class="org-row mb-4">
   <a href="https://ultracompute.com" target="_blank" rel="noopener" class="org-logo"><img src="/assets/images/uci_sqai.png" alt="ULTRACOMPUTE" style="height: 72px; width: auto;" /></a>
-  <p class="mb-0"><a href="https://ultracompute.com" target="_blank" rel="noopener">ULTRACOMPUTE</a> (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and striving to build the world's first ultracomputer for Artificial Ultraintelligence (AUI). UCI's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI. <em style="font-size:0.9em; color:#64748b;">(UCI is deeply optimistic about the long-term future of quantum computing — views that may not reflect those of all speakers, sponsors, or collaborators involved with this conference.)</em></p>
+  <p class="mb-0"><a href="https://ultracompute.com" target="_blank" rel="noopener">ULTRACOMPUTE</a> (UCI) is a Washington, D.C. nonprofit organization dedicated to advancing quantum software research and striving to build the world's first ultracomputer for Artificial Ultraintelligence (AUI). Note: ULTRACOMPUTE is officially registered as <em>Quantum Intelligence Society</em> and is currently in the process of a name change. UCI's founder, Austin Hua, founded SQAI in 2021 as the world's first academic conference dedicated to quantum AI. <em style="font-size:0.9em; color:#64748b;">(UCI is deeply optimistic about the long-term future of quantum computing — views that may not reflect those of all speakers, sponsors, or collaborators involved with this conference.)</em></p>
 </div>
 
 <div class="org-row mb-4">

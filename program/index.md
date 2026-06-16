@@ -157,7 +157,7 @@ title: Program
 </div>
 
 <div class="poster-wrap">
-  <img src="{{ site.baseurl }}/assets/images/sqai-2026-poster.png" alt="SQAI 2026 Official Program Poster" />
+  <img src="{{ site.baseurl }}/assets/images/newest_poster.png" alt="SQAI 2026 Official Program Poster" />
 </div>
 
 <div class="theme-box">
@@ -170,7 +170,7 @@ title: Program
 <div class="highlights-grid">
   <div class="highlight-item">
     <i class="bi bi-calendar-event"></i>
-    <span>One-Day Event<br>Aug 10, 2026</span>
+    <span>One-Day Event<br>Aug 7, 2026</span>
   </div>
   <div class="highlight-item">
     <i class="bi bi-mic"></i>
@@ -206,9 +206,9 @@ title: Program
     <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
       <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
     </div>
-    <div class="speaker-name">Speaker TBD</div>
-    <div class="speaker-affiliation">To be announced</div>
-    <div class="talk-title">Talk Title TBD</div>
+    <div class="speaker-name">Hyun Chul Jung</div>
+    <div class="speaker-affiliation">CEO<br>NORMA Inc.</div>
+    <div class="talk-title">TBD</div>
     <div class="talk-desc">To be announced.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>10:40 – 11:10 AM &nbsp;·&nbsp; 30 min</div>
   </div>
@@ -254,25 +254,12 @@ title: Program
   </div>
 
   <div class="speaker-card">
-    <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
-      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
-    </div>
-    <div class="speaker-name">Speaker TBD</div>
-    <div class="speaker-affiliation">To be announced</div>
-    <div class="talk-title">Talk Title TBD</div>
+    <img src="{{ site.baseurl }}/assets/images/members/baek2.png" alt="Wonjun Baek" />
+    <div class="speaker-name">Wonjun Baek</div>
+    <div class="speaker-affiliation">Yonsei University<br>MITx Physics</div>
+    <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
     <div class="talk-desc">To be announced.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>2:50 – 3:20 PM &nbsp;·&nbsp; 30 min</div>
-  </div>
-
-  <div class="speaker-card">
-    <div style="width:110px; height:110px; border-radius:50%; background:rgba(99,102,241,0.15); border:2px solid rgba(129,140,248,0.35); display:flex; align-items:center; justify-content:center; margin:0 auto 1rem;">
-      <i class="bi bi-person-fill" style="font-size:2.5rem; color:#818cf8;"></i>
-    </div>
-    <div class="speaker-name">Speaker TBD</div>
-    <div class="speaker-affiliation">To be announced</div>
-    <div class="talk-title">Talk Title TBD</div>
-    <div class="talk-desc">To be announced.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>3:20 – 3:50 PM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 2:50 – 3:20 PM</div>
   </div>
 
   <div class="speaker-card">
@@ -291,8 +278,8 @@ title: Program
     </div>
     <div class="speaker-affiliation">SQAI Founder &amp; NTUQC Co-Founder<br>National Taiwan University</div>
     <div class="talk-title">Opening Remarks &amp; Quantum Ultracomputing and Artificial Ultraintelligence (AUI): Toward a New Computational Frontier</div>
-    <div class="talk-desc">Welcome to SQAI 2026 and opening remarks, followed by a presentation of Austin's vision paper on quantum ultracomputing and the path to Artificial Ultraintelligence. Co-presents NTUQC introduction with Chao Hsien in the afternoon.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:50 AM &nbsp;·&nbsp; 3:50 – 4:20 PM</div>
+    <div class="talk-desc">Welcome to SQAI 2026 and opening remarks, followed by a presentation of Austin's vision paper on quantum ultracomputing and the path to Artificial Ultraintelligence. Also presents on Ultracompute and AUI in the NTUQC-SQAI Student Panel, and co-presents NTUQC introduction with Chao Hsien in the afternoon.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:50 AM &nbsp;·&nbsp; 3:20 – 3:50 PM &nbsp;·&nbsp; 3:50 – 4:20 PM</div>
   </div>
 
 </div>
@@ -336,8 +323,8 @@ title: Program
     <tr>
       <td class="time-col">10:40 – 11:10 AM</td>
       <td class="title-col">
-        Speaker TBD
-        <span class="subtitle">To be announced</span>
+        Hyun Chul Jung
+        <span class="subtitle">TBD</span>
       </td>
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
@@ -386,19 +373,22 @@ title: Program
       <td class="title-col">Refreshments Break</td>
       <td class="dur-col">15 min</td>
     </tr>
+    <tr class="row-break">
+      <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>NTUQC-SQAI Student Panel</td>
+    </tr>
     <tr>
       <td class="time-col">2:50 – 3:20 PM</td>
       <td class="title-col">
-        Speaker TBD
-        <span class="subtitle">To be announced</span>
+        Wonjun Baek
+        <span class="subtitle">Computing Analytical Gradients in VQA and QISCA Introduction</span>
       </td>
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
     <tr>
       <td class="time-col">3:20 – 3:50 PM</td>
       <td class="title-col">
-        Speaker TBD
-        <span class="subtitle">To be announced</span>
+        <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">Austin Hua</a>
+        <span class="subtitle">Ultracompute and Artificial Ultraintelligence</span>
       </td>
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
