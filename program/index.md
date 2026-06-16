@@ -198,7 +198,7 @@ title: Program
     </div>
     <div class="speaker-affiliation">Professor<br>Physics<br>National Taiwan University</div>
     <div class="talk-title">Quantum Recurrent Unit: An Effective and Parameter-Efficient Quantum Neural Network Architecture for NISQ Devices</div>
-    <div class="talk-desc">Introduces the Quantum Recurrent Unit (QRU), a novel quantum neural network architecture for NISQ devices that uses quantum C-SWAP (Fredkin) gates to implement an information-selection mechanism inspired by classical Gated Recurrent Units. QRU achieves constant circuit depth and parameter count regardless of input sequence length. Validated across three benchmarks — achieving 98.05% MNIST accuracy with just 132 parameters compared to a 27,265-parameter convolutional NN — QRU demonstrates that quantum-native architectures can match or outperform classical counterparts at a fraction of the parameter cost.</div>
+    <div class="talk-desc">Introduces the Quantum Recurrent Unit (QRU), a NISQ-compatible quantum neural network inspired by classical Gated Recurrent Units, achieving constant circuit depth regardless of input sequence length. Validated across multiple benchmarks, QRU matches or outperforms classical networks with a fraction of the parameters — reaching 98.05% MNIST accuracy with just 132 parameters vs. a 27,265-parameter CNN.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>9:50 – 10:40 AM &nbsp;·&nbsp; 50 min</div>
   </div>
 
