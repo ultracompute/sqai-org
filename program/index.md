@@ -337,7 +337,7 @@ title: Program
     <tr>
       <td class="time-col">10:40 – 11:10 AM</td>
       <td class="title-col">
-        Hyun Chul Jung
+        <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener" style="color:#818cf8;">Hyun Chul Jung</a>
         <span class="subtitle">TBD</span>
       </td>
       <td class="dur-col">25 min + Q&amp;A</td>
@@ -393,7 +393,7 @@ title: Program
     <tr>
       <td class="time-col">2:50 – 3:20 PM</td>
       <td class="title-col">
-        Wonjun Baek
+        <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener" style="color:#818cf8;">Wonjun Baek</a>
         <span class="subtitle">Computing Analytical Gradients in VQA and QISCA Introduction</span>
       </td>
       <td class="dur-col">25 min + Q&amp;A</td>
@@ -417,7 +417,7 @@ title: Program
     <tr class="row-break">
       <td class="time-col">4:20 – 5:00 PM</td>
       <td class="title-col">
-        <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />NTUQC Networking Mixer
+        <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" /><a href="https://ntuqc.com" target="_blank" rel="noopener" style="color:#e0e7ff;">NTUQC Networking Mixer</a>
         <span class="subtitle">臺大量子應用社交流會 &nbsp;·&nbsp; Refreshments provided &nbsp;·&nbsp; We are looking for our next staff team — especially President &amp; Vice President!</span>
       </td>
       <td class="dur-col">40 min</td>

@@ -337,7 +337,7 @@ title: 議程
       <td class="time-col">上午 10:40 – 11:10</td>
       <td class="title-col">
         <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener" style="color:#818cf8;">Hyun Chul Jung</a>
-        <span class="subtitle">TBD</span>
+        <span class="subtitle">待公佈</span>
       </td>
       <td class="dur-col">25 分鐘 + Q&amp;A</td>
     </tr>
@@ -416,7 +416,7 @@ title: 議程
     <tr class="row-break">
       <td class="time-col">下午 4:20 – 5:00</td>
       <td class="title-col">
-        <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" />臺大量子應用社交流會（NTUQC Networking Mixer）
+        <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" /><a href="https://ntuqc.com" target="_blank" rel="noopener" style="color:#e0e7ff;">臺大量子應用社交流會（NTUQC Networking Mixer）</a>
         <span class="subtitle">提供茶點 &nbsp;·&nbsp; 誠徵下屆幹部——尤其是社長及副社長！</span>
       </td>
       <td class="dur-col">40 分鐘</td>
