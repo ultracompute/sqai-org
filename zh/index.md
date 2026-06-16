@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "量子 AI 峰會"
-description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 10 日。由極致計算研究所主辦。<br>免費線上參與。提供現場出席。"
+description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 7 日。由極致計算研究所主辦。<br>免費線上參與。提供現場出席。"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
@@ -21,12 +21,12 @@ SQAI 2026 為本峰會的**第三屆**。
 
 ---
 
-## 2026 年 8 月 10 日
+## 2026 年 8 月 7 日
 
 <br>**全程免費。提供現場出席與線上參與。**
 
 <table style="border-collapse:collapse; margin: 0.5rem 0;">
-  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>日期</strong></td><td style="padding: 0.3rem 0;">2026 年 8 月 10 日</td></tr>
+  <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>日期</strong></td><td style="padding: 0.3rem 0;">2026 年 8 月 7 日</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>時間</strong></td><td style="padding: 0.3rem 0;">9:00 – 17:00（台灣時間，UTC+8）</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>地點</strong></td><td style="padding: 0.3rem 0;">臺大次震宇宙館4F演講廳</td></tr>
   <tr><td style="padding: 0.3rem 2rem 0.3rem 0; color:#94a3b8; white-space:nowrap;"><strong>形式</strong></td><td style="padding: 0.3rem 0;">混合形式 — 現場出席與線上參與</td></tr>

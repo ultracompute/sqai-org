@@ -1,7 +1,7 @@
 days:
   - name: "SQAI 2026"
-    abbr: Aug 11
-    date: 2026-08-11
+    abbr: Aug 7
+    date: 2026-08-07
     rooms:
       - name: Main Stage
         talks:
