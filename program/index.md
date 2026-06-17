@@ -272,7 +272,7 @@ title: Program
     </div>
     <div class="speaker-affiliation">Yonsei University<br>MITx Physics</div>
     <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
-    <div class="talk-desc">To be announced.</div>
+    <div class="talk-desc">Covers the computation of analytical gradients in Variational Quantum Algorithms (VQA) — a key technique for efficiently training quantum circuits on near-term NISQ hardware. Also introduces QISCA (Quantum Information Science Club Association), Korea's largest student-led quantum organization: a nationwide coalition of clubs from eight top universities including KAIST, Seoul National University, and Yonsei University. Wonjun Baek, incoming QISCA President, will share the organization's mission to connect students across disciplines through seminars, seasonal schools, lab visits, and annual conferences.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 2:50 – 3:20 PM</div>
   </div>
 

@@ -271,7 +271,7 @@ title: 議程
     </div>
     <div class="speaker-affiliation">延世大學<br>MITx Physics</div>
     <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
-    <div class="talk-desc">待公佈。</div>
+    <div class="talk-desc">探討變分量子演算法（VQA）中解析梯度的計算方法——此為在近期 NISQ 硬體上高效訓練量子電路的關鍵技術。同時介紹 QISCA（量子資訊科學社聯，Quantum Information Science Club Association），韓國最大的學生主導量子組織，由來自 KAIST、首爾大學、延世大學等八所頂尖大學的學生社團共同組成。Wonjun Baek 即將出任 QISCA 社長，將分享 QISCA 透過研討會、密集課程、實驗室參訪與年度會議，連結跨領域學生的使命與願景。</div>
     <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 2:50 – 3:20</div>
   </div>
 
