@@ -214,12 +214,12 @@ title: 議程
   </div>
 
   <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/hyunchul.png" alt="Hyun Chul Jung" />
+    <img src="{{ site.baseurl }}/assets/images/members/dj_circle.png" alt="Dongjie (DJ) Shen" />
     <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener">Hyun Chul Jung</a>
+      <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener">Dongjie (DJ) Shen</a>
     </div>
-    <div class="speaker-affiliation">執行長<br>NORMA Inc.</div>
-    <div class="talk-title">TBD</div>
+    <div class="speaker-affiliation">NORMA Inc.</div>
+    <div class="talk-title">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</div>
     <div class="talk-desc">待公佈。</div>
     <div class="talk-time"><i class="bi bi-clock"></i>上午 10:40 – 11:10 &nbsp;·&nbsp; 30 分鐘</div>
   </div>
@@ -241,9 +241,20 @@ title: 議程
       <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">廖世偉 教授</a>
     </div>
     <div class="speaker-affiliation">教授<br>國立臺灣大學<br>資訊工程學系</div>
-    <div class="talk-title">TBD</div>
-    <div class="talk-desc">TBD</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>上午 11:40 – 下午 12:10 &nbsp;·&nbsp; 30 分鐘</div>
+    <div class="talk-title">QAI Finance with Quantum-Inspired ML</div>
+    <div class="talk-desc">與謝明峰教授共同主持雙人論壇，探討量子 AI 在金融與特徵選擇領域的應用。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:40 – 下午 12:30</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/sie_circle.png" alt="謝明峰 教授" />
+    <div class="speaker-name">
+      <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener">謝明峰 教授</a>
+    </div>
+    <div class="speaker-affiliation">中原大學<br>智慧計算與大數據學士學位學程（ICBD）</div>
+    <div class="talk-title">QAI Feature Selection</div>
+    <div class="talk-desc">與廖世偉教授共同主持雙人論壇，探討量子 AI 在金融與特徵選擇領域的應用。</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:40 – 下午 12:30</div>
   </div>
 
   <div class="speaker-card">
@@ -336,8 +347,8 @@ title: 議程
     <tr>
       <td class="time-col">上午 10:40 – 11:10</td>
       <td class="title-col">
-        <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener" style="color:#818cf8;">Hyun Chul Jung</a>
-        <span class="subtitle">待公佈</span>
+        <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener" style="color:#818cf8;">Dongjie (DJ) Shen</a>
+        <span class="subtitle">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</span>
       </td>
       <td class="dur-col">25 分鐘 + Q&amp;A</td>
     </tr>
@@ -349,16 +360,27 @@ title: 議程
       </td>
       <td class="dur-col">25 分鐘 + Q&amp;A</td>
     </tr>
+    <tr class="row-break">
+      <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>雙人論壇 — QAI 金融與特徵選擇</td>
+    </tr>
     <tr>
-      <td class="time-col">上午 11:40 – 下午 12:10</td>
+      <td class="time-col">上午 11:40 – 下午 12:05</td>
       <td class="title-col">
         <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">廖世偉 教授</a>
-        <span class="subtitle">TBD</span>
+        <span class="subtitle">QAI Finance with Quantum-Inspired ML</span>
       </td>
-      <td class="dur-col">25 分鐘 + Q&amp;A</td>
+      <td class="dur-col">20 分鐘 + Q&amp;A</td>
+    </tr>
+    <tr>
+      <td class="time-col">下午 12:05 – 12:30</td>
+      <td class="title-col">
+        <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener" style="color:#818cf8;">謝明峰 教授</a>
+        <span class="subtitle">QAI Feature Selection</span>
+      </td>
+      <td class="dur-col">20 分鐘 + Q&amp;A</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">下午 12:10 – 1:10</td>
+      <td class="time-col">下午 12:30 – 1:30</td>
       <td class="title-col">
         午餐休息
         <span class="subtitle">已報名之現場出席者提供免費便當</span>

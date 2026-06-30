@@ -215,12 +215,12 @@ title: Program
   </div>
 
   <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/hyunchul.png" alt="Hyun Chul Jung" />
+    <img src="{{ site.baseurl }}/assets/images/members/dj_circle.png" alt="Dongjie (DJ) Shen" />
     <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener">Hyun Chul Jung</a>
+      <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener">Dongjie (DJ) Shen</a>
     </div>
-    <div class="speaker-affiliation">CEO<br>NORMA Inc.</div>
-    <div class="talk-title">TBD</div>
+    <div class="speaker-affiliation">NORMA Inc.</div>
+    <div class="talk-title">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</div>
     <div class="talk-desc">To be announced.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>10:40 – 11:10 AM &nbsp;·&nbsp; 30 min</div>
   </div>
@@ -242,9 +242,20 @@ title: Program
       <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">Prof. Shih-Wei Liao</a>
     </div>
     <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
-    <div class="talk-title">TBD</div>
-    <div class="talk-desc">TBD</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>11:40 AM – 12:10 PM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-title">QAI Finance with Quantum-Inspired ML</div>
+    <div class="talk-desc">Co-presenting with Prof. Ming-Fong Sie in a dual panel on QAI applications in finance and feature selection.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:40 AM – 12:30 PM</div>
+  </div>
+
+  <div class="speaker-card">
+    <img src="{{ site.baseurl }}/assets/images/members/sie_circle.png" alt="Prof. Ming-Fong Sie" />
+    <div class="speaker-name">
+      <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener">Prof. Ming-Fong Sie</a>
+    </div>
+    <div class="speaker-affiliation">CYCU ICBD<br>Chung Yuan Christian University<br>Intelligent Computing and Big Data</div>
+    <div class="talk-title">QAI Feature Selection</div>
+    <div class="talk-desc">Co-presenting with Prof. Shih-Wei Liao in a dual panel on QAI applications in finance and feature selection.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:40 AM – 12:30 PM</div>
   </div>
 
   <div class="speaker-card">
@@ -337,8 +348,8 @@ title: Program
     <tr>
       <td class="time-col">10:40 – 11:10 AM</td>
       <td class="title-col">
-        <a href="https://www.linkedin.com/in/normaquantum" target="_blank" rel="noopener" style="color:#818cf8;">Hyun Chul Jung</a>
-        <span class="subtitle">TBD</span>
+        <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener" style="color:#818cf8;">Dongjie (DJ) Shen</a>
+        <span class="subtitle">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</span>
       </td>
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
@@ -350,16 +361,27 @@ title: Program
       </td>
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
+    <tr class="row-break">
+      <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>Dual Panel — QAI Finance &amp; Feature Selection</td>
+    </tr>
     <tr>
-      <td class="time-col">11:40 AM – 12:10 PM</td>
+      <td class="time-col">11:40 AM – 12:05 PM</td>
       <td class="title-col">
         <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Wei Liao</a>
-        <span class="subtitle">TBD</span>
+        <span class="subtitle">QAI Finance with Quantum-Inspired ML</span>
       </td>
-      <td class="dur-col">25 min + Q&amp;A</td>
+      <td class="dur-col">20 min + Q&amp;A</td>
+    </tr>
+    <tr>
+      <td class="time-col">12:05 – 12:30 PM</td>
+      <td class="title-col">
+        <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Ming-Fong Sie</a>
+        <span class="subtitle">QAI Feature Selection</span>
+      </td>
+      <td class="dur-col">20 min + Q&amp;A</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">12:10 – 1:10 PM</td>
+      <td class="time-col">12:30 – 1:30 PM</td>
       <td class="title-col">
         Lunch Break
         <span class="subtitle">Free lunchboxes provided for registered attendees</span>
