@@ -79,8 +79,8 @@ We plan to potentially release a **Call for Papers for SQAI 2027**, provisionall
 </div>
 
 <div class="org-row mb-4">
-  <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener" class="org-logo"><img src="/assets/images/uli_nobg.png" alt="Ultraintelligence Labs" style="height: 60px; width: auto;" /></a>
-  <p class="mb-0"><a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener">Ultraintelligence Labs (UIL)</a> is a research branch of ULTRACOMPUTE advancing quantum-native intelligence systems. UIL's mission is to develop Q-I/O (QIO), a next-generation quantum software architecture designed to help usher in the era of Artificial Ultraintelligence (AUI). UIL works alongside ULTRACOMPUTE on the broader ultracomputing ecosystem, including the development of the Ultracomputer (UC-1). <em style="font-size:0.9em; color:#64748b;">(UIL is at the very early stages of this journey — many ideas will evolve as research progresses.)</em></p>
+  <a href="https://icunit.com" target="_blank" rel="noopener" class="org-logo"><img src="/assets/images/icu_nobg.png" alt="ICUnit" style="height: 60px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://icunit.com" target="_blank" rel="noopener">ICUnit (ICU)</a> is a sister company of ULTRACOMPUTE with two interconnected missions: establishing the qubit as the standard IC (Integrated Circuit) measurement unit to universalize quantum computing, and advancing BCI (Brain-Computer Interface) hardware and software as the "Integrated Cognitive Unit." <em style="font-size:0.9em; color:#64748b;">(ICU is at the very early stages of this journey — many ideas will evolve as research progresses.)</em></p>
 </div>
 
 <div class="org-row mb-4">

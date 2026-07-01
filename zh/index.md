@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "量子 AI 峰會"
-description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 7 日。由極致計算研究所主辦。<br>免費線上參與。提供現場出席。"
+description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 7 日。由 UCI、ICU、臺大 IBM Q、NCTS、臺大 CQSE 及 NTUQC 共同主辦。<br>免費線上參與。提供現場出席。"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
@@ -80,8 +80,8 @@ SQAI 2026 匯集 9 位以上量子 AI 前沿的世界級受邀演講者。
 </div>
 
 <div class="org-row mb-4">
-  <a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener" class="org-logo"><img src="/assets/images/uli_nobg.png" alt="極致智慧實驗室" style="height: 60px; width: auto;" /></a>
-  <p class="mb-0"><a href="https://www.facebook.com/ultracompute" target="_blank" rel="noopener">極致智慧實驗室（UIL）</a>是極致計算研究所旗下致力於推進量子原生智慧系統的研究部門。UIL 的使命是開發 Q-I/O（QIO）——一種新世代量子軟體架構，旨在協助開創人工極致智慧（AUI）的時代。UIL 與極致計算研究所攜手合作，共同推進更廣泛的極致計算生態系統，包括極致計算機（UC-1）的研發工作。<em style="font-size:0.9em; color:#64748b;">（UIL 目前仍處於發展初期——許多構想將隨研究進展持續演進。）</em></p>
+  <a href="https://icunit.com" target="_blank" rel="noopener" class="org-logo"><img src="/assets/images/icu_nobg.png" alt="ICUnit" style="height: 60px; width: auto;" /></a>
+  <p class="mb-0"><a href="https://icunit.com" target="_blank" rel="noopener">ICUnit（ICU）</a>是極致計算研究所（UCI）的姊妹公司，擁有兩大相輔相成的使命：推動以量子位元（qubit）作為標準積體電路（IC）計量單位，實現量子計算的普及化；並以「整合認知單元（Integrated Cognitive Unit）」為核心，致力於 BCI（腦機介面）硬體與軟體的開發。<em style="font-size:0.9em; color:#64748b;">（ICU 目前仍處於發展初期——許多構想將隨研究進展持續演進。）</em></p>
 </div>
 
 <div class="org-row mb-4">
