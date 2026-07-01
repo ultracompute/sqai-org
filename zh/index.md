@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "量子 AI 峰會"
-description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 7 日。由 UCI、ICU、臺大 IBM Q、NCTS、臺大 CQSE 及 NTUQC 共同主辦。<br>免費線上參與。提供現場出席。"
+description: "第三屆量子人工智慧國際峰會 — 2026 年 8 月 7 日。<br>共同主辦單位：<a href=\"https://ultracompute.com\" target=\"_blank\" rel=\"noopener\">UCI</a>、<a href=\"https://icunit.com\" target=\"_blank\" rel=\"noopener\">ICU</a>、<a href=\"https://quantum.ntu.edu.tw/?page_id=275\" target=\"_blank\" rel=\"noopener\">臺大 IBM Q</a>、<a href=\"https://phys.ncts.ntu.edu.tw/\" target=\"_blank\" rel=\"noopener\">NCTS</a>、<a href=\"https://cqse.ntu.edu.tw/\" target=\"_blank\" rel=\"noopener\">臺大 CQSE</a> 及 <a href=\"https://ntuqc.com\" target=\"_blank\" rel=\"noopener\">NTUQC</a>。<br>免費線上參與。提供現場出席。"
 header:
   img: "sqai-logo.png"
   img_dark: "sqai-logo.png"
