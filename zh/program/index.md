@@ -251,9 +251,9 @@ title: 議程
     <div class="speaker-name">
       <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener">謝明峰 教授</a>
     </div>
-    <div class="speaker-affiliation">中原大學<br>智慧計算與大數據學士學位學程（ICBD）</div>
-    <div class="talk-title">QAI Feature Selection</div>
-    <div class="talk-desc">與廖世偉教授共同主持雙人論壇，探討量子 AI 在金融與特徵選擇領域的應用。</div>
+    <div class="speaker-affiliation">助理教授<br>智慧計算與大數據碩士學位學程<br>中原大學（CYCU）</div>
+    <div class="talk-title">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</div>
+    <div class="talk-desc">量子啟發式演算法——透過模擬退火與量子退火結合類 QUBO 公式實現——能有效解決高維解空間中的局部最小值問題。此方法可高效識別與高風險比特幣混幣地址相關的關鍵交易特徵，在維持 91% F1 分數的前提下，將機器學習模型訓練時間顯著縮短逾 30%。本演講將探討研究方法、真實比特幣區塊鏈資料的實驗結果，以及 QAI 驅動方法在區塊鏈安全、AML/RegTech 及隱私保護金融領域的廣泛應用。</div>
     <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:40 – 下午 12:30</div>
   </div>
 
@@ -361,7 +361,7 @@ title: 議程
       <td class="dur-col">25 分鐘 + Q&amp;A</td>
     </tr>
     <tr class="row-break">
-      <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>雙人論壇 — QAI 金融與特徵選擇</td>
+      <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>雙人論壇 — QAI Finance: Quantum-Inspired Feature Selection &amp; ML</td>
     </tr>
     <tr>
       <td class="time-col">上午 11:40 – 下午 12:05</td>
@@ -375,7 +375,7 @@ title: 議程
       <td class="time-col">下午 12:05 – 12:30</td>
       <td class="title-col">
         <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener" style="color:#818cf8;">謝明峰 教授</a>
-        <span class="subtitle">QAI Feature Selection</span>
+        <span class="subtitle">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</span>
       </td>
       <td class="dur-col">20 分鐘 + Q&amp;A</td>
     </tr>

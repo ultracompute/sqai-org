@@ -252,9 +252,9 @@ title: Program
     <div class="speaker-name">
       <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener">Prof. Ming-Fong Sie</a>
     </div>
-    <div class="speaker-affiliation">CYCU ICBD<br>Chung Yuan Christian University<br>Intelligent Computing and Big Data</div>
-    <div class="talk-title">QAI Feature Selection</div>
-    <div class="talk-desc">Co-presenting with Prof. Shih-Wei Liao in a dual panel on QAI applications in finance and feature selection.</div>
+    <div class="speaker-affiliation">Assistant Professor<br>Master Program in Intelligent Computing and Big Data<br>Chung Yuan Christian University (CYCU)</div>
+    <div class="talk-title">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</div>
+    <div class="talk-desc">Quantum-inspired algorithms, implemented through Simulated Annealing and Quantum Annealing with QUBO-like formulations, effectively tackle the challenge of local minima in high-dimensional solution spaces. This approach enables efficient identification of key transaction features linked to high-risk Bitcoin mixer addresses, significantly reducing machine learning model training time by over 30% while maintaining a strong 91% F1-score. The talk will discuss the methodology, experimental results on real Bitcoin blockchain data, and broader implications for QAI-driven applications in blockchain security, AML/RegTech, and privacy-preserving finance.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:40 AM – 12:30 PM</div>
   </div>
 
@@ -362,7 +362,7 @@ title: Program
       <td class="dur-col">25 min + Q&amp;A</td>
     </tr>
     <tr class="row-break">
-      <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>Dual Panel — QAI Finance &amp; Feature Selection</td>
+      <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>Dual Panel — QAI Finance: Quantum-Inspired Feature Selection &amp; ML</td>
     </tr>
     <tr>
       <td class="time-col">11:40 AM – 12:05 PM</td>
@@ -376,7 +376,7 @@ title: Program
       <td class="time-col">12:05 – 12:30 PM</td>
       <td class="title-col">
         <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Ming-Fong Sie</a>
-        <span class="subtitle">QAI Feature Selection</span>
+        <span class="subtitle">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</span>
       </td>
       <td class="dur-col">20 min + Q&amp;A</td>
     </tr>
