@@ -14,7 +14,7 @@ links:
 
 ## About SQAI 2026
 
-The **International Summit on Quantum Artificial Intelligence (SQAI)** is the world's premier gathering dedicated to the intersection of quantum computing and artificial intelligence. Founded in 2021 by Austin Hua as the first academic conference dedicated to quantum AI, SQAI brings together leading researchers, technologists, and visionaries to explore how quantum computation can unlock the next frontier of intelligence.
+The **International Summit on Quantum Artificial Intelligence (SQAI)** 2026 is a premier gathering focusing on the intersection of quantum computing and artificial intelligence. The SQAI series, founded in 2021, is an academic conference dedicated to quantum AI, bringing together leading researchers, technologists, and visionaries to explore how quantum computation can unlock the next frontier of artificial intelligence.
 
 SQAI 2026 is the **3rd edition** of this landmark summit.
 
