@@ -9,7 +9,7 @@ title: Program
   margin-bottom: 2.5rem;
 }
 .poster-wrap img {
-  max-width: 50%;
+  max-width: 62%;
   border-radius: 10px;
   box-shadow: 0 8px 30px rgba(0,0,0,0.4);
   border: 1px solid rgba(129,140,248,0.2);
@@ -183,7 +183,7 @@ title: Program
 </div>
 
 <div class="poster-wrap">
-  <img src="{{ site.baseurl }}/assets/images/newest_poster.png" alt="SQAI 2026 Official Program Poster" />
+  <img src="{{ site.baseurl }}/assets/images/poster1.png" alt="SQAI 2026 Official Program Poster" />
 </div>
 
 <div class="theme-box">
