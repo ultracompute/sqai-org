@@ -221,7 +221,7 @@ title: Program
     </div>
     <div class="speaker-affiliation">NORMA Inc.</div>
     <div class="talk-title">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</div>
-    <div class="talk-desc">To be announced.</div>
+    <div class="talk-desc">Explores how quantum computing is transforming drug discovery and biomedicine, with applications extending across other industries. Introduces new hybrid quantum-classical algorithms that bridge near-term quantum hardware with classical computation, and discusses Korea's national R&D initiatives driving these advances forward.</div>
     <div class="talk-time"><i class="bi bi-clock"></i>10:30 – 11:15 AM &nbsp;·&nbsp; 45 min</div>
   </div>
 
