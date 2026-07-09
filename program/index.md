@@ -153,6 +153,20 @@ title: Program
   margin-top: 0.2rem;
 }
 .talk-desc-toggle:hover { text-decoration: underline; }
+
+.speaker-row {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.speaker-row-3 { grid-template-columns: repeat(3, 1fr); }
+.speaker-row-2 { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 720px) {
+  .speaker-row-3 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+  .speaker-row-3, .speaker-row-2 { grid-template-columns: 1fr; }
+}
 </style>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:0.9rem 1.25rem; margin-bottom:1rem; display:flex; gap:0.75rem; align-items:flex-start;">
@@ -201,110 +215,126 @@ title: Program
 ---
 
 <div class="section-label">Speakers</div>
-<div class="speaker-grid">
+<div style="margin: 1.5rem 0 2.5rem;">
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="Prof. Hsi-Sheng Goan" />
-    <div class="speaker-name">
-      <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener">Prof. Hsi-Sheng Goan</a>
+  <div class="speaker-row speaker-row-3">
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="Prof. Hsi-Sheng Goan" />
+      <div class="speaker-name">
+        <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener">Prof. Hsi-Sheng Goan</a>
+      </div>
+      <div class="speaker-affiliation">Professor<br>Physics<br>National Taiwan University</div>
+      <div class="talk-title">Quantum Recurrent Unit: An Effective and Parameter-Efficient Quantum Neural Network Architecture for NISQ Devices</div>
+      <div class="talk-desc">Introduces the Quantum Recurrent Unit (QRU), a NISQ-compatible quantum neural network inspired by classical Gated Recurrent Units, achieving constant circuit depth regardless of input sequence length. Validated across multiple benchmarks, QRU matches or outperforms classical networks with a fraction of the parameters — reaching 98.05% MNIST accuracy with just 132 parameters vs. a 27,265-parameter CNN.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>9:45 – 10:30 AM &nbsp;·&nbsp; 45 min</div>
     </div>
-    <div class="speaker-affiliation">Professor<br>Physics<br>National Taiwan University</div>
-    <div class="talk-title">Quantum Recurrent Unit: An Effective and Parameter-Efficient Quantum Neural Network Architecture for NISQ Devices</div>
-    <div class="talk-desc">Introduces the Quantum Recurrent Unit (QRU), a NISQ-compatible quantum neural network inspired by classical Gated Recurrent Units, achieving constant circuit depth regardless of input sequence length. Validated across multiple benchmarks, QRU matches or outperforms classical networks with a fraction of the parameters — reaching 98.05% MNIST accuracy with just 132 parameters vs. a 27,265-parameter CNN.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:45 – 10:30 AM &nbsp;·&nbsp; 45 min</div>
-  </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/dj_circle.png" alt="Dongjie (DJ) Shen" />
-    <div class="speaker-name">
-      <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener">Dongjie (DJ) Shen</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/dj_circle.png" alt="Dongjie (DJ) Shen" />
+      <div class="speaker-name">
+        <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener">Dongjie (DJ) Shen</a>
+      </div>
+      <div class="speaker-affiliation">NORMA Inc.</div>
+      <div class="talk-title">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</div>
+      <div class="talk-desc">Explores how quantum computing is transforming drug discovery and biomedicine, with applications extending across other industries. Introduces new hybrid quantum-classical algorithms that bridge near-term quantum hardware with classical computation, and discusses Korea's national R&D initiatives driving these advances forward.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>10:30 – 11:15 AM &nbsp;·&nbsp; 45 min</div>
     </div>
-    <div class="speaker-affiliation">NORMA Inc.</div>
-    <div class="talk-title">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</div>
-    <div class="talk-desc">Explores how quantum computing is transforming drug discovery and biomedicine, with applications extending across other industries. Introduces new hybrid quantum-classical algorithms that bridge near-term quantum hardware with classical computation, and discusses Korea's national R&D initiatives driving these advances forward.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>10:30 – 11:15 AM &nbsp;·&nbsp; 45 min</div>
-  </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/mark-chen.jpg" alt="Mark (Hao-Yuan) Chen" />
-    <div class="speaker-name">
-      <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener">Mark (Hao-Yuan) Chen</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/mark-chen.jpg" alt="Mark (Hao-Yuan) Chen" />
+      <div class="speaker-name">
+        <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener">Mark (Hao-Yuan) Chen</a>
+      </div>
+      <div class="speaker-affiliation">Mindify AI Founder<br>Computer Science<br>University of London</div>
+      <div class="talk-title">Toward Efficient Reinforcement Learning with Quantum Neural Network</div>
+      <div class="talk-desc">An exploration of how quantum neural networks can be leveraged to make reinforcement learning more efficient.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>11:15 – 11:45 AM &nbsp;·&nbsp; 30 min</div>
     </div>
-    <div class="speaker-affiliation">Mindify AI Founder<br>Computer Science<br>University of London</div>
-    <div class="talk-title">Toward Efficient Reinforcement Learning with Quantum Neural Network</div>
-    <div class="talk-desc">An exploration of how quantum neural networks can be leveraged to make reinforcement learning more efficient.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>11:15 – 11:45 AM &nbsp;·&nbsp; 30 min</div>
+
   </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg" alt="Prof. Shih-Wei Liao" />
-    <div class="speaker-name">
-      <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">Prof. Shih-Wei Liao</a>
+  <div class="speaker-row speaker-row-2">
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/sie_circle.png" alt="Prof. Ming-Fong Sie" />
+      <div class="speaker-name">
+        <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener">Prof. Ming-Fong Sie</a>
+      </div>
+      <div class="speaker-affiliation">Assistant Professor<br>Master Program in Intelligent Computing and Big Data<br>Chung Yuan Christian University (CYCU)</div>
+      <div class="talk-title">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</div>
+      <div class="talk-desc">Quantum-inspired algorithms, implemented through Simulated Annealing and Quantum Annealing with QUBO-like formulations, effectively tackle the challenge of local minima in high-dimensional solution spaces. This approach enables efficient identification of key transaction features linked to high-risk Bitcoin mixer addresses, significantly reducing machine learning model training time by over 30% while maintaining a strong 91% F1-score. The talk will discuss the methodology, experimental results on real Bitcoin blockchain data, and broader implications for QAI-driven applications in blockchain security, AML/RegTech, and privacy-preserving finance.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:45 AM – 12:30 PM</div>
     </div>
-    <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
-    <div class="talk-title">QAI Finance with Quantum-Inspired ML</div>
-    <div class="talk-desc">Co-presenting with Prof. Ming-Fong Sie in a dual panel on QAI applications in finance and feature selection.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:45 AM – 12:30 PM</div>
-  </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/sie_circle.png" alt="Prof. Ming-Fong Sie" />
-    <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener">Prof. Ming-Fong Sie</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg" alt="Prof. Shih-Wei Liao" />
+      <div class="speaker-name">
+        <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">Prof. Shih-Wei Liao</a>
+      </div>
+      <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
+      <div class="talk-title">QAI Finance with Quantum-Inspired ML</div>
+      <div class="talk-desc">Co-presenting with Prof. Ming-Fong Sie in a dual panel on QAI applications in finance and feature selection.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:45 AM – 12:30 PM</div>
     </div>
-    <div class="speaker-affiliation">Assistant Professor<br>Master Program in Intelligent Computing and Big Data<br>Chung Yuan Christian University (CYCU)</div>
-    <div class="talk-title">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</div>
-    <div class="talk-desc">Quantum-inspired algorithms, implemented through Simulated Annealing and Quantum Annealing with QUBO-like formulations, effectively tackle the challenge of local minima in high-dimensional solution spaces. This approach enables efficient identification of key transaction features linked to high-risk Bitcoin mixer addresses, significantly reducing machine learning model training time by over 30% while maintaining a strong 91% F1-score. The talk will discuss the methodology, experimental results on real Bitcoin blockchain data, and broader implications for QAI-driven applications in blockchain security, AML/RegTech, and privacy-preserving finance.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:45 AM – 12:30 PM</div>
+
   </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="Prof. Chi-Chuan Hwang" />
-    <div class="speaker-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener">Prof. Chi-Chuan Hwang</a></div>
-    <div class="speaker-affiliation">Professor<br>Engineering Science<br>National Cheng Kung University (NCKU)</div>
-    <div class="talk-title">Construction of Maximally Entangled Basis for N Qubits</div>
-    <div class="talk-desc">A mathematical framework for constructing basis vectors that achieve maximum entanglement across N-qubit quantum systems.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:30 – 2:15 PM &nbsp;·&nbsp; 45 min</div>
-  </div>
+  <div class="speaker-row speaker-row-2">
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/lin-circle.png" alt="Prof. Chia-Hsiang Lin" />
-    <div class="speaker-name"><a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener">Prof. Chia-Hsiang Lin</a></div>
-    <div class="speaker-affiliation">Professor<br>Electrical Engineering<br>National Cheng Kung University (NCKU)</div>
-    <div class="talk-title">Hybrid Quantum-Classical AI For Satellite Remote Sensing</div>
-    <div class="talk-desc">For the upcoming space exploration era, advanced AI feature extraction/learning becomes increasingly critical for satellite data understanding. Quantum deep network (QUEEN) offers counterpart feature information to be fused with classical ones for better decision-making. Module design philosophy and applications to remote sensing and bioinformatics will be presented.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>2:25 – 3:10 PM &nbsp;·&nbsp; 45 min</div>
-  </div>
-
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/baek2.png" alt="Wonjun Baek" />
-    <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener">Wonjun Baek</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="Prof. Chi-Chuan Hwang" />
+      <div class="speaker-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener">Prof. Chi-Chuan Hwang</a></div>
+      <div class="speaker-affiliation">Professor<br>Engineering Science<br>National Cheng Kung University (NCKU)</div>
+      <div class="talk-title">Construction of Maximally Entangled Basis for N Qubits</div>
+      <div class="talk-desc">A mathematical framework for constructing basis vectors that achieve maximum entanglement across N-qubit quantum systems.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>1:30 – 2:15 PM &nbsp;·&nbsp; 45 min</div>
     </div>
-    <div class="speaker-affiliation">Yonsei University<br>MITx Physics<br>President, QISCA</div>
-    <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
-    <div class="talk-desc">Covers the computation of analytical gradients in Variational Quantum Algorithms (VQA) — a key technique for efficiently training quantum circuits on near-term NISQ hardware. Also introduces QISCA (Quantum Information Science Club Association), Korea's largest student-led quantum organization: a nationwide coalition of clubs from eight top universities including KAIST, Seoul National University, and Yonsei University. Wonjun Baek, QISCA President, will share the organization's mission to connect students across disciplines through seminars, seasonal schools, lab visits, and annual conferences.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 3:10 – 4:00 PM</div>
-  </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/zhaoxian.jpg" alt="Zhao Xian" />
-    <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">Chao Hsien</a></div>
-    <div class="speaker-affiliation">Founding President<br>NTU Quantum Club (NTUQC)<br>National Taiwan University</div>
-    <div class="talk-title">NTUQC-SQAI Student Panel</div>
-    <div class="talk-desc">A 50-minute student panel featuring Chao Hsien, Wonjun Baek, and Austin Hua — covering NTUQC's mission and community, QISCA and the broader student quantum ecosystem, and a discussion on quantum AI from the next generation's perspective.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 3:10 – 4:00 PM</div>
-  </div>
-
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/austin_.png" alt="Austin Hua" />
-    <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">Austin Hua</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/lin-circle.png" alt="Prof. Chia-Hsiang Lin" />
+      <div class="speaker-name"><a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener">Prof. Chia-Hsiang Lin</a></div>
+      <div class="speaker-affiliation">Professor<br>Electrical Engineering<br>National Cheng Kung University (NCKU)</div>
+      <div class="talk-title">Hybrid Quantum-Classical AI For Satellite Remote Sensing</div>
+      <div class="talk-desc">For the upcoming space exploration era, advanced AI feature extraction/learning becomes increasingly critical for satellite data understanding. Quantum deep network (QUEEN) offers counterpart feature information to be fused with classical ones for better decision-making. Module design philosophy and applications to remote sensing and bioinformatics will be presented.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>2:25 – 3:10 PM &nbsp;·&nbsp; 45 min</div>
     </div>
-    <div class="speaker-affiliation">SQAI Founder &amp; NTUQC Co-Founder<br>National Taiwan University</div>
-    <div class="talk-title">Opening Remarks &amp; Quantum Ultracomputing and Artificial Ultraintelligence (AUI): Toward a New Computational Frontier</div>
-    <div class="talk-desc">Welcome to SQAI 2026 and opening remarks, followed by a presentation of Austin's vision paper on quantum ultracomputing and the path to Artificial Ultraintelligence. Also participates in the NTUQC-SQAI Student Panel alongside Chao Hsien and Wonjun Baek.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:45 AM &nbsp;·&nbsp; NTUQC-SQAI Student Panel 3:10 – 4:00 PM</div>
+
+  </div>
+
+  <div class="speaker-row speaker-row-3">
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/baek2.png" alt="Wonjun Baek" />
+      <div class="speaker-name">
+        <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener">Wonjun Baek</a>
+      </div>
+      <div class="speaker-affiliation">Yonsei University<br>MITx Physics<br>President, QISCA</div>
+      <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
+      <div class="talk-desc">Covers the computation of analytical gradients in Variational Quantum Algorithms (VQA) — a key technique for efficiently training quantum circuits on near-term NISQ hardware. Also introduces QISCA (Quantum Information Science Club Association), Korea's largest student-led quantum organization: a nationwide coalition of clubs from eight top universities including KAIST, Seoul National University, and Yonsei University. Wonjun Baek, QISCA President, will share the organization's mission to connect students across disciplines through seminars, seasonal schools, lab visits, and annual conferences.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 3:10 – 4:00 PM</div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/austin_.png" alt="Austin Hua" />
+      <div class="speaker-name">
+        <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">Austin Hua</a>
+      </div>
+      <div class="speaker-affiliation">SQAI Founder &amp; NTUQC Co-Founder<br>National Taiwan University</div>
+      <div class="talk-title">Opening Remarks &amp; Quantum Ultracomputing and Artificial Ultraintelligence (AUI): Toward a New Computational Frontier</div>
+      <div class="talk-desc">Welcome to SQAI 2026 and opening remarks, followed by a presentation of Austin's vision paper on quantum ultracomputing and the path to Artificial Ultraintelligence. Also participates in the NTUQC-SQAI Student Panel alongside Chao Hsien and Wonjun Baek.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:45 AM &nbsp;·&nbsp; NTUQC-SQAI Student Panel 3:10 – 4:00 PM</div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/zhaoxian.jpg" alt="Zhao Xian" />
+      <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">Chao Hsien</a></div>
+      <div class="speaker-affiliation">Founding President<br>NTU Quantum Club (NTUQC)<br>National Taiwan University</div>
+      <div class="talk-title">NTUQC-SQAI Student Panel</div>
+      <div class="talk-desc">A 50-minute student panel featuring Chao Hsien, Wonjun Baek, and Austin Hua — covering NTUQC's mission and community, QISCA and the broader student quantum ecosystem, and a discussion on quantum AI from the next generation's perspective.</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 3:10 – 4:00 PM</div>
+    </div>
+
   </div>
 
 </div>

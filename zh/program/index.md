@@ -152,6 +152,20 @@ title: 議程
   margin-top: 0.2rem;
 }
 .talk-desc-toggle:hover { text-decoration: underline; }
+
+.speaker-row {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.speaker-row-3 { grid-template-columns: repeat(3, 1fr); }
+.speaker-row-2 { grid-template-columns: repeat(2, 1fr); }
+@media (max-width: 720px) {
+  .speaker-row-3 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 520px) {
+  .speaker-row-3, .speaker-row-2 { grid-template-columns: 1fr; }
+}
 </style>
 
 <div style="background:rgba(13,148,136,0.1); border:1px solid rgba(13,148,136,0.4); border-radius:8px; padding:0.9rem 1.25rem; margin-bottom:1rem; display:flex; gap:0.75rem; align-items:flex-start;">
@@ -200,110 +214,126 @@ title: 議程
 ---
 
 <div class="section-label">演講者</div>
-<div class="speaker-grid">
+<div style="margin: 1.5rem 0 2.5rem;">
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="管希聖 教授" />
-    <div class="speaker-name">
-      <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener">管希聖 教授</a>
+  <div class="speaker-row speaker-row-3">
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/goan.png" alt="管希聖 教授" />
+      <div class="speaker-name">
+        <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener">管希聖 教授</a>
+      </div>
+      <div class="speaker-affiliation">教授<br>國立臺灣大學<br>物理學系</div>
+      <div class="talk-title">量子遞迴單元（QRU）：一種適用於 NISQ 裝置之高效且參數精簡的量子神經網路架構</div>
+      <div class="talk-desc">介紹量子遞迴單元（QRU）——一種受古典 GRU 啟發、專為 NISQ 裝置設計的量子神經網路，無論輸入序列長度為何皆可維持恆定的電路深度。多項基準測試驗證其效能：僅以 132 個參數即達到 98.05% 的 MNIST 辨識準確率，優於具有 27,265 個參數的卷積神經網路。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>上午 9:45 – 10:30 &nbsp;·&nbsp; 45 分鐘</div>
     </div>
-    <div class="speaker-affiliation">教授<br>國立臺灣大學<br>物理學系</div>
-    <div class="talk-title">量子遞迴單元（QRU）：一種適用於 NISQ 裝置之高效且參數精簡的量子神經網路架構</div>
-    <div class="talk-desc">介紹量子遞迴單元（QRU）——一種受古典 GRU 啟發、專為 NISQ 裝置設計的量子神經網路，無論輸入序列長度為何皆可維持恆定的電路深度。多項基準測試驗證其效能：僅以 132 個參數即達到 98.05% 的 MNIST 辨識準確率，優於具有 27,265 個參數的卷積神經網路。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>上午 9:45 – 10:30 &nbsp;·&nbsp; 45 分鐘</div>
-  </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/dj_circle.png" alt="Dongjie (DJ) Shen" />
-    <div class="speaker-name">
-      <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener">Dongjie (DJ) Shen</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/dj_circle.png" alt="Dongjie (DJ) Shen" />
+      <div class="speaker-name">
+        <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener">Dongjie (DJ) Shen</a>
+      </div>
+      <div class="speaker-affiliation">NORMA Inc.</div>
+      <div class="talk-title">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</div>
+      <div class="talk-desc">探討量子計算如何革新藥物開發與生物醫學領域，並延伸至其他產業的應用。介紹新型混合量子經典演算法——將近期量子硬體與古典計算方法有效銜接——並分享韓國推動上述技術發展的國家級研發計畫。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>上午 10:30 – 11:15 &nbsp;·&nbsp; 45 分鐘</div>
     </div>
-    <div class="speaker-affiliation">NORMA Inc.</div>
-    <div class="talk-title">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</div>
-    <div class="talk-desc">探討量子計算如何革新藥物開發與生物醫學領域，並延伸至其他產業的應用。介紹新型混合量子經典演算法——將近期量子硬體與古典計算方法有效銜接——並分享韓國推動上述技術發展的國家級研發計畫。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>上午 10:30 – 11:15 &nbsp;·&nbsp; 45 分鐘</div>
-  </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/mark-chen.jpg" alt="陳皓圓 Mark Chen" />
-    <div class="speaker-name">
-      <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener">陳皓圓 Mark Chen</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/mark-chen.jpg" alt="陳皓圓 Mark Chen" />
+      <div class="speaker-name">
+        <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener">陳皓圓 Mark Chen</a>
+      </div>
+      <div class="speaker-affiliation">Mindify AI 創辦人<br>電腦科學系<br>倫敦大學</div>
+      <div class="talk-title">邁向高效量子神經網路強化學習</div>
+      <div class="talk-desc">探討如何運用量子神經網路，使強化學習更加高效。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>上午 11:15 – 11:45 &nbsp;·&nbsp; 30 分鐘</div>
     </div>
-    <div class="speaker-affiliation">Mindify AI 創辦人<br>電腦科學系<br>倫敦大學</div>
-    <div class="talk-title">邁向高效量子神經網路強化學習</div>
-    <div class="talk-desc">探討如何運用量子神經網路，使強化學習更加高效。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>上午 11:15 – 11:45 &nbsp;·&nbsp; 30 分鐘</div>
+
   </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg" alt="廖世偉教授" />
-    <div class="speaker-name">
-      <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">廖世偉 教授</a>
+  <div class="speaker-row speaker-row-2">
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/sie_circle.png" alt="謝明峰 教授" />
+      <div class="speaker-name">
+        <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener">謝明峰 教授</a>
+      </div>
+      <div class="speaker-affiliation">助理教授<br>智慧計算與大數據碩士學位學程<br>中原大學（CYCU）</div>
+      <div class="talk-title">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</div>
+      <div class="talk-desc">量子啟發式演算法——透過模擬退火與量子退火結合類 QUBO 公式實現——能有效解決高維解空間中的局部最小值問題。此方法可高效識別與高風險比特幣混幣地址相關的關鍵交易特徵，在維持 91% F1 分數的前提下，將機器學習模型訓練時間顯著縮短逾 30%。本演講將探討研究方法、真實比特幣區塊鏈資料的實驗結果，以及 QAI 驅動方法在區塊鏈安全、AML/RegTech 及隱私保護金融領域的廣泛應用。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:45 – 下午 12:30</div>
     </div>
-    <div class="speaker-affiliation">教授<br>國立臺灣大學<br>資訊工程學系</div>
-    <div class="talk-title">QAI Finance with Quantum-Inspired ML</div>
-    <div class="talk-desc">與謝明峰教授共同主持雙人論壇，探討量子 AI 在金融與特徵選擇領域的應用。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:45 – 下午 12:30</div>
-  </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/sie_circle.png" alt="謝明峰 教授" />
-    <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener">謝明峰 教授</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/shih-wei-liao.jpg" alt="廖世偉教授" />
+      <div class="speaker-name">
+        <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener">廖世偉 教授</a>
+      </div>
+      <div class="speaker-affiliation">教授<br>國立臺灣大學<br>資訊工程學系</div>
+      <div class="talk-title">QAI Finance with Quantum-Inspired ML</div>
+      <div class="talk-desc">與謝明峰教授共同主持雙人論壇，探討量子 AI 在金融與特徵選擇領域的應用。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:45 – 下午 12:30</div>
     </div>
-    <div class="speaker-affiliation">助理教授<br>智慧計算與大數據碩士學位學程<br>中原大學（CYCU）</div>
-    <div class="talk-title">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</div>
-    <div class="talk-desc">量子啟發式演算法——透過模擬退火與量子退火結合類 QUBO 公式實現——能有效解決高維解空間中的局部最小值問題。此方法可高效識別與高風險比特幣混幣地址相關的關鍵交易特徵，在維持 91% F1 分數的前提下，將機器學習模型訓練時間顯著縮短逾 30%。本演講將探討研究方法、真實比特幣區塊鏈資料的實驗結果，以及 QAI 驅動方法在區塊鏈安全、AML/RegTech 及隱私保護金融領域的廣泛應用。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:45 – 下午 12:30</div>
+
   </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="黃吉川 教授" />
-    <div class="speaker-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener">黃吉川 教授</a></div>
-    <div class="speaker-affiliation">教授<br>工程科學系<br>國立成功大學（NCKU）</div>
-    <div class="talk-title">N位元最大纽纏度之基向量的建構</div>
-    <div class="talk-desc">建構 N 量子位元量子系統中達到最大糾纏度之基向量的數學方法。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>下午 1:30 – 2:15 &nbsp;·&nbsp; 45 分鐘</div>
-  </div>
+  <div class="speaker-row speaker-row-2">
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/lin-circle.png" alt="林家祥 教授" />
-    <div class="speaker-name"><a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener">林家祥 教授</a></div>
-    <div class="speaker-affiliation">教授<br>電機工程學系<br>國立成功大學（NCKU）</div>
-    <div class="talk-title">用於衛星遙測之混合式量子經典AI</div>
-    <div class="talk-desc">面對即將到來的太空探索時代，先進的 AI 特徵提取與學習技術對衛星資料理解至關重要。量子深度網路（QUEEN）能與經典特徵融合，提升決策品質。本演講將介紹模組設計理念及其在遙測與生物資訊學等領域的多項應用。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>下午 2:25 – 3:10 &nbsp;·&nbsp; 45 分鐘</div>
-  </div>
-
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/baek2.png" alt="Wonjun Baek" />
-    <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener">Wonjun Baek</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/hwang.jpg" alt="黃吉川 教授" />
+      <div class="speaker-name"><a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener">黃吉川 教授</a></div>
+      <div class="speaker-affiliation">教授<br>工程科學系<br>國立成功大學（NCKU）</div>
+      <div class="talk-title">N位元最大纽纏度之基向量的建構</div>
+      <div class="talk-desc">建構 N 量子位元量子系統中達到最大糾纏度之基向量的數學方法。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>下午 1:30 – 2:15 &nbsp;·&nbsp; 45 分鐘</div>
     </div>
-    <div class="speaker-affiliation">延世大學<br>MITx Physics<br>QISCA 社長</div>
-    <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
-    <div class="talk-desc">探討變分量子演算法（VQA）中解析梯度的計算方法——此為在近期 NISQ 硬體上高效訓練量子電路的關鍵技術。同時介紹 QISCA（量子資訊科學社聯，Quantum Information Science Club Association），韓國最大的學生主導量子組織，由來自 KAIST、首爾大學、延世大學等八所頂尖大學的學生社團共同組成。Wonjun Baek，QISCA 社長，將分享 QISCA 透過研討會、密集課程、實驗室參訪與年度會議，連結跨領域學生的使命與願景。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 3:10 – 4:00</div>
-  </div>
 
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/zhaoxian.jpg" alt="趙嫺" />
-    <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">趙嫺</a></div>
-    <div class="speaker-affiliation">創社社長<br>臺大量子應用社（NTUQC）<br>國立臺灣大學</div>
-    <div class="talk-title">NTUQC-SQAI 學生論壇</div>
-    <div class="talk-desc">50 分鐘學生論壇，由趙嫺、Wonjun Baek 與華士頓 Austin Hua 共同出席——涵蓋臺大量子應用社的使命與社群、QISCA 及學生量子生態系，並從新世代視角探討量子 AI 的未來。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 3:10 – 4:00</div>
-  </div>
-
-  <div class="speaker-card">
-    <img src="{{ site.baseurl }}/assets/images/members/austin_.png" alt="華士頓 Austin Hua" />
-    <div class="speaker-name">
-      <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">華士頓 Austin Hua</a>
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/lin-circle.png" alt="林家祥 教授" />
+      <div class="speaker-name"><a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener">林家祥 教授</a></div>
+      <div class="speaker-affiliation">教授<br>電機工程學系<br>國立成功大學（NCKU）</div>
+      <div class="talk-title">用於衛星遙測之混合式量子經典AI</div>
+      <div class="talk-desc">面對即將到來的太空探索時代，先進的 AI 特徵提取與學習技術對衛星資料理解至關重要。量子深度網路（QUEEN）能與經典特徵融合，提升決策品質。本演講將介紹模組設計理念及其在遙測與生物資訊學等領域的多項應用。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>下午 2:25 – 3:10 &nbsp;·&nbsp; 45 分鐘</div>
     </div>
-    <div class="speaker-affiliation">SQAI 創辦人 暨 臺大量子應用社聯合創辦人<br>國立臺灣大學</div>
-    <div class="talk-title">開幕致詞 暨 量子極致計算與人工極致智慧（AUI）：邁向全新計算前沿</div>
-    <div class="talk-desc">歡迎詞與 SQAI 2026 簡介，以及 Austin 的願景論文《量子極致計算與人工極致智慧（AUI）：邁向全新計算前沿》之報告。亦與趙嫺及 Wonjun Baek 共同出席 NTUQC-SQAI 學生論壇。</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>上午 9:30 – 9:45 &nbsp;·&nbsp; NTUQC-SQAI 學生論壇 下午 3:10 – 4:00</div>
+
+  </div>
+
+  <div class="speaker-row speaker-row-3">
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/baek2.png" alt="Wonjun Baek" />
+      <div class="speaker-name">
+        <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener">Wonjun Baek</a>
+      </div>
+      <div class="speaker-affiliation">延世大學<br>MITx Physics<br>QISCA 社長</div>
+      <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
+      <div class="talk-desc">探討變分量子演算法（VQA）中解析梯度的計算方法——此為在近期 NISQ 硬體上高效訓練量子電路的關鍵技術。同時介紹 QISCA（量子資訊科學社聯，Quantum Information Science Club Association），韓國最大的學生主導量子組織，由來自 KAIST、首爾大學、延世大學等八所頂尖大學的學生社團共同組成。Wonjun Baek，QISCA 社長，將分享 QISCA 透過研討會、密集課程、實驗室參訪與年度會議，連結跨領域學生的使命與願景。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 3:10 – 4:00</div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/austin_.png" alt="華士頓 Austin Hua" />
+      <div class="speaker-name">
+        <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener">華士頓 Austin Hua</a>
+      </div>
+      <div class="speaker-affiliation">SQAI 創辦人 暨 臺大量子應用社聯合創辦人<br>國立臺灣大學</div>
+      <div class="talk-title">開幕致詞 暨 量子極致計算與人工極致智慧（AUI）：邁向全新計算前沿</div>
+      <div class="talk-desc">歡迎詞與 SQAI 2026 簡介，以及 Austin 的願景論文《量子極致計算與人工極致智慧（AUI）：邁向全新計算前沿》之報告。亦與趙嫺及 Wonjun Baek 共同出席 NTUQC-SQAI 學生論壇。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>上午 9:30 – 9:45 &nbsp;·&nbsp; NTUQC-SQAI 學生論壇 下午 3:10 – 4:00</div>
+    </div>
+
+    <div class="speaker-card">
+      <img src="{{ site.baseurl }}/assets/images/members/zhaoxian.jpg" alt="趙嫺" />
+      <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">趙嫺</a></div>
+      <div class="speaker-affiliation">創社社長<br>臺大量子應用社（NTUQC）<br>國立臺灣大學</div>
+      <div class="talk-title">NTUQC-SQAI 學生論壇</div>
+      <div class="talk-desc">50 分鐘學生論壇，由趙嫺、Wonjun Baek 與華士頓 Austin Hua 共同出席——涵蓋臺大量子應用社的使命與社群、QISCA 及學生量子生態系，並從新世代視角探討量子 AI 的未來。</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 3:10 – 4:00</div>
+    </div>
+
   </div>
 
 </div>
