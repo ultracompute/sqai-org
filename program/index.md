@@ -194,7 +194,7 @@ title: Program
   </div>
   <div class="highlight-item">
     <i class="bi bi-people"></i>
-    <span>NTUQC Networking Mixer<br>4:20 – 5:00 PM</span>
+    <span>NTUQC Networking Mixer<br>4:00 PM onwards</span>
   </div>
 </div>
 
@@ -211,7 +211,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Physics<br>National Taiwan University</div>
     <div class="talk-title">Quantum Recurrent Unit: An Effective and Parameter-Efficient Quantum Neural Network Architecture for NISQ Devices</div>
     <div class="talk-desc">Introduces the Quantum Recurrent Unit (QRU), a NISQ-compatible quantum neural network inspired by classical Gated Recurrent Units, achieving constant circuit depth regardless of input sequence length. Validated across multiple benchmarks, QRU matches or outperforms classical networks with a fraction of the parameters — reaching 98.05% MNIST accuracy with just 132 parameters vs. a 27,265-parameter CNN.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:50 – 10:40 AM &nbsp;·&nbsp; 50 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:45 – 10:30 AM &nbsp;·&nbsp; 45 min</div>
   </div>
 
   <div class="speaker-card">
@@ -222,7 +222,7 @@ title: Program
     <div class="speaker-affiliation">NORMA Inc.</div>
     <div class="talk-title">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</div>
     <div class="talk-desc">To be announced.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>10:40 – 11:10 AM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>10:30 – 11:15 AM &nbsp;·&nbsp; 45 min</div>
   </div>
 
   <div class="speaker-card">
@@ -233,7 +233,7 @@ title: Program
     <div class="speaker-affiliation">Mindify AI Founder<br>Computer Science<br>University of London</div>
     <div class="talk-title">Toward Efficient Reinforcement Learning with Quantum Neural Network</div>
     <div class="talk-desc">An exploration of how quantum neural networks can be leveraged to make reinforcement learning more efficient.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>11:10 – 11:40 AM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>11:15 – 11:45 AM &nbsp;·&nbsp; 30 min</div>
   </div>
 
   <div class="speaker-card">
@@ -244,7 +244,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>CSIE<br>National Taiwan University</div>
     <div class="talk-title">QAI Finance with Quantum-Inspired ML</div>
     <div class="talk-desc">Co-presenting with Prof. Ming-Fong Sie in a dual panel on QAI applications in finance and feature selection.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:40 AM – 12:30 PM</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:45 AM – 12:30 PM</div>
   </div>
 
   <div class="speaker-card">
@@ -255,7 +255,7 @@ title: Program
     <div class="speaker-affiliation">Assistant Professor<br>Master Program in Intelligent Computing and Big Data<br>Chung Yuan Christian University (CYCU)</div>
     <div class="talk-title">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</div>
     <div class="talk-desc">Quantum-inspired algorithms, implemented through Simulated Annealing and Quantum Annealing with QUBO-like formulations, effectively tackle the challenge of local minima in high-dimensional solution spaces. This approach enables efficient identification of key transaction features linked to high-risk Bitcoin mixer addresses, significantly reducing machine learning model training time by over 30% while maintaining a strong 91% F1-score. The talk will discuss the methodology, experimental results on real Bitcoin blockchain data, and broader implications for QAI-driven applications in blockchain security, AML/RegTech, and privacy-preserving finance.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:40 AM – 12:30 PM</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>Dual Panel &nbsp;·&nbsp; 11:45 AM – 12:30 PM</div>
   </div>
 
   <div class="speaker-card">
@@ -264,7 +264,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Engineering Science<br>National Cheng Kung University (NCKU)</div>
     <div class="talk-title">Construction of Maximally Entangled Basis for N Qubits</div>
     <div class="talk-desc">A mathematical framework for constructing basis vectors that achieve maximum entanglement across N-qubit quantum systems.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:10 – 1:55 PM &nbsp;·&nbsp; 45 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>1:30 – 2:15 PM &nbsp;·&nbsp; 45 min</div>
   </div>
 
   <div class="speaker-card">
@@ -273,7 +273,7 @@ title: Program
     <div class="speaker-affiliation">Professor<br>Electrical Engineering<br>National Cheng Kung University (NCKU)</div>
     <div class="talk-title">Hybrid Quantum-Classical AI For Satellite Remote Sensing</div>
     <div class="talk-desc">For the upcoming space exploration era, advanced AI feature extraction/learning becomes increasingly critical for satellite data understanding. Quantum deep network (QUEEN) offers counterpart feature information to be fused with classical ones for better decision-making. Module design philosophy and applications to remote sensing and bioinformatics will be presented.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>1:55 – 2:35 PM &nbsp;·&nbsp; 40 min</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>2:25 – 3:10 PM &nbsp;·&nbsp; 45 min</div>
   </div>
 
   <div class="speaker-card">
@@ -284,16 +284,16 @@ title: Program
     <div class="speaker-affiliation">Yonsei University<br>MITx Physics<br>President, QISCA</div>
     <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
     <div class="talk-desc">Covers the computation of analytical gradients in Variational Quantum Algorithms (VQA) — a key technique for efficiently training quantum circuits on near-term NISQ hardware. Also introduces QISCA (Quantum Information Science Club Association), Korea's largest student-led quantum organization: a nationwide coalition of clubs from eight top universities including KAIST, Seoul National University, and Yonsei University. Wonjun Baek, QISCA President, will share the organization's mission to connect students across disciplines through seminars, seasonal schools, lab visits, and annual conferences.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 2:50 – 3:20 PM</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 3:10 – 4:00 PM</div>
   </div>
 
   <div class="speaker-card">
     <img src="{{ site.baseurl }}/assets/images/members/zhaoxian.jpg" alt="Zhao Xian" />
     <div class="speaker-name"><a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener">Chao Hsien</a></div>
     <div class="speaker-affiliation">Founding President<br>NTU Quantum Club (NTUQC)<br>National Taiwan University</div>
-    <div class="talk-title">Introduction to NTUQC</div>
-    <div class="talk-desc">An introduction to the NTU Quantum Club — its mission, community, and vision for the next chapter, presented alongside Austin Hua.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>3:50 – 4:20 PM &nbsp;·&nbsp; 30 min</div>
+    <div class="talk-title">NTUQC-SQAI Student Panel</div>
+    <div class="talk-desc">A 50-minute student panel featuring Chao Hsien, Wonjun Baek, and Austin Hua — covering NTUQC's mission and community, QISCA and the broader student quantum ecosystem, and a discussion on quantum AI from the next generation's perspective.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI Student Panel &nbsp;·&nbsp; 3:10 – 4:00 PM</div>
   </div>
 
   <div class="speaker-card">
@@ -303,8 +303,8 @@ title: Program
     </div>
     <div class="speaker-affiliation">SQAI Founder &amp; NTUQC Co-Founder<br>National Taiwan University</div>
     <div class="talk-title">Opening Remarks &amp; Quantum Ultracomputing and Artificial Ultraintelligence (AUI): Toward a New Computational Frontier</div>
-    <div class="talk-desc">Welcome to SQAI 2026 and opening remarks, followed by a presentation of Austin's vision paper on quantum ultracomputing and the path to Artificial Ultraintelligence. Also presents on Ultracompute and AUI in the NTUQC-SQAI Student Panel, and co-presents NTUQC introduction with Chao Hsien in the afternoon.</div>
-    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:50 AM &nbsp;·&nbsp; 3:20 – 3:50 PM &nbsp;·&nbsp; 3:50 – 4:20 PM</div>
+    <div class="talk-desc">Welcome to SQAI 2026 and opening remarks, followed by a presentation of Austin's vision paper on quantum ultracomputing and the path to Artificial Ultraintelligence. Also participates in the NTUQC-SQAI Student Panel alongside Chao Hsien and Wonjun Baek.</div>
+    <div class="talk-time"><i class="bi bi-clock"></i>9:30 – 9:45 AM &nbsp;·&nbsp; NTUQC-SQAI Student Panel 3:10 – 4:00 PM</div>
   </div>
 
 </div>
@@ -330,31 +330,31 @@ title: Program
       <td class="dur-col">30 min</td>
     </tr>
     <tr>
-      <td class="time-col">9:30 – 9:50 AM</td>
+      <td class="time-col">9:30 – 9:45 AM</td>
       <td class="title-col">
         <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">Austin Hua</a>
         <span class="subtitle">Opening Remarks &amp; Quantum Ultracomputing and AUI: Toward a New Computational Frontier</span>
       </td>
-      <td class="dur-col">20 min</td>
+      <td class="dur-col">15 min</td>
     </tr>
     <tr>
-      <td class="time-col">9:50 – 10:40 AM</td>
+      <td class="time-col">9:45 – 10:30 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=PMnNYPcAAAAJ&hl=zh-TW" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Hsi-Sheng Goan</a>
         <span class="subtitle">Quantum Recurrent Unit: An Effective and Parameter-Efficient Quantum Neural Network Architecture for NISQ Devices</span>
       </td>
-      <td class="dur-col">45 min + Q&amp;A</td>
+      <td class="dur-col">40 min + Q&amp;A</td>
     </tr>
     <tr>
-      <td class="time-col">10:40 – 11:10 AM</td>
+      <td class="time-col">10:30 – 11:15 AM</td>
       <td class="title-col">
         <a href="https://kr.linkedin.com/in/shen-dongjie-b9b12939" target="_blank" rel="noopener" style="color:#818cf8;">Dongjie (DJ) Shen</a>
         <span class="subtitle">Quantum Drug Discovery with Applications in Biomedicine and Korea's National R&D Initiatives</span>
       </td>
-      <td class="dur-col">25 min + Q&amp;A</td>
+      <td class="dur-col">40 min + Q&amp;A</td>
     </tr>
     <tr>
-      <td class="time-col">11:10 – 11:40 AM</td>
+      <td class="time-col">11:15 – 11:45 AM</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">Mark (Hao-Yuan) Chen</a>
         <span class="subtitle">Toward Efficient Reinforcement Learning with Quantum Neural Network</span>
@@ -365,12 +365,12 @@ title: Program
       <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>Dual Panel — QAI Finance: Quantum-Inspired Feature Selection &amp; ML</td>
     </tr>
     <tr>
-      <td class="time-col">11:40 AM – 12:05 PM</td>
+      <td class="time-col">11:45 AM – 12:05 PM</td>
       <td class="title-col">
         <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Shih-Wei Liao</a>
         <span class="subtitle">QAI Finance with Quantum-Inspired ML</span>
       </td>
-      <td class="dur-col">20 min + Q&amp;A</td>
+      <td class="dur-col">20 min</td>
     </tr>
     <tr>
       <td class="time-col">12:05 – 12:30 PM</td>
@@ -378,7 +378,7 @@ title: Program
         <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Ming-Fong Sie</a>
         <span class="subtitle">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</span>
       </td>
-      <td class="dur-col">20 min + Q&amp;A</td>
+      <td class="dur-col">20 min + combined Q&amp;A</td>
     </tr>
     <tr class="row-break">
       <td class="time-col">12:30 – 1:30 PM</td>
@@ -389,60 +389,44 @@ title: Program
       <td class="dur-col">60 min</td>
     </tr>
     <tr>
-      <td class="time-col">1:10 – 1:55 PM</td>
+      <td class="time-col">1:30 – 2:15 PM</td>
       <td class="title-col">
         <a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Chi-Chuan Hwang</a>
         <span class="subtitle">Construction of Maximally Entangled Basis for N Qubits</span>
       </td>
       <td class="dur-col">40 min + Q&amp;A</td>
     </tr>
+    <tr class="row-break">
+      <td class="time-col">2:15 – 2:25 PM</td>
+      <td class="title-col">Snack Break</td>
+      <td class="dur-col">10 min</td>
+    </tr>
     <tr>
-      <td class="time-col">1:55 – 2:35 PM</td>
+      <td class="time-col">2:25 – 3:10 PM</td>
       <td class="title-col">
         <a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener" style="color:#818cf8;">Prof. Chia-Hsiang Lin</a>
         <span class="subtitle">Hybrid Quantum-Classical AI For Satellite Remote Sensing</span>
       </td>
-      <td class="dur-col">35 min + Q&amp;A</td>
-    </tr>
-    <tr class="row-break">
-      <td class="time-col">2:35 – 2:50 PM</td>
-      <td class="title-col">Refreshments Break</td>
-      <td class="dur-col">15 min</td>
+      <td class="dur-col">40 min + Q&amp;A</td>
     </tr>
     <tr class="row-break">
       <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>NTUQC-SQAI Student Panel</td>
     </tr>
     <tr>
-      <td class="time-col">2:50 – 3:20 PM</td>
+      <td class="time-col">3:10 – 4:00 PM</td>
       <td class="title-col">
-        <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener" style="color:#818cf8;">Wonjun Baek</a>
-        <span class="subtitle">Computing Analytical Gradients in VQA and QISCA Introduction</span>
+        <a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener" style="color:#818cf8;">Chao Hsien</a>, <a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener" style="color:#818cf8;">Wonjun Baek</a> &amp; <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">Austin Hua</a>
+        <span class="subtitle"><img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:14px; width:auto; vertical-align:middle; margin-right:5px;" />NTUQC-SQAI Student Panel</span>
       </td>
-      <td class="dur-col">25 min + Q&amp;A</td>
-    </tr>
-    <tr>
-      <td class="time-col">3:20 – 3:50 PM</td>
-      <td class="title-col">
-        <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">Austin Hua</a>
-        <span class="subtitle">Ultracompute and Artificial Ultraintelligence</span>
-      </td>
-      <td class="dur-col">25 min + Q&amp;A</td>
-    </tr>
-    <tr>
-      <td class="time-col">3:50 – 4:20 PM</td>
-      <td class="title-col">
-        <a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener" style="color:#818cf8;">Chao Hsien</a> &amp; <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">Austin Hua</a>
-        <span class="subtitle"><img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:14px; width:auto; vertical-align:middle; margin-right:5px;" />Introduction to NTUQC</span>
-      </td>
-      <td class="dur-col">30 min</td>
+      <td class="dur-col">50 min</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">4:20 – 5:00 PM</td>
+      <td class="time-col">4:00 PM –</td>
       <td class="title-col">
         <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" /><a href="https://ntuqc.com" target="_blank" rel="noopener" style="color:#e0e7ff;">NTUQC Networking Mixer</a>
         <span class="subtitle">臺大量子應用社交流會 &nbsp;·&nbsp; Refreshments provided &nbsp;·&nbsp; We are looking for our next staff team — especially President &amp; Vice President!</span>
       </td>
-      <td class="dur-col">40 min</td>
+      <td class="dur-col">Open end</td>
     </tr>
   </tbody>
 </table>
