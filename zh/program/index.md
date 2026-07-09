@@ -469,29 +469,3 @@ title: 議程
   </a>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var LIMIT = 150;
-  document.querySelectorAll('.talk-desc').forEach(function (el) {
-    var full = el.textContent.trim();
-    if (full.length <= LIMIT) return;
-    var short = full.slice(0, LIMIT).trimEnd() + '…';
-    el.textContent = short;
-    var btn = document.createElement('button');
-    btn.className = 'talk-desc-toggle';
-    btn.textContent = '顯示更多';
-    btn.addEventListener('click', function () {
-      if (btn.textContent === '顯示更多') {
-        el.textContent = full + ' ';
-        el.appendChild(btn);
-        btn.textContent = '顯示較少';
-      } else {
-        el.textContent = short + ' ';
-        el.appendChild(btn);
-        btn.textContent = '顯示更多';
-      }
-    });
-    el.appendChild(btn);
-  });
-});
-</script>

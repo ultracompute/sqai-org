@@ -470,29 +470,3 @@ title: Program
   </a>
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var LIMIT = 150;
-  document.querySelectorAll('.talk-desc').forEach(function (el) {
-    var full = el.textContent.trim();
-    if (full.length <= LIMIT) return;
-    var short = full.slice(0, LIMIT).trimEnd() + '…';
-    el.textContent = short;
-    var btn = document.createElement('button');
-    btn.className = 'talk-desc-toggle';
-    btn.textContent = 'See more';
-    btn.addEventListener('click', function () {
-      if (btn.textContent === 'See more') {
-        el.textContent = full + ' ';
-        el.appendChild(btn);
-        btn.textContent = 'See less';
-      } else {
-        el.textContent = short + ' ';
-        el.appendChild(btn);
-        btn.textContent = 'See more';
-      }
-    });
-    el.appendChild(btn);
-  });
-});
-</script>
