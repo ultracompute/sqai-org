@@ -9,7 +9,7 @@ title: Program
   margin-bottom: 2.5rem;
 }
 .poster-wrap img {
-  max-width: 100%;
+  max-width: 50%;
   border-radius: 10px;
   box-shadow: 0 8px 30px rgba(0,0,0,0.4);
   border: 1px solid rgba(129,140,248,0.2);
