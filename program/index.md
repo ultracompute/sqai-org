@@ -183,7 +183,7 @@ title: Program
 </div>
 
 <div class="poster-wrap">
-  <img src="{{ site.baseurl }}/assets/images/poster1.png" alt="SQAI 2026 Official Program Poster" />
+  <img src="{{ site.baseurl }}/assets/images/newest_poster2.png" alt="SQAI 2026 Official Program Poster" />
 </div>
 
 <div class="theme-box">

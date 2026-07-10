@@ -182,7 +182,7 @@ title: 議程
 </div>
 
 <div class="poster-wrap">
-  <img src="{{ site.baseurl }}/assets/images/poster1.png" alt="SQAI 2026 官方議程海報" />
+  <img src="{{ site.baseurl }}/assets/images/newest_poster2.png" alt="SQAI 2026 官方議程海報" />
 </div>
 
 <div class="theme-box">
