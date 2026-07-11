@@ -182,7 +182,7 @@ title: 議程
 </div>
 
 <div class="poster-wrap">
-  <img src="{{ site.baseurl }}/assets/images/newest_poster2.png" alt="SQAI 2026 官方議程海報" />
+  <img src="{{ site.baseurl }}/assets/images/newestnewposter.png" alt="SQAI 2026 官方議程海報" />
 </div>
 
 <div class="theme-box">
@@ -207,7 +207,7 @@ title: 議程
   </div>
   <div class="highlight-item">
     <i class="bi bi-people"></i>
-    <span>臺大量子社交流會<br>下午 4:00 起</span>
+    <span>臺大量子社交流會<br>下午 4:30 起</span>
   </div>
 </div>
 
@@ -248,7 +248,7 @@ title: 議程
       <div class="speaker-affiliation">Mindify AI 創辦人<br>電腦科學系<br>倫敦大學</div>
       <div class="talk-title">邁向高效量子神經網路強化學習</div>
       <div class="talk-desc">探討如何運用量子神經網路，使強化學習更加高效。</div>
-      <div class="talk-time"><i class="bi bi-clock"></i>上午 11:15 – 11:45 &nbsp;·&nbsp; 30 分鐘</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>上午 11:30 – 下午 12:00 &nbsp;·&nbsp; 30 分鐘</div>
     </div>
 
   </div>
@@ -263,7 +263,7 @@ title: 議程
       <div class="speaker-affiliation">助理教授<br>智慧計算與大數據碩士學位學程<br>中原大學（CYCU）</div>
       <div class="talk-title">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</div>
       <div class="talk-desc">量子啟發式演算法——透過模擬退火與量子退火結合類 QUBO 公式實現——能有效解決高維解空間中的局部最小值問題。此方法可高效識別與高風險比特幣混幣地址相關的關鍵交易特徵，在維持 91% F1 分數的前提下，將機器學習模型訓練時間顯著縮短逾 30%。本演講將探討研究方法、真實比特幣區塊鏈資料的實驗結果，以及 QAI 驅動方法在區塊鏈安全、AML/RegTech 及隱私保護金融領域的廣泛應用。</div>
-      <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:45 – 下午 12:30</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 下午 12:00 – 12:45</div>
     </div>
 
     <div class="speaker-card">
@@ -274,7 +274,7 @@ title: 議程
       <div class="speaker-affiliation">教授<br>國立臺灣大學<br>資訊工程學系</div>
       <div class="talk-title">QAI Finance with Quantum-Inspired ML</div>
       <div class="talk-desc">與謝明峰教授共同主持雙人論壇，探討量子 AI 在金融與特徵選擇領域的應用。</div>
-      <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 上午 11:45 – 下午 12:30</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>雙人論壇 &nbsp;·&nbsp; 下午 12:00 – 12:45</div>
     </div>
 
   </div>
@@ -287,7 +287,7 @@ title: 議程
       <div class="speaker-affiliation">教授<br>工程科學系<br>國立成功大學（NCKU）</div>
       <div class="talk-title">N位元最大纽纏度之基向量的建構</div>
       <div class="talk-desc">建構 N 量子位元量子系統中達到最大糾纏度之基向量的數學方法。</div>
-      <div class="talk-time"><i class="bi bi-clock"></i>下午 1:30 – 2:15 &nbsp;·&nbsp; 45 分鐘</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>下午 1:45 – 2:30 &nbsp;·&nbsp; 45 分鐘</div>
     </div>
 
     <div class="speaker-card">
@@ -296,7 +296,7 @@ title: 議程
       <div class="speaker-affiliation">教授<br>電機工程學系<br>國立成功大學（NCKU）</div>
       <div class="talk-title">用於衛星遙測之混合式量子經典AI</div>
       <div class="talk-desc">面對即將到來的太空探索時代，先進的 AI 特徵提取與學習技術對衛星資料理解至關重要。量子深度網路（QUEEN）能與經典特徵融合，提升決策品質。本演講將介紹模組設計理念及其在遙測與生物資訊學等領域的多項應用。</div>
-      <div class="talk-time"><i class="bi bi-clock"></i>下午 2:25 – 3:10 &nbsp;·&nbsp; 45 分鐘</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>下午 2:30 – 3:15 &nbsp;·&nbsp; 45 分鐘</div>
     </div>
 
   </div>
@@ -311,7 +311,7 @@ title: 議程
       <div class="speaker-affiliation">延世大學<br>MITx Physics<br>QISCA 社長</div>
       <div class="talk-title">Computing Analytical Gradients in VQA and QISCA Introduction</div>
       <div class="talk-desc">探討變分量子演算法（VQA）中解析梯度的計算方法——此為在近期 NISQ 硬體上高效訓練量子電路的關鍵技術。同時介紹 QISCA（量子資訊科學社聯，Quantum Information Science Club Association），韓國最大的學生主導量子組織，由來自 KAIST、首爾大學、延世大學等八所頂尖大學的學生社團共同組成。Wonjun Baek，QISCA 社長，將分享 QISCA 透過研討會、密集課程、實驗室參訪與年度會議，連結跨領域學生的使命與願景。</div>
-      <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 3:10 – 4:00</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 3:40 – 4:30</div>
     </div>
 
     <div class="speaker-card">
@@ -331,7 +331,7 @@ title: 議程
       <div class="speaker-affiliation">創社社長<br>臺大量子應用社（NTUQC）<br>國立臺灣大學</div>
       <div class="talk-title">NTUQC-SQAI 學生論壇</div>
       <div class="talk-desc">50 分鐘學生論壇，由趙嫺、Wonjun Baek 與華士頓 Austin Hua 共同出席——涵蓋臺大量子應用社的使命與社群、QISCA 及學生量子生態系，並從新世代視角探討量子 AI 的未來。</div>
-      <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 3:10 – 4:00</div>
+      <div class="talk-time"><i class="bi bi-clock"></i>NTUQC-SQAI 學生論壇 &nbsp;·&nbsp; 下午 3:40 – 4:30</div>
     </div>
 
   </div>
@@ -382,8 +382,13 @@ title: 議程
       </td>
       <td class="dur-col">40 分鐘 + Q&amp;A</td>
     </tr>
+    <tr class="row-break">
+      <td class="time-col">上午 11:15 – 11:30</td>
+      <td class="title-col">咖啡 / 茶點休息</td>
+      <td class="dur-col">15 分鐘</td>
+    </tr>
     <tr>
-      <td class="time-col">上午 11:15 – 11:45</td>
+      <td class="time-col">上午 11:30 – 下午 12:00</td>
       <td class="title-col">
         <a href="https://scholar.google.com/citations?user=JqSt8doAAAAJ&hl=en" target="_blank" rel="noopener" style="color:#818cf8;">陳皓圓 Mark Chen</a>
         <span class="subtitle">邁向高效量子神經網路強化學習</span>
@@ -394,7 +399,7 @@ title: 議程
       <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>雙人論壇 — QAI Finance: Quantum-Inspired Feature Selection &amp; ML</td>
     </tr>
     <tr>
-      <td class="time-col">上午 11:45 – 下午 12:05</td>
+      <td class="time-col">下午 12:00 – 12:20</td>
       <td class="title-col">
         <a href="https://www.csie.ntu.edu.tw/en/member/Faculty/Shih-wei-Liao-40406732" target="_blank" rel="noopener" style="color:#818cf8;">廖世偉 教授</a>
         <span class="subtitle">QAI Finance with Quantum-Inspired ML</span>
@@ -402,7 +407,7 @@ title: 議程
       <td class="dur-col">20 分鐘</td>
     </tr>
     <tr>
-      <td class="time-col">下午 12:05 – 12:30</td>
+      <td class="time-col">下午 12:20 – 12:45</td>
       <td class="title-col">
         <a href="https://www.linkedin.com/in/siemingfong/" target="_blank" rel="noopener" style="color:#818cf8;">謝明峰 教授</a>
         <span class="subtitle">QAI Finance: Quantum-Inspired Feature Selection and Machine Learning</span>
@@ -410,7 +415,7 @@ title: 議程
       <td class="dur-col">20 分鐘 + 聯合 Q&amp;A</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">下午 12:30 – 1:30</td>
+      <td class="time-col">下午 12:45 – 1:45</td>
       <td class="title-col">
         午餐休息
         <span class="subtitle">已報名之現場出席者提供免費便當</span>
@@ -418,20 +423,15 @@ title: 議程
       <td class="dur-col">60 分鐘</td>
     </tr>
     <tr>
-      <td class="time-col">下午 1:30 – 2:15</td>
+      <td class="time-col">下午 1:45 – 2:30</td>
       <td class="title-col">
         <a href="https://researchoutput.ncku.edu.tw/en/persons/chi-chuan-hwang/" target="_blank" rel="noopener" style="color:#818cf8;">黃吉川 教授</a>
         <span class="subtitle">N位元最大纽纏度之基向量的建構</span>
       </td>
       <td class="dur-col">40 分鐘 + Q&amp;A</td>
     </tr>
-    <tr class="row-break">
-      <td class="time-col">下午 2:15 – 2:25</td>
-      <td class="title-col">點心休息</td>
-      <td class="dur-col">10 分鐘</td>
-    </tr>
     <tr>
-      <td class="time-col">下午 2:25 – 3:10</td>
+      <td class="time-col">下午 2:30 – 3:15</td>
       <td class="title-col">
         <a href="https://sites.google.com/view/chiahsianglin/" target="_blank" rel="noopener" style="color:#818cf8;">林家祥 教授</a>
         <span class="subtitle">用於衛星遙測之混合式量子經典AI</span>
@@ -439,10 +439,15 @@ title: 議程
       <td class="dur-col">40 分鐘 + Q&amp;A</td>
     </tr>
     <tr class="row-break">
+      <td class="time-col">下午 3:15 – 3:40</td>
+      <td class="title-col">咖啡 / 茶點休息</td>
+      <td class="dur-col">25 分鐘</td>
+    </tr>
+    <tr class="row-break">
       <td colspan="3" class="title-col" style="color:#a5b4fc; font-size:0.8rem; text-transform:uppercase; letter-spacing:0.06em; padding:0.5rem 1rem;"><i class="bi bi-people-fill" style="margin-right:0.4rem;"></i>NTUQC-SQAI 學生論壇（Student Panel）</td>
     </tr>
     <tr>
-      <td class="time-col">下午 3:10 – 4:00</td>
+      <td class="time-col">下午 3:40 – 4:30</td>
       <td class="title-col">
         <a href="https://www.facebook.com/zhao.xian.512674" target="_blank" rel="noopener" style="color:#818cf8;">趙嫺</a>、<a href="https://www.linkedin.com/in/wonjun-baek/" target="_blank" rel="noopener" style="color:#818cf8;">Wonjun Baek</a> &amp; <a href="https://www.linkedin.com/in/austin-hua/" target="_blank" rel="noopener" style="color:#818cf8;">華士頓 Austin Hua</a>
         <span class="subtitle"><img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:14px; width:auto; vertical-align:middle; margin-right:5px;" />NTUQC-SQAI 學生論壇</span>
@@ -450,7 +455,7 @@ title: 議程
       <td class="dur-col">50 分鐘</td>
     </tr>
     <tr class="row-break">
-      <td class="time-col">下午 4:00 起</td>
+      <td class="time-col">下午 4:30 起</td>
       <td class="title-col">
         <img src="{{ site.baseurl }}/assets/images/ntuqc_u.png" alt="NTUQC" style="height:16px; width:auto; vertical-align:middle; margin-right:6px;" /><a href="https://ntuqc.com" target="_blank" rel="noopener" style="color:#e0e7ff;">臺大量子應用社交流會（NTUQC Networking Mixer）</a>
         <span class="subtitle">提供茶點 &nbsp;·&nbsp; 誠徵下屆幹部——尤其是社長及副社長！</span>
