@@ -63,8 +63,8 @@ conference:
       - name: Committee
         name_zh: 委員會
         relative_url: /committee/
-      - name: Past Events
-        name_zh: 歷屆活動
+      - name: All Editions
+        name_zh: 歷屆年份
         menu:
           - name: Overview
             name_zh: 總覽
@@ -78,6 +78,9 @@ conference:
           - name: SQAI 2026
             name_zh: SQAI 2026
             absolute_url: "https://sqai.org/2026/"
+          - name: SQAI 2027 (Current)
+            name_zh: SQAI 2027（本屆）
+            absolute_url: "https://sqai.org/2027/"
       - name: Register
         name_zh: 立即報名
         absolute_url: "https://forms.gle/VDxKKkNtufDJLS7D7"
