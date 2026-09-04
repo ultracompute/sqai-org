@@ -22,8 +22,8 @@ conference:
   navigation:
     breakpoint: md
     links:
-      - name: Past Events
-        name_zh: 歷屆活動
+      - name: All Editions
+        name_zh: 歷屆年份
         menu:
           - name: Overview
             name_zh: 總覽
@@ -37,10 +37,9 @@ conference:
           - name: SQAI 2026
             name_zh: SQAI 2026
             absolute_url: "https://sqai.org/2026/"
-      - name: SQAI 2027 (Current)
-        name_zh: SQAI 2027（本屆）
-        absolute_url: "https://sqai.org/2027/"
-        btn: true
+          - name: SQAI 2027 (Current)
+            name_zh: SQAI 2027（本屆）
+            absolute_url: "https://sqai.org/2027/"
 
     logo:
       name: ULTRACOMPUTE
