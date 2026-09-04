@@ -1,0 +1,61 @@
+title: "SQAI 2021"
+preposition: "at"
+description: >-
+  1st Summit on Quantum Artificial Intelligence — May 20 & May 29, 2021.<br>
+  A two-day virtual conference uniting voices from academia and industry.
+
+baseurl: "/2021"
+url: "https://sqai.org"
+
+theme: jekyll-theme-conference
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+conference:
+  lang: en
+  tz: "-04:00"
+  show_errors: false
+
+  navigation:
+    breakpoint: md
+    links:
+      - name: Past Events
+        name_zh: 歷屆活動
+        menu:
+          - name: Overview
+            name_zh: 總覽
+            absolute_url: "https://sqai.org/past/"
+          - name: SQAI 2021
+            name_zh: SQAI 2021
+            absolute_url: "https://sqai.org/2021/"
+          - name: SQAI 2023
+            name_zh: SQAI 2023
+            absolute_url: "https://sqai.org/2023/"
+          - name: SQAI 2026
+            name_zh: SQAI 2026
+            absolute_url: "https://sqai.org/2026/"
+      - name: SQAI 2027 (Current)
+        name_zh: SQAI 2027（本屆）
+        absolute_url: "https://sqai.org/2027/"
+        btn: true
+
+    logo:
+      name: ULTRACOMPUTE
+      img: "uci_sqai.png"
+      img_dark: "uci_sqai.png"
+      url: "https://ultracompute.com"
+
+  meta:
+    schema_org:
+      disable: false
+      event_status: "scheduled"
+      event_attendance_mode: "online"
+      organizer:
+        name: "ULTRACOMPUTE"
+        url: "https://ultracompute.com"
+
+  pwa:
+    enable: false

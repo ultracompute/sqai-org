@@ -1,6 +1,23 @@
 {
-  "buildCommand": "bundle exec jekyll build",
+  "buildCommand": "bundle install && bash build.sh",
   "outputDirectory": "_site",
   "installCommand": "bundle install",
-  "framework": null
+  "framework": null,
+  "redirects": [
+    { "source": "/", "destination": "/2027/", "permanent": false },
+    { "source": "/program", "destination": "/2027/program/", "permanent": false },
+    { "source": "/program/:path*", "destination": "/2027/program/:path*", "permanent": false },
+    { "source": "/sponsors", "destination": "/2027/sponsors/", "permanent": false },
+    { "source": "/sponsors/:path*", "destination": "/2027/sponsors/:path*", "permanent": false },
+    { "source": "/cfp", "destination": "/2027/cfp/", "permanent": false },
+    { "source": "/cfp/:path*", "destination": "/2027/cfp/:path*", "permanent": false },
+    { "source": "/committee", "destination": "/2027/committee/", "permanent": false },
+    { "source": "/committee/:path*", "destination": "/2027/committee/:path*", "permanent": false },
+    { "source": "/speakers", "destination": "/2027/speakers/", "permanent": false },
+    { "source": "/speakers/:path*", "destination": "/2027/speakers/:path*", "permanent": false },
+    { "source": "/talks", "destination": "/2027/talks/", "permanent": false },
+    { "source": "/talks/:path*", "destination": "/2027/talks/:path*", "permanent": false },
+    { "source": "/zh", "destination": "/2027/zh/", "permanent": false },
+    { "source": "/zh/:path*", "destination": "/2027/zh/:path*", "permanent": false }
+  ]
 }

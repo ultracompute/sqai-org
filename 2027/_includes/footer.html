@@ -1,0 +1,41 @@
+
+  </main>
+
+  <footer class="fixed-bottom">
+    {%- include navbar_pwa.html -%}
+  </footer>
+
+  {%- include modal_link.html -%}
+
+  {%- if site.conference.live.streaming.enable -%}
+    {%- include modal_live.html -%}
+  {%- endif -%}
+
+  <script type="module" src="{{ site.baseurl }}/assets/js/conference.bundle.js?t={{ site.time | date: '%s' }}" data-baseurl="{{ site.baseurl }}"></script>
+  <script type="module" src="{{ site.baseurl }}/assets/js/main.js?t={{ site.time | date: '%s' }}"></script>
+
+  <script>
+    function sqaiSetTheme(theme) {
+      document.documentElement.setAttribute('data-bs-theme', theme);
+      localStorage.setItem('sqai-theme', theme);
+      sqaiSyncButtons(theme);
+    }
+
+    function sqaiSyncButtons(theme) {
+      const light = document.getElementById('theme-btn-light');
+      const dark  = document.getElementById('theme-btn-dark');
+      if (!light || !dark) return;
+      if (theme === 'dark') {
+        dark.style.background  = '#0d9488'; dark.style.color  = '#fff';
+        light.style.background = 'transparent'; light.style.color = '#94a3b8';
+      } else {
+        light.style.background = '#0d9488'; light.style.color = '#fff';
+        dark.style.background  = 'transparent'; dark.style.color  = '#94a3b8';
+      }
+    }
+
+    sqaiSyncButtons(localStorage.getItem('sqai-theme') || 'dark');
+  </script>
+
+</body>
+</html>

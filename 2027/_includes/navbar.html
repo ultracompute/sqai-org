@@ -1,0 +1,122 @@
+{% assign breakpoint = site.conference.navigation.breakpoint | default: 'md' %}
+{% assign is_zh = false %}
+{% if page.url contains '/zh/' or page.url == '/zh' or page.url == '/zh/' %}
+  {% assign is_zh = true %}
+{% endif %}
+
+<nav class="navbar navbar-dark navbar-expand-{{ breakpoint }}" style="background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);" aria-label="{{ site.data.lang[site.conference.lang].navigation.main | default: 'Main navigation' }}">
+  <div class="container">
+
+    {% if is_zh %}
+      <a class="navbar-brand order-0" href="{{ site.baseurl }}/zh/">
+        <img src="{{ site.baseurl }}/assets/images/sqai-logo.png" alt="SQAI" style="height:44px; width:auto; vertical-align:middle; margin-right:10px;" />{{ site.title }}
+      </a>
+    {% else %}
+      <a class="navbar-brand order-0" href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/assets/images/sqai-logo.png" alt="SQAI" style="height:44px; width:auto; vertical-align:middle; margin-right:10px;" />{{ site.title }}
+      </a>
+    {% endif %}
+
+    <button class="navbar-toggler order-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ site.data.lang[site.conference.lang].navigation.toggle | default: 'Toggle navigation menu' }}">
+      <span class="navbar-toggler-icon" aria-hidden="true"></span>
+    </button>
+
+    <div class="collapse navbar-collapse order-3 order-md-1" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        {%- for link in site.conference.navigation.links -%}
+
+          {%- if link.menu %}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown{{ forloop.index0 }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                {{ link.name }}
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbar-dropdown{{ forloop.index0 }}">
+                {%- assign parent_link = link -%}
+                {%- for link in parent_link.menu -%}
+                  {%- include get_link.html class="dropdown-item" %}
+                  {{ link_tag }}
+                    {{ link.name }}
+                  </a>
+                {%- endfor %}
+              </div>
+            </li>
+
+          {%- elsif link.live -%}
+            {% if site.conference.live %}
+              {%- include get_live_timestamps.html -%}
+
+              <li class="nav-item live-show d-none d-print-none" data-start="{{ live_starts }}" data-end="{{ live_ends }}">
+                {%- include get_link.html class="nav-link" -%}
+                {{ link_tag }}
+                  {%- if link.name -%}
+                    {{ link.name }}
+                  {%- else -%}
+                    {% include get_live_icon.html %}
+                  {%- endif -%}
+                </a>
+              </li>
+
+              {%- if link.name_inactive -%}
+                <li class="nav-item live-hide d-print-inline-block" data-start="{{ live_starts }}" data-end="{{ live_ends }}">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">
+                    {{ link.name_inactive }}
+                  </a>
+                </li>
+              {%- endif -%}
+
+            {%- endif -%}
+
+          {%- elsif link.btn -%}
+            <li class="nav-item ms-2 d-flex align-items-center">
+              <a href="{{ link.absolute_url }}" class="navbar-register-btn" target="_blank" rel="noopener">
+                {%- if is_zh and link.name_zh -%}{{ link.name_zh }}{%- else -%}{{ link.name }}{%- endif -%}
+              </a>
+            </li>
+
+          {%- else %}
+            <li class="nav-item">
+              {%- if link.relative_url -%}
+                {%- if is_zh -%}
+                  {%- assign nav_href = link.relative_url | prepend: '/zh' -%}
+                {%- else -%}
+                  {%- assign nav_href = link.relative_url -%}
+                {%- endif -%}
+                {%- if page.url contains link.relative_url -%}
+                  {%- assign is_active = true -%}
+                {%- else -%}
+                  {%- assign is_active = false -%}
+                {%- endif -%}
+                <a href="{{ site.baseurl }}{{ nav_href }}" class="nav-link{% if is_active %} active" aria-current="page{% endif %}">
+                  {%- if is_zh and link.name_zh -%}{{ link.name_zh }}{%- else -%}{{ link.name }}{%- endif -%}
+                </a>
+              {%- elsif link.absolute_url -%}
+                <a href="{{ link.absolute_url }}" class="nav-link" target="_blank" rel="noopener">
+                  {{ link.name }}
+                </a>
+              {%- endif -%}
+            </li>
+          {%- endif -%}
+
+        {%- endfor %}
+      </ul>
+    </div>
+
+    {%- if site.conference.navigation.logo %}
+      <div class="navbar-brand navbar-logo order-3 ms-2 me-0 text-end overflow-hidden d-none d-md-block">
+        <a href="{{ site.conference.navigation.logo.url }}">
+          {%- if site.conference.navigation.logo.img %}
+            {%- if site.conference.navigation.logo.img_dark %}
+              <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle mode-light" alt="{{ site.conference.navigation.logo.name }}" style="height:44px; width:auto;" />
+              <img src="{{ site.conference.navigation.logo.img_dark | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle mode-dark" alt="{{ site.conference.navigation.logo.name }}" style="height:44px; width:auto;" />
+            {%- else %}
+              <img src="{{ site.conference.navigation.logo.img | prepend: '/assets/images/' | prepend: site.baseurl }}" class="align-middle" alt="{{ site.conference.navigation.logo.name }}" />
+            {%- endif %}
+          {%- else %}
+            {{ site.conference.navigation.logo.name }}
+          {%- endif %}
+        </a>
+      </div>
+    {%- endif %}
+
+  </div>
+</nav>
